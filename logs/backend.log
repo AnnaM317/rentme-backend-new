@@ -359,3 +359,5 @@
 12/9/2021, 7:04:52 PM - INFO - Server is running on port: 3030
 12/9/2021, 7:05:17 PM - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039750057284861958"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039750057284861958"},"signature":{"hash":"Q/SwBwNZQXuEIbaQdFKhVKyu5LM=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
 12/9/2021, 7:05:17 PM - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039750057284861958"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039750057284861958"},"signature":{"hash":"Q/SwBwNZQXuEIbaQdFKhVKyu5LM=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+12/9/2021, 7:36:33 PM - INFO - Server is running on port: 3030
+12/9/2021, 7:37:04 PM - DEBUG - auth.service - login with username: eric

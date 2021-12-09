@@ -24,7 +24,7 @@ async function query(filterBy) {
     const collection = await dbService.getCollection('stay');
     // console.log('collection', collection);
     const stays = await collection.find(criteria).toArray();
-    console.log('stays', stays);
+    // console.log('stays', stays)
 
     // var reviews = await collection.aggregate([
     //     {

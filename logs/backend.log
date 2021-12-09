@@ -341,3 +341,16 @@
 12/9/2021, 11:53:22 AM - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039638753207386118"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039638753207386118"},"signature":{"hash":"gFH6wVi3xF5QkVQQsynrJeo/aLc=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
 12/9/2021, 12:05:02 PM - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039641759684493318"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039641759684493318"},"signature":{"hash":"Ua06pm8AUxswes1BIoxKsIu1Hn4=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
 12/9/2021, 12:05:02 PM - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039641759684493318"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039641759684493318"},"signature":{"hash":"Ua06pm8AUxswes1BIoxKsIu1Hn4=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+12/9/2021, 1:47:24 PM - INFO - Server is running on port: 3030
+12/9/2021, 1:50:07 PM - INFO - Server is running on port: 3030
+12/9/2021, 1:51:07 PM - INFO - Server is running on port: 3030
+12/9/2021, 1:52:34 PM - INFO - Server is running on port: 3030
+12/9/2021, 5:08:58 PM - ERROR - while finding stay qiO23 | {}
+12/9/2021, 5:11:00 PM - INFO - Server is running on port: 3030
+12/9/2021, 5:42:54 PM - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039728741362171909"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039728741362171909"},"signature":{"hash":"+cw3aq+pxUqW/IpPOobX0rWDixw=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+12/9/2021, 5:42:54 PM - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039728741362171909"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039728741362171909"},"signature":{"hash":"+cw3aq+pxUqW/IpPOobX0rWDixw=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+12/9/2021, 5:52:16 PM - DEBUG - auth.service - login with username: eric
+12/9/2021, 5:59:09 PM - INFO - Server is running on port: 3030
+12/9/2021, 7:34:08 PM - INFO - Server is running on port: 3030
+12/9/2021, 7:35:00 PM - DEBUG - auth.service - login with username: eric
+12/9/2021, 7:35:34 PM - DEBUG - auth.service - login with username: eric

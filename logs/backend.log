@@ -341,3 +341,12 @@
 12/9/2021, 11:53:22 AM - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039638753207386118"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039638753207386118"},"signature":{"hash":"gFH6wVi3xF5QkVQQsynrJeo/aLc=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
 12/9/2021, 12:05:02 PM - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039641759684493318"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039641759684493318"},"signature":{"hash":"Ua06pm8AUxswes1BIoxKsIu1Hn4=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
 12/9/2021, 12:05:02 PM - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039641759684493318"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039641759684493318"},"signature":{"hash":"Ua06pm8AUxswes1BIoxKsIu1Hn4=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 14:04:14 - INFO - Server is running on port: 3030
+09/12/2021, 14:26:27 - ERROR - while finding stay qiO23 | {}
+09/12/2021, 14:42:58 - INFO - Server is running on port: 3030
+09/12/2021, 14:43:10 - ERROR - while finding stay qiO23 | {}
+09/12/2021, 14:47:39 - INFO - Server is running on port: 3030
+09/12/2021, 14:51:26 - INFO - Server is running on port: 3030
+09/12/2021, 14:52:55 - INFO - Server is running on port: 3030
+09/12/2021, 14:54:23 - INFO - Server is running on port: 3030
+09/12/2021, 19:16:17 - INFO - Server is running on port: 3030

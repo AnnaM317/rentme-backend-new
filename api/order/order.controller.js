@@ -1,6 +1,13 @@
 const logger = require('../../services/logger.service')
 const orderService = require('../order/order.service')
 
+module.exports = {
+    getOrders,
+    getOrdersById,
+    removeOrder,
+    addOrder,
+    updateOrder
+}
 
 async function getOrders(req, res) {
     try {
@@ -12,6 +19,17 @@ async function getOrders(req, res) {
     }
 }
 
+async function getOrdersById(req, res) {
+    try {
+        const userId = JSON.parse(req.query.params);
+        // const = JSON.parse(req.query.params)
+        const order = await orderService.query(userId, type)
+        res.json(order)
+    } catch (err) {
+        logger.error('Failed to get order', err)
+        res.status(500).send({ err: 'Failed to get order' })
+    }
+}
 
 async function removeOrder(req, res) {
     try {
@@ -27,6 +45,7 @@ async function removeOrder(req, res) {
 async function addOrder(req, res) {
     try {
         var order = req.body;
+        order.buyer.id = req.session.user._id;
         const addedOrder = await orderService.add(order)
         res.json(addedOrder)
     } catch (err) {
@@ -44,11 +63,4 @@ async function updateOrder(req, res) {
         logger.error('Failed to update order', err);
         res.status(500).send({ err: 'Failed to update order' });
     }
-}
-
-module.exports = {
-    getOrders,
-    removeOrder,
-    addOrder,
-    updateOrder
 }

@@ -86,7 +86,7 @@ function _buildCriteria(filterBy) {
     }
     if (filterBy.amenities && filterBy.amenities.length) {
         // criteria['amenities'] = { $all: filterBy.amenities }
-        criteria.amenities = { $all: filterBy.labels }
+        criteria.amenities = { $all: filterBy.amenities }
     }
     // if (filterBy.labels !== 'all') {
     //     const label = { label: { $regex: filterBy.labels, $options: 'i' } };
@@ -95,7 +95,7 @@ function _buildCriteria(filterBy) {
     // criteria = criterias.length === 0 ? {} : { $and: criterias };
     if (filterBy.city) {
         const cityCriteria = { $regex: filterBy.city, $options: 'i' }
-        criteria['loc.address'] = cityCriteria
+        criteria = { 'loc.address': cityCriteria }
     }
     // const txtCriteria = { $regex: filterBy.city, $options: 'i' };
     // if (filterBy.city && filterBy.city !== '') {
@@ -110,6 +110,9 @@ function _buildCriteria(filterBy) {
     // }
     if (filterBy.totalGuests) {
         criteria.capacity = { $gte: +(filterBy.totalGuests) };
+    }
+    if (filterBy.hostId) {
+        criteria = { 'host._id': filterBy.hostId }
     }
 
     console.log('criteria', criteria);

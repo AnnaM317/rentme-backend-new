@@ -341,3 +341,21 @@
 12/9/2021, 11:53:22 AM - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039638753207386118"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039638753207386118"},"signature":{"hash":"gFH6wVi3xF5QkVQQsynrJeo/aLc=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
 12/9/2021, 12:05:02 PM - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039641759684493318"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039641759684493318"},"signature":{"hash":"Ua06pm8AUxswes1BIoxKsIu1Hn4=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
 12/9/2021, 12:05:02 PM - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039641759684493318"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039641759684493318"},"signature":{"hash":"Ua06pm8AUxswes1BIoxKsIu1Hn4=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+12/9/2021, 4:55:55 PM - INFO - Server is running on port: 3030
+12/9/2021, 5:08:49 PM - INFO - Server is running on port: 3030
+12/9/2021, 5:09:46 PM - INFO - Server is running on port: 3030
+12/9/2021, 5:10:27 PM - INFO - Server is running on port: 3030
+12/9/2021, 5:11:10 PM - INFO - Server is running on port: 3030
+12/9/2021, 5:57:30 PM - DEBUG - auth.service - login with username: eric
+12/9/2021, 5:58:24 PM - DEBUG - auth.service - login with username: eric
+12/9/2021, 6:59:12 PM - INFO - Server is running on port: 3030
+12/9/2021, 7:00:49 PM - INFO - Server is running on port: 3030
+12/9/2021, 7:01:37 PM - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039749112392056838"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039749112392056838"},"signature":{"hash":"ki/psU935U3I27n7xo1tvb15WiQ=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+12/9/2021, 7:01:37 PM - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039749112392056838"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039749112392056838"},"signature":{"hash":"ki/psU935U3I27n7xo1tvb15WiQ=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+12/9/2021, 7:01:54 PM - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039749185406500870"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039749185406500870"},"signature":{"hash":"YUanLBahhw5sfco4DdythdVrqc4=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+12/9/2021, 7:01:54 PM - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039749185406500870"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039749185406500870"},"signature":{"hash":"YUanLBahhw5sfco4DdythdVrqc4=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+12/9/2021, 7:04:07 PM - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039749756637151242"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039749756637151242"},"signature":{"hash":"jNOWuNKi6q9y8JWGV5R6Tj1BGaw=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+12/9/2021, 7:04:07 PM - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039749756637151242"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039749756637151242"},"signature":{"hash":"jNOWuNKi6q9y8JWGV5R6Tj1BGaw=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+12/9/2021, 7:04:52 PM - INFO - Server is running on port: 3030
+12/9/2021, 7:05:17 PM - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039750057284861958"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039750057284861958"},"signature":{"hash":"Q/SwBwNZQXuEIbaQdFKhVKyu5LM=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+12/9/2021, 7:05:17 PM - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039750057284861958"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039750057284861958"},"signature":{"hash":"Q/SwBwNZQXuEIbaQdFKhVKyu5LM=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}

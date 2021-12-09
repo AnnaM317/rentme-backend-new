@@ -3,9 +3,9 @@ const ObjectId = require('mongodb').ObjectId
 const asyncLocalStorage = require('../../services/als.service')
 
 
-async function query(filterBy) {
+async function query(user) {
     try {
-        const criteria = _buildCriteria(filterBy)
+        const criteria = _buildCriteria(user)
         const collection = await dbService.getCollection('order')
         var orders = await collection.find(criteria).toArray()
         return orders;
@@ -17,9 +17,12 @@ async function query(filterBy) {
 }
 
 
-function _buildCriteria(filterBy) {
+function _buildCriteria(user) {
     let criteria = {}
-    return criteria;
+    //user = {type: userId}
+    if (key === 'host') criteria = { 'host._id': user._id }
+    else criteria = { 'buyer._id': user._id };
+    return criteria
 }
 
 
@@ -36,6 +39,13 @@ async function remove(orderId) {
 
 async function add(order) {
     try {
+        const store = asyncLocalStorage.getStore();
+        const { userId, isHost } = store;
+        console.log('asynclocal store', store);
+        // const collection = await dbService.getCollection('order');
+        // // remove only if user is owner/admin
+        // const query = { _id: ObjectId(order._id) };
+        // if (!isHost) query.userId = ObjectId(userId);
         const collection = await dbService.getCollection('order');
         const addedOrder = await collection.insertOne(order);
         return addedOrder;

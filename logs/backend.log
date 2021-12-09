@@ -361,3 +361,93 @@
 12/9/2021, 7:05:17 PM - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039750057284861958"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039750057284861958"},"signature":{"hash":"Q/SwBwNZQXuEIbaQdFKhVKyu5LM=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
 12/9/2021, 7:36:33 PM - INFO - Server is running on port: 3030
 12/9/2021, 7:37:04 PM - DEBUG - auth.service - login with username: eric
+12/9/2021, 8:02:36 PM - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039764827677392900"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039764827677392900"},"signature":{"hash":"j1d8Oii2oyiVZMa+zbBxURg3bbc=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+12/9/2021, 8:02:36 PM - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039764827677392900"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039764827677392900"},"signature":{"hash":"j1d8Oii2oyiVZMa+zbBxURg3bbc=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+12/9/2021, 8:34:51 PM - INFO - Server is running on port: 3030
+12/9/2021, 9:56:33 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:06:24 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:07:02 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:22:58 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:25:07 PM - DEBUG - auth.service - login with username: will
+12/9/2021, 10:26:46 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:28:07 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:28:23 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:28:23 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:28:41 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:28:41 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:30:03 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:30:12 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:30:12 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:30:13 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:30:13 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:30:24 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:30:24 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:31:15 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:31:22 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:31:22 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:31:30 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:31:30 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:32:27 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:32:36 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:32:36 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:33:38 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:35:12 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:40:11 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:42:47 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:43:25 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:43:44 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:43:44 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:43:47 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:43:47 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:45:03 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:45:08 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:45:08 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:45:15 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:45:15 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:46:52 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:47:05 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:47:05 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:47:16 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:47:16 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:50:08 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:50:11 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:50:11 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:50:30 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:50:30 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:51:36 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:51:44 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:55:19 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:58:18 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:58:18 PM - ERROR - Cannot get stays | {}
+12/9/2021, 11:00:26 PM - INFO - Server is running on port: 3030
+12/9/2021, 11:02:02 PM - INFO - Server is running on port: 3030
+12/9/2021, 11:02:09 PM - ERROR - cannot find stays | {}
+12/9/2021, 11:02:09 PM - ERROR - Cannot get stays | {}
+12/9/2021, 11:02:10 PM - ERROR - cannot find stays | {}
+12/9/2021, 11:02:10 PM - ERROR - Cannot get stays | {}
+12/9/2021, 11:02:12 PM - ERROR - cannot find stays | {}
+12/9/2021, 11:02:12 PM - ERROR - Cannot get stays | {}
+12/9/2021, 11:02:13 PM - ERROR - cannot find stays | {}
+12/9/2021, 11:02:13 PM - ERROR - Cannot get stays | {}
+12/9/2021, 11:02:40 PM - INFO - Server is running on port: 3030
+12/9/2021, 11:02:51 PM - ERROR - cannot find stays | {}
+12/9/2021, 11:02:51 PM - ERROR - Cannot get stays | {}
+12/9/2021, 11:02:53 PM - ERROR - cannot find stays | {}
+12/9/2021, 11:02:53 PM - ERROR - Cannot get stays | {}
+12/9/2021, 11:02:54 PM - ERROR - cannot find stays | {}
+12/9/2021, 11:02:54 PM - ERROR - Cannot get stays | {}
+12/9/2021, 11:02:58 PM - ERROR - cannot find stays | {}
+12/9/2021, 11:02:58 PM - ERROR - Cannot get stays | {}
+12/9/2021, 11:03:00 PM - ERROR - cannot find stays | {}
+12/9/2021, 11:03:00 PM - ERROR - Cannot get stays | {}
+12/9/2021, 11:03:23 PM - INFO - Server is running on port: 3030
+12/9/2021, 11:17:24 PM - INFO - Server is running on port: 3030
+12/9/2021, 11:17:48 PM - ERROR - cannot find stays | {}
+12/9/2021, 11:17:48 PM - ERROR - Cannot get stays | {}
+12/9/2021, 11:17:55 PM - ERROR - cannot find stays | {}
+12/9/2021, 11:17:55 PM - ERROR - Cannot get stays | {}
+12/9/2021, 11:18:39 PM - INFO - Server is running on port: 3030
+12/9/2021, 11:50:32 PM - INFO - Server is running on port: 3030
+12/9/2021, 11:51:50 PM - INFO - Server is running on port: 3030
+12/9/2021, 11:56:59 PM - INFO - Server is running on port: 3030
+12/10/2021, 12:00:03 AM - INFO - Server is running on port: 3030

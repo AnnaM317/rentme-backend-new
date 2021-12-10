@@ -549,3 +549,44 @@
 12/10/2021, 1:52:36 PM - INFO - Server is running on port: 3030
 12/10/2021, 1:53:46 PM - INFO - Server is running on port: 3030
 12/10/2021, 1:54:06 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 3:06:04 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 3:06:41 PM - INFO - Req!!!
+12/10/2021, 3:06:41 PM - INFO - Req from: Will Smith
+12/10/2021, 3:06:41 PM - ERROR - Cannot get orders | {}
+12/10/2021, 3:07:13 PM - INFO - Req!!!
+12/10/2021, 3:07:13 PM - INFO - Req from: Will Smith
+12/10/2021, 3:07:13 PM - ERROR - Cannot get orders | {}
+12/10/2021, 3:07:32 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 3:10:32 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 3:13:37 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 3:17:34 PM - INFO - Server is running on port: 3030
+12/10/2021, 3:18:05 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 3:18:31 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 3:18:44 PM - INFO - Req!!!
+12/10/2021, 3:18:44 PM - INFO - Req from: Will Smith
+12/10/2021, 3:18:44 PM - ERROR - Cannot get orders | {}
+12/10/2021, 3:21:06 PM - INFO - Req!!!
+12/10/2021, 3:21:06 PM - INFO - Req from: Will Smith
+12/10/2021, 3:21:06 PM - ERROR - Cannot get orders | {}
+12/10/2021, 3:22:22 PM - INFO - Server is running on port: 3030
+12/10/2021, 3:22:55 PM - INFO - Server is running on port: 3030
+12/10/2021, 3:28:01 PM - INFO - Req!!!
+12/10/2021, 3:29:50 PM - INFO - Req!!!
+12/10/2021, 3:32:02 PM - INFO - Req!!!
+12/10/2021, 3:34:46 PM - INFO - Server is running on port: 3030
+12/10/2021, 3:35:00 PM - INFO - Req!!!
+12/10/2021, 3:36:40 PM - INFO - Server is running on port: 3030
+12/10/2021, 3:36:49 PM - INFO - Req!!!
+12/10/2021, 3:37:22 PM - INFO - Server is running on port: 3030
+12/10/2021, 3:38:29 PM - INFO - Server is running on port: 3030
+12/10/2021, 3:39:55 PM - INFO - Server is running on port: 3030
+12/10/2021, 3:41:02 PM - INFO - Req!!!
+12/10/2021, 3:41:02 PM - ERROR - Cannot get orders | {}
+12/10/2021, 3:41:25 PM - INFO - Server is running on port: 3030
+12/10/2021, 3:41:53 PM - INFO - Req!!!
+12/10/2021, 3:43:40 PM - INFO - Server is running on port: 3030
+12/10/2021, 3:43:50 PM - INFO - Req!!!
+12/10/2021, 3:46:00 PM - INFO - Req!!!
+12/10/2021, 4:18:17 PM - ERROR - while finding user undefined | {}
+12/10/2021, 4:18:17 PM - ERROR - Failed to get user | {}
+12/10/2021, 4:37:12 PM - INFO - Req!!!

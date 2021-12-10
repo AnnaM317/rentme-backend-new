@@ -378,3 +378,27 @@
 12/9/2021, 7:37:04 PM - DEBUG - auth.service - login with username: eric
 >>>>>>> 426812ff0baa2edc5e2249df86f57e457eef61c0
 12/9/2021, 7:47:13 PM - INFO - Server is running on port: 3030
+12/10/2021, 3:10:59 PM - ERROR - cannot find stays | {}
+12/10/2021, 3:10:59 PM - ERROR - Cannot get stays | {}
+12/10/2021, 3:10:59 PM - ERROR - cannot find stays | {}
+12/10/2021, 3:10:59 PM - ERROR - Cannot get stays | {}
+12/10/2021, 4:03:53 PM - INFO - Server is running on port: 3030
+12/10/2021, 4:50:32 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 4:50:39 PM - ERROR - cannot find stays | {}
+12/10/2021, 4:50:39 PM - ERROR - Cannot get stays | {}
+12/10/2021, 4:52:45 PM - ERROR - cannot find stays | {}
+12/10/2021, 4:52:45 PM - ERROR - Cannot get stays | {}
+12/10/2021, 4:53:47 PM - ERROR - cannot find stays | {}
+12/10/2021, 4:53:47 PM - ERROR - Cannot get stays | {}
+12/10/2021, 4:53:47 PM - ERROR - cannot find stays | {}
+12/10/2021, 4:53:47 PM - ERROR - Cannot get stays | {}
+12/10/2021, 4:53:48 PM - ERROR - cannot find stays | {}
+12/10/2021, 4:53:48 PM - ERROR - Cannot get stays | {}
+12/10/2021, 4:53:48 PM - ERROR - cannot find stays | {}
+12/10/2021, 4:53:48 PM - ERROR - Cannot get stays | {}
+12/10/2021, 4:53:51 PM - ERROR - cannot find stays | {}
+12/10/2021, 4:53:51 PM - ERROR - Cannot get stays | {}
+12/10/2021, 4:53:51 PM - ERROR - cannot find stays | {}
+12/10/2021, 4:53:51 PM - ERROR - Cannot get stays | {}
+12/10/2021, 4:53:52 PM - ERROR - cannot find stays | {}
+12/10/2021, 4:53:52 PM - ERROR - Cannot get stays | {}

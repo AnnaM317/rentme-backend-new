@@ -3,7 +3,7 @@ const logger = require('../../services/logger.service')
 
 async function login(req, res) {
     const { username, password } = req.body
-    console.log('req.body', req.body);
+    // console.log('req.body', req.body);
     try {
         const user = await authService.login(username, password)
         req.session.user = user

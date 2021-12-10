@@ -14,6 +14,7 @@ module.exports = {
   update,
   getHostStays,
 };
+
 // { filterBy = { priceRange: '[0, 850]', propertyType: '[]', amenities: '[]', city: '', totalGuests: 1 } }
 //filterBy = {priceRange: '[0, 850]', propertyType: '[]', amenities: '[]', city: '', guests: 1}
 async function getHostStays(hostId) {
@@ -112,7 +113,7 @@ function _buildCriteria(filterBy) {
   // criteria = criterias.length === 0 ? {} : { $and: criterias };
   if (filterBy.city) {
     const cityCriteria = { $regex: filterBy.city, $options: 'i' };
-    criteria = { 'loc.address': cityCriteria };
+    criteria['loc.address'] = cityCriteria;
   }
   // const txtCriteria = { $regex: filterBy.city, $options: 'i' };
   // if (filterBy.city && filterBy.city !== '') {

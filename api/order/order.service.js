@@ -62,7 +62,21 @@ async function add(order) {
         // // remove only if user is owner/admin
         // const query = { _id: ObjectId(order._id) };
         // if (!isHost) query.userId = ObjectId(userId);
-        order.buyer.id = ObjectId(order.buyer.id);
+        // const orderToAdd = {
+        //     buyerId: ObjectId(order.buyer.id),
+        // }
+        const buyer = {
+            _id: ObjectId(order.buyer.id),
+            fullname: order.buyer.fullname
+        }
+        order.buyer = buyer;
+        order.hostId = ObjectId(order.hostId);
+        const stay = {
+            _id: ObjectId(order.stay._id),
+            name: order.stay.name,
+            price: order.stay.price
+        }
+        order.stay = stay;
         const collection = await dbService.getCollection('order');
         const addedOrder = await collection.insertOne(order);
         return addedOrder;

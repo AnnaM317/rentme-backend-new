@@ -56,6 +56,7 @@ async function addOrder(req, res) {
         // order['buyer.fullname'] = req.session.user.fullname;
         // console.log('ObjectId(req.session.user._id)', ObjectId(req.session.user._id));
         order.buyer.id = req.session.user._id;
+        order.buyer.fullname = req.session.user.fullname;
         const addedOrder = await orderService.add(order)
         console.log('addedOrder backend controller', addedOrder);
         res.json(addedOrder)

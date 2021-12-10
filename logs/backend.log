@@ -941,3 +941,7 @@
 12/10/2021, 4:37:12 PM - INFO - Req!!!
 >>>>>>> e89c840ba98d9935326c45d703d6762e55b0ab44
 10/12/2021, 16:56:12 - INFO - Server is running on port: 3030
+10/12/2021, 16:57:09 - DEBUG - auth.service - login with username: will
+10/12/2021, 16:58:37 - INFO - Server is running on port: 3030
+10/12/2021, 17:00:45 - INFO - Server is running on port: 3030
+10/12/2021, 17:01:58 - DEBUG - auth.service - login with username: will

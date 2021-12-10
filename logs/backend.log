@@ -341,6 +341,21 @@
 12/9/2021, 11:53:22 AM - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039638753207386118"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039638753207386118"},"signature":{"hash":"gFH6wVi3xF5QkVQQsynrJeo/aLc=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
 12/9/2021, 12:05:02 PM - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039641759684493318"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039641759684493318"},"signature":{"hash":"Ua06pm8AUxswes1BIoxKsIu1Hn4=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
 12/9/2021, 12:05:02 PM - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039641759684493318"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039641759684493318"},"signature":{"hash":"Ua06pm8AUxswes1BIoxKsIu1Hn4=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+<<<<<<< HEAD
+12/9/2021, 1:47:24 PM - INFO - Server is running on port: 3030
+12/9/2021, 1:50:07 PM - INFO - Server is running on port: 3030
+12/9/2021, 1:51:07 PM - INFO - Server is running on port: 3030
+12/9/2021, 1:52:34 PM - INFO - Server is running on port: 3030
+12/9/2021, 5:08:58 PM - ERROR - while finding stay qiO23 | {}
+12/9/2021, 5:11:00 PM - INFO - Server is running on port: 3030
+12/9/2021, 5:42:54 PM - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039728741362171909"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039728741362171909"},"signature":{"hash":"+cw3aq+pxUqW/IpPOobX0rWDixw=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+12/9/2021, 5:42:54 PM - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039728741362171909"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039728741362171909"},"signature":{"hash":"+cw3aq+pxUqW/IpPOobX0rWDixw=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+12/9/2021, 5:52:16 PM - DEBUG - auth.service - login with username: eric
+12/9/2021, 5:59:09 PM - INFO - Server is running on port: 3030
+12/9/2021, 7:34:08 PM - INFO - Server is running on port: 3030
+12/9/2021, 7:35:00 PM - DEBUG - auth.service - login with username: eric
+12/9/2021, 7:35:34 PM - DEBUG - auth.service - login with username: eric
+=======
 12/9/2021, 4:55:55 PM - INFO - Server is running on port: 3030
 12/9/2021, 5:08:49 PM - INFO - Server is running on port: 3030
 12/9/2021, 5:09:46 PM - INFO - Server is running on port: 3030
@@ -361,6 +376,7 @@
 12/9/2021, 7:05:17 PM - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039750057284861958"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039750057284861958"},"signature":{"hash":"Q/SwBwNZQXuEIbaQdFKhVKyu5LM=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
 12/9/2021, 7:36:33 PM - INFO - Server is running on port: 3030
 12/9/2021, 7:37:04 PM - DEBUG - auth.service - login with username: eric
+<<<<<<< HEAD
 <<<<<<< HEAD
 09/12/2021, 19:47:00 - INFO - Server is running on port: 3030
 09/12/2021, 19:48:09 - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039761013746434054"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039761013746434054"},"signature":{"hash":"TEbP8pKKrjcTWiIohb7m3tMvbmU=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
@@ -641,6 +657,34 @@
 09/12/2021, 23:58:05 - INFO - Server is running on port: 3030
 10/12/2021, 0:03:10 - INFO - Server is running on port: 3030
 10/12/2021, 0:03:46 - INFO - Server is running on port: 3030
+=======
+>>>>>>> 426812ff0baa2edc5e2249df86f57e457eef61c0
+12/9/2021, 7:47:13 PM - INFO - Server is running on port: 3030
+12/10/2021, 3:10:59 PM - ERROR - cannot find stays | {}
+12/10/2021, 3:10:59 PM - ERROR - Cannot get stays | {}
+12/10/2021, 3:10:59 PM - ERROR - cannot find stays | {}
+12/10/2021, 3:10:59 PM - ERROR - Cannot get stays | {}
+12/10/2021, 4:03:53 PM - INFO - Server is running on port: 3030
+12/10/2021, 4:50:32 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 4:50:39 PM - ERROR - cannot find stays | {}
+12/10/2021, 4:50:39 PM - ERROR - Cannot get stays | {}
+12/10/2021, 4:52:45 PM - ERROR - cannot find stays | {}
+12/10/2021, 4:52:45 PM - ERROR - Cannot get stays | {}
+12/10/2021, 4:53:47 PM - ERROR - cannot find stays | {}
+12/10/2021, 4:53:47 PM - ERROR - Cannot get stays | {}
+12/10/2021, 4:53:47 PM - ERROR - cannot find stays | {}
+12/10/2021, 4:53:47 PM - ERROR - Cannot get stays | {}
+12/10/2021, 4:53:48 PM - ERROR - cannot find stays | {}
+12/10/2021, 4:53:48 PM - ERROR - Cannot get stays | {}
+12/10/2021, 4:53:48 PM - ERROR - cannot find stays | {}
+12/10/2021, 4:53:48 PM - ERROR - Cannot get stays | {}
+12/10/2021, 4:53:51 PM - ERROR - cannot find stays | {}
+12/10/2021, 4:53:51 PM - ERROR - Cannot get stays | {}
+12/10/2021, 4:53:51 PM - ERROR - cannot find stays | {}
+12/10/2021, 4:53:51 PM - ERROR - Cannot get stays | {}
+12/10/2021, 4:53:52 PM - ERROR - cannot find stays | {}
+12/10/2021, 4:53:52 PM - ERROR - Cannot get stays | {}
+>>>>>>> 849f636f22ce49f08c4699e312e04cf5f2834584
 =======
 12/9/2021, 8:02:36 PM - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039764827677392900"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039764827677392900"},"signature":{"hash":"j1d8Oii2oyiVZMa+zbBxURg3bbc=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
 12/9/2021, 8:02:36 PM - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039764827677392900"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039764827677392900"},"signature":{"hash":"j1d8Oii2oyiVZMa+zbBxURg3bbc=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
@@ -940,8 +984,12 @@
 12/10/2021, 4:18:17 PM - ERROR - Failed to get user | {}
 12/10/2021, 4:37:12 PM - INFO - Req!!!
 >>>>>>> e89c840ba98d9935326c45d703d6762e55b0ab44
+<<<<<<< HEAD
 10/12/2021, 16:56:12 - INFO - Server is running on port: 3030
 10/12/2021, 16:57:09 - DEBUG - auth.service - login with username: will
 10/12/2021, 16:58:37 - INFO - Server is running on port: 3030
 10/12/2021, 17:00:45 - INFO - Server is running on port: 3030
 10/12/2021, 17:01:58 - DEBUG - auth.service - login with username: will
+=======
+>>>>>>> 849f636f22ce49f08c4699e312e04cf5f2834584
+10/12/2021, 17:05:42 - INFO - Server is running on port: 3030

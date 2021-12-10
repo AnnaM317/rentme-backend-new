@@ -26,7 +26,7 @@ async function addReview(req, res) {
     try {
         var review = req.body;
         review.userId = req.session.user._id;
-        console.log('review backend controller', review);
+        // console.log('review backend controller', review);
         review = await reviewService.add(review);
         res.send(review);
     } catch (err) {

@@ -20,17 +20,19 @@ module.exports = {
 //filterBy = {priceRange: '[0, 850]', propertyType: '[]', amenities: '[]', city: '', guests: 1}
 async function getHostStays(hostId) {
     try {
+        console.log('hostid backend', hostId);
         const collection = await dbService.getCollection('stay');
         const id = new ObjectId(hostId)
         var stays = await collection.find({ 'host._id': id }).toArray();
+        console.log('hoststays in back service', stays);
         return stays;
     } catch (err) {
-        logger.error('cannot find stays', err);
+        logger.error('Cannot find stays owned by this host', err);
         throw err;
     }
 }
 async function query(filterBy) {
-    console.log('service back query filterBy', filterBy)
+    // console.log('service back query filterBy', filterBy)
     try {
 
         const criteria = _buildCriteria(filterBy)
@@ -86,7 +88,7 @@ async function query(filterBy) {
 }
 
 function _buildCriteria(filterBy) {
-    console.log('filterBy', filterBy);
+    // console.log('filterBy', filterBy);
     const criteria = {}
     const criterias = [];
     // if (filterBy.propertyType && filterBy.propertyType.length) {
@@ -111,8 +113,11 @@ function _buildCriteria(filterBy) {
     //  }
     // criteria = criterias.length === 0 ? {} : { $and: criterias };
     if (filterBy.city) {
-        const cityCriteria = { $regex: filterBy.city, $options: 'i' }
-        criteria = { 'loc.address': cityCriteria }
+        // const cityCriteria = { $regex: filterBy.city, $options: 'i' }
+        // criteria = { 'loc.address': cityCriteria }
+        const cityCriteria = { $regex: filterBy.city, $options: 'i' };
+        criteria['loc.address'] = cityCriteria;
+
     }
     // const txtCriteria = { $regex: filterBy.city, $options: 'i' };
     // if (filterBy.city && filterBy.city !== '') {
@@ -139,7 +144,7 @@ function _buildCriteria(filterBy) {
     //     // db.getCollection('stay').find({"host._id" : ObjectId("61ae43ad659811151ae092cc")})
     // }
 
-    console.log('criteria', criteria);
+    // console.log('criteria', criteria);
     return criteria
 }
 // return criteria
@@ -186,6 +191,7 @@ function _buildCriteria(filterBy) {
 
 async function getById(stayId) {
     try {
+        // console.log('stayId', stayId);
         const collection = await dbService.getCollection('stay')
         const stay = collection.findOne({ '_id': ObjectId(stayId) })
         return stay

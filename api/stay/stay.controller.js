@@ -7,16 +7,32 @@ module.exports = {
     getStayById,
     removeStay,
     addStay,
-    updateStay
+    updateStay,
+    getHostStays
 };
 
+async function getHostStays(req, res) {
+    try {
+        console.log('hello');
+        // console.log('reg.params hostId', req.params.id);
+        // const stayId = req.params._id;
+        const hostId = req.params.id;
+        const stays = await stayService.getHostStays(hostId);
+        console.log('line20 controller stays', stays);
+        res.json(stays);
+        // res.send(stay);
+    } catch {
+        logger.error('Cannot get stay', err);
+        res.status(500).send({ err: 'Failed to get stay' });
+    }
+}
 
 async function getStays(req, res) {
     // console.log('heloo')
 
     try {
         // console.log('here');
-        console.log('req.query', req.query);
+        // console.log('req.query', req.query);
         // const filter = JSON.parse(req.query)
         // console.log('filter', filter);
         // const stays = await stayService.query(req.query);
@@ -34,8 +50,9 @@ async function getStays(req, res) {
 // Get toy by id
 async function getStayById(req, res) {
     try {
-        const stayId = req.params._id;
-        // const stayId = req.params.id;
+        // console.log('reg', req);
+        // const stayId = req.params._id;
+        const stayId = req.params.id;
         const stay = await stayService.getById(stayId);
         res.json(stay);
         // res.send(stay);

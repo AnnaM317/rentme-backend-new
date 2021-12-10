@@ -29,7 +29,7 @@ function _buildCriteria(userId, userType) {
   let criteria = {};
   console.log('typeof usertype', typeof userType);
   //user = {type: userId}
-  if (userType === 'host') criteria['host._id'] = ObjectId(userId);
+  if (userType === 'host') criteria['hostId'] = ObjectId(userId);
   else criteria['buyer._id'] = ObjectId(userId);
   // criteria = (userType === 'host') ? { 'host._id': userId } : { 'buyer._id': ObjectId(userId) };
   console.log('criteria', criteria);
@@ -73,7 +73,9 @@ async function add(order) {
     const buyer = {
       _id: ObjectId(order.buyer.id),
       fullname: order.buyer.fullname,
+      imgUrl: order.buyer.imgUrl,
     };
+    console.log('buyer order serv 78*******************', buyer);
     order.buyer = buyer;
     order.hostId = ObjectId(order.hostId);
     const stay = {

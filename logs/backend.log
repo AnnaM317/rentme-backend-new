@@ -993,3 +993,50 @@
 =======
 >>>>>>> 849f636f22ce49f08c4699e312e04cf5f2834584
 10/12/2021, 17:05:42 - INFO - Server is running on port: 3030
+10/12/2021, 17:06:41 - INFO - Server is running on port: 3030
+10/12/2021, 17:07:55 - DEBUG - auth.service - login with username: will
+10/12/2021, 17:22:30 - INFO - Req!!!
+10/12/2021, 17:22:30 - INFO - Req from: Will Smith
+10/12/2021, 20:31:19 - INFO - Req!!!
+10/12/2021, 20:31:19 - INFO - Req from: Will Smith
+10/12/2021, 20:45:37 - INFO - Req!!!
+10/12/2021, 20:45:37 - INFO - Req from: Will Smith
+10/12/2021, 20:49:13 - INFO - Server is running on port: 3030
+10/12/2021, 20:49:46 - INFO - Server is running on port: 3030
+10/12/2021, 20:50:45 - DEBUG - auth.service - login with username: bonnie
+10/12/2021, 20:50:45 - ERROR - Failed to Login Invalid username or password
+10/12/2021, 20:51:11 - DEBUG - auth.service - login with username: Bonnie Bonno
+10/12/2021, 20:51:11 - ERROR - Failed to Login Invalid username or password
+10/12/2021, 20:54:35 - DEBUG - auth.service - login with username: bonnie
+10/12/2021, 20:55:45 - INFO - Server is running on port: 3030
+10/12/2021, 20:57:33 - DEBUG - auth.service - login with username: will
+10/12/2021, 20:57:42 - INFO - Req!!!
+10/12/2021, 20:57:42 - INFO - Req from: Will Smith
+10/12/2021, 21:00:10 - INFO - Req!!!
+10/12/2021, 21:00:10 - INFO - Req from: Will Smith
+10/12/2021, 21:00:27 - DEBUG - auth.service - login with username: bonnie
+10/12/2021, 21:02:21 - INFO - Server is running on port: 3030
+10/12/2021, 21:03:34 - DEBUG - auth.service - login with username: eric
+10/12/2021, 21:04:27 - DEBUG - auth.service - login with username: will
+10/12/2021, 21:04:33 - INFO - Req!!!
+10/12/2021, 21:04:33 - INFO - Req from: Will Smith
+10/12/2021, 21:06:17 - INFO - Req!!!
+10/12/2021, 21:06:17 - INFO - Req from: Will Smith
+10/12/2021, 21:08:36 - INFO - Req!!!
+10/12/2021, 21:08:36 - INFO - Req from: Will Smith
+10/12/2021, 21:08:36 - INFO - Req!!!
+10/12/2021, 21:08:36 - INFO - Req from: Will Smith
+10/12/2021, 21:08:47 - INFO - Req!!!
+10/12/2021, 21:08:47 - INFO - Req from: Will Smith
+10/12/2021, 21:10:22 - INFO - Req!!!
+10/12/2021, 21:10:22 - INFO - Req from: Will Smith
+10/12/2021, 21:12:42 - INFO - Req!!!
+10/12/2021, 21:12:42 - INFO - Req from: Will Smith
+10/12/2021, 21:12:43 - INFO - Req!!!
+10/12/2021, 21:12:43 - INFO - Req from: Will Smith
+10/12/2021, 21:13:04 - INFO - Req!!!
+10/12/2021, 21:13:04 - INFO - Req from: Will Smith
+10/12/2021, 21:14:56 - INFO - Server is running on port: 3030
+10/12/2021, 21:15:00 - INFO - Req!!!
+10/12/2021, 21:15:20 - INFO - Req!!!
+10/12/2021, 21:16:36 - INFO - Server is running on port: 3030

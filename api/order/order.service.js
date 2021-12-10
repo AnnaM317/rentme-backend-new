@@ -2,10 +2,17 @@ const dbService = require('../../services/db.service')
 const ObjectId = require('mongodb').ObjectId
 const asyncLocalStorage = require('../../services/als.service')
 
+module.exports = {
+    remove,
+    query,
+    add,
+    update,
+    getById
+}
 
-async function query(user) {
+async function query(userId, userType) {
     try {
-        const criteria = _buildCriteria(user)
+        const criteria = _buildCriteria(userId, userType)
         const collection = await dbService.getCollection('order')
         var orders = await collection.find(criteria).toArray()
         return orders;
@@ -17,14 +24,23 @@ async function query(user) {
 }
 
 
-function _buildCriteria(user) {
+function _buildCriteria(userId, userType) {
     let criteria = {}
     //user = {type: userId}
-    if (key === 'host') criteria = { 'host._id': user._id }
-    else criteria = { 'buyer._id': user._id };
+    criteria = (userType === 'host') ? { 'host._id': userId } : { 'buyer._id': userId };
     return criteria
 }
 
+async function getById(orderId) {
+    try {
+        const collection = await dbService.getCollection('order')
+        const order = collection.findOne({ '_id': ObjectId(orderId) })
+        return order
+    } catch (err) {
+        logger.error(`while finding order ${orderId}`, err)
+        throw err
+    }
+}
 
 async function remove(orderId) {
     try {
@@ -39,13 +55,14 @@ async function remove(orderId) {
 
 async function add(order) {
     try {
-        const store = asyncLocalStorage.getStore();
-        const { userId, isHost } = store;
-        console.log('asynclocal store', store);
+        // const store = asyncLocalStorage.getStore();
+        // const { userId, isHost } = store;
+        // console.log('asynclocal store', store);
         // const collection = await dbService.getCollection('order');
         // // remove only if user is owner/admin
         // const query = { _id: ObjectId(order._id) };
         // if (!isHost) query.userId = ObjectId(userId);
+        order.buyer.id = ObjectId(order.buyer.id);
         const collection = await dbService.getCollection('order');
         const addedOrder = await collection.insertOne(order);
         return addedOrder;
@@ -67,9 +84,3 @@ async function update(order) {
     }
 }
 
-module.exports = {
-    remove,
-    query,
-    add,
-    update,
-}

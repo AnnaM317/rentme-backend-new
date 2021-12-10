@@ -45,7 +45,7 @@ const orderRoutes = require('./api/order/order.routes')
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/stay', stayRoutes)
-app.use('/api/review', orderRoutes)
+app.use('/api/order', orderRoutes)
 
 // Make every server-side-route to match the index.html
 // so when requesting http://localhost:3030/index.html/car/123 it will still respond with

@@ -34,7 +34,8 @@ async function getStays(req, res) {
 // Get toy by id
 async function getStayById(req, res) {
     try {
-        const stayId = req.params.id;
+        const stayId = req.params._id;
+        // const stayId = req.params.id;
         const stay = await stayService.getById(stayId);
         res.json(stay);
         // res.send(stay);

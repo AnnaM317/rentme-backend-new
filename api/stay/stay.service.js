@@ -12,26 +12,11 @@ module.exports = {
   remove,
   add,
   update,
-  getHostStays,
 };
-
 // { filterBy = { priceRange: '[0, 850]', propertyType: '[]', amenities: '[]', city: '', totalGuests: 1 } }
 //filterBy = {priceRange: '[0, 850]', propertyType: '[]', amenities: '[]', city: '', guests: 1}
-async function getHostStays(hostId) {
-  try {
-    console.log('hostid backend', hostId);
-    const collection = await dbService.getCollection('stay');
-    const id = new ObjectId(hostId);
-    var stays = await collection.find({ 'host._id': id }).toArray();
-    console.log('hoststays in back service', stays);
-    return stays;
-  } catch (err) {
-    logger.error('Cannot find stays owned by this host', err);
-    throw err;
-  }
-}
 async function query(filterBy) {
-  // console.log('service back query filterBy', filterBy)
+  console.log('service back query filterBy', filterBy);
   try {
     const criteria = _buildCriteria(filterBy);
     // const criteria = {}
@@ -86,17 +71,12 @@ async function query(filterBy) {
 }
 
 function _buildCriteria(filterBy) {
-  // console.log('filterBy', filterBy);
+  console.log('filterBy', filterBy);
   const criteria = {};
   const criterias = [];
-  // if (filterBy.propertyType && filterBy.propertyType.length) {
-  //     criteria.type = { $in: filterBy.propertyType }
-  // }
-
-  if (filterBy.propertyType) {
-    criteria.type = { $in: [filterBy.propertyType] };
+  if (filterBy.propertyType && filterBy.propertyType.length) {
+    criteria.type = { $in: filterBy.propertyType };
   }
-
   // filterBy.priceRange[0]
   if (filterBy.priceRange && filterBy.priceRange.length) {
     criteria.price = {
@@ -106,7 +86,7 @@ function _buildCriteria(filterBy) {
   }
   if (filterBy.amenities && filterBy.amenities.length) {
     // criteria['amenities'] = { $all: filterBy.amenities }
-    criteria.amenities = { $all: filterBy.amenities };
+    criteria.amenities = { $all: filterBy.labels };
   }
   // if (filterBy.labels !== 'all') {
   //     const label = { label: { $regex: filterBy.labels, $options: 'i' } };
@@ -114,8 +94,6 @@ function _buildCriteria(filterBy) {
   //  }
   // criteria = criterias.length === 0 ? {} : { $and: criterias };
   if (filterBy.city) {
-    // const cityCriteria = { $regex: filterBy.city, $options: 'i' }
-    // criteria = { 'loc.address': cityCriteria }
     const cityCriteria = { $regex: filterBy.city, $options: 'i' };
     criteria['loc.address'] = cityCriteria;
   }
@@ -134,17 +112,7 @@ function _buildCriteria(filterBy) {
     criteria.capacity = { $gte: +filterBy.totalGuests };
   }
 
-  if (filterBy.hostId) {
-    criteria['host._id'] = ObjectId(filterBy.hostId);
-  }
-
-  // if (filterBy.hostId) {
-  //     criteria = { '_id': ObjectId('61ae43ad659811151ae092cc') };
-  //     // const stay = collection.findOne({ '_id': ObjectId(stayId) })
-  //     // db.getCollection('stay').find({"host._id" : ObjectId("61ae43ad659811151ae092cc")})
-  // }
-
-  // console.log('criteria', criteria);
+  console.log('criteria', criteria);
   return criteria;
 }
 // return criteria
@@ -190,7 +158,6 @@ function _buildCriteria(filterBy) {
 
 async function getById(stayId) {
   try {
-    // console.log('stayId', stayId);
     const collection = await dbService.getCollection('stay');
     const stay = collection.findOne({ _id: ObjectId(stayId) });
     return stay;

@@ -891,3 +891,8 @@
 12/10/2021, 1:54:06 PM - DEBUG - auth.service - login with username: will
 >>>>>>> fd56f511e2165b3f3c5947ea53fa6a4e2f573557
 10/12/2021, 14:13:33 - INFO - Server is running on port: 3030
+10/12/2021, 16:22:57 - DEBUG - auth.service - login with username: will
+10/12/2021, 16:28:30 - DEBUG - auth.service - login with username: will
+10/12/2021, 16:28:41 - DEBUG - auth.service - login with username: will
+10/12/2021, 16:29:54 - DEBUG - auth.service - login with username: will
+10/12/2021, 16:31:05 - DEBUG - auth.service - login with username: will

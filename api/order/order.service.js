@@ -12,9 +12,11 @@ module.exports = {
 
 async function query(userId, userType) {
   try {
+    console.log('backend service: userId-userType', userId, userType);
     const criteria = _buildCriteria(userId, userType);
     const collection = await dbService.getCollection('order');
     var orders = await collection.find(criteria).toArray();
+    console.log('orders backend', orders);
     return orders;
   } catch (err) {
     console.log(err);
@@ -25,9 +27,12 @@ async function query(userId, userType) {
 
 function _buildCriteria(userId, userType) {
   let criteria = {};
+  console.log('typeof usertype', typeof userType);
   //user = {type: userId}
-  criteria =
-    userType === 'host' ? { 'host._id': userId } : { 'buyer._id': userId };
+  if (userType === 'host') criteria['host._id'] = ObjectId(userId);
+  else criteria['buyer._id'] = ObjectId(userId);
+  // criteria = (userType === 'host') ? { 'host._id': userId } : { 'buyer._id': ObjectId(userId) };
+  console.log('criteria', criteria);
   return criteria;
 }
 

@@ -13,8 +13,10 @@ module.exports = {
 
 async function getOrders(req, res) {
     try {
-        const userId = req.query.params.userId;
-        const userType = req.query.params.userType;
+        console.log('backend controller: userId-userType', req.query.params);
+        //{"userId":"61ae43ad659811151ae092cc","userType":"host"}
+        const userId = JSON.parse(req.query.params).userId;
+        const userType = JSON.parse(req.query.params).userType;
         const orders = await orderService.query(userId, userType)
         res.json(orders)
     } catch (err) {

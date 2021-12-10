@@ -1,6 +1,6 @@
 const logger = require('../../services/logger.service')
 const orderService = require('../order/order.service')
-const ObjectId = require('mongodb').ObjectId
+const socketService = require('../../services/socket.service')
 
 
 module.exports = {
@@ -56,11 +56,12 @@ async function addOrder(req, res) {
         var order = req.body;
         // order.buyer._id = req.session.user._id;
         // order['buyer.fullname'] = req.session.user.fullname;
-        // console.log('ObjectId(req.session.user._id)', ObjectId(req.session.user._id));
         order.buyer.id = req.session.user._id;
         order.buyer.fullname = req.session.user.fullname;
         const addedOrder = await orderService.add(order)
         console.log('addedOrder backend controller', addedOrder);
+
+        socketService.emitToUser({ type: 'order-added', data: order, userId: order.hostId })
         res.json(addedOrder)
     } catch (err) {
         logger.error('Failed to add order', err)

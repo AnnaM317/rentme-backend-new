@@ -1,6 +1,7 @@
 const logger = require('../../services/logger.service')
 const userService = require('../user/user.service')
 const reviewService = require('./review.service')
+const socketService = require('../../services/socket.service')
 
 async function getReviews(req, res) {
     try {
@@ -32,6 +33,36 @@ async function addReview(req, res) {
     } catch (err) {
         logger.error('Failed to add review', err);
         res.status(500).send({ err: 'Failed to add review' });
+    }
+}
+
+async function addReview(req, res) {
+    try {
+        var review = req.body
+        review.byUserId = req.session.user._id
+        review = await reviewService.add(review)
+
+        // prepare the updated review for sending out
+        review.aboutUser = await userService.getById(review.aboutUserId)
+
+        // Give the user credit for adding a review
+        var user = await userService.getById(review.byUserId)
+        user.score += 10;
+        user = await userService.update(user)
+        review.byUser = user
+        const fullUser = await userService.getById(user._id)
+
+        console.log('CTRL SessionId:', req.sessionID);
+        socketService.broadcast({ type: 'review-added', data: review, userId: review.byUserId })
+        socketService.emitToUser({ type: 'review-about-you', data: review, userId: review.aboutUserId })
+        socketService.emitTo({ type: 'user-updated', data: fullUser, label: fullUser._id })
+
+        res.send(review)
+
+    } catch (err) {
+        console.log(err)
+        logger.error('Failed to add review', err)
+        res.status(500).send({ err: 'Failed to add review' })
     }
 }
 

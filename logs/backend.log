@@ -590,3 +590,49 @@
 12/10/2021, 4:18:17 PM - ERROR - while finding user undefined | {}
 12/10/2021, 4:18:17 PM - ERROR - Failed to get user | {}
 12/10/2021, 4:37:12 PM - INFO - Req!!!
+12/10/2021, 4:53:25 PM - INFO - Req!!!
+12/10/2021, 9:26:06 PM - INFO - Server is running on port: 3030
+12/10/2021, 9:32:58 PM - INFO - Server is running on port: 3030
+12/10/2021, 9:37:26 PM - INFO - Server is running on port: 3030
+12/10/2021, 9:42:57 PM - INFO - Server is running on port: 3030
+12/10/2021, 9:43:09 PM - INFO - Server is running on port: 3030
+12/10/2021, 9:47:03 PM - INFO - Server is running on port: 3030
+12/10/2021, 9:48:42 PM - INFO - Server is running on port: 3030
+12/10/2021, 9:49:25 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:20:57 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:21:24 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:21:52 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:22:24 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:22:53 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:23:10 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:23:32 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:23:49 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:24:51 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:34:10 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:34:23 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:35:11 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:35:25 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:35:40 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:38:09 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:41:06 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:42:26 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:42:36 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:46:57 PM - INFO - Server is running on port: 3030
+12/11/2021, 12:20:50 AM - INFO - Server is running on port: 3030
+12/11/2021, 1:13:43 AM - INFO - Server is running on port: 3030
+12/11/2021, 1:14:33 AM - INFO - Server is running on port: 3030
+12/11/2021, 1:19:00 AM - INFO - Server is running on port: 3030
+12/11/2021, 1:20:56 AM - INFO - Server is running on port: 3030
+12/11/2021, 1:22:42 AM - DEBUG - auth.service - login with username: eric
+12/11/2021, 1:22:42 AM - DEBUG - Setting (E7S1kLe4xB7osm3uAAAD) socket.userId = 61ae18879c562696b6dd6e21
+12/11/2021, 1:23:34 AM - DEBUG - auth.service - login with username: will
+12/11/2021, 1:23:35 AM - DEBUG - Setting (OkjG3ERbfEjftdO8AAAF) socket.userId = 61ae43ad659811151ae092cc
+12/11/2021, 1:23:44 AM - INFO - Req!!!
+12/11/2021, 1:23:44 AM - INFO - Req from: Will Smith
+12/11/2021, 1:23:49 AM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/11/2021, 1:23:53 AM - INFO - Req!!!
+12/11/2021, 1:23:53 AM - INFO - Req from: Will Smith
+12/11/2021, 1:23:53 AM - INFO - Req!!!
+12/11/2021, 1:23:53 AM - INFO - Req from: Will Smith
+12/11/2021, 1:23:58 AM - INFO - Req!!!
+12/11/2021, 1:23:58 AM - INFO - Req from: Will Smith

@@ -1,5 +1,7 @@
 const logger = require('../../services/logger.service')
 const orderService = require('../order/order.service')
+const ObjectId = require('mongodb').ObjectId
+
 
 module.exports = {
     getOrders,
@@ -11,7 +13,11 @@ module.exports = {
 
 async function getOrders(req, res) {
     try {
-        const orders = await orderService.query(req.query)
+        console.log('backend controller: userId-userType', req.query.params);
+        //{"userId":"61ae43ad659811151ae092cc","userType":"host"}
+        const userId = JSON.parse(req.query.params).userId;
+        const userType = JSON.parse(req.query.params).userType;
+        const orders = await orderService.query(userId, userType)
         res.json(orders)
     } catch (err) {
         logger.error('Cannot get orders', err)
@@ -21,9 +27,10 @@ async function getOrders(req, res) {
 
 async function getOrdersById(req, res) {
     try {
-        const userId = JSON.parse(req.query.params);
+        const orderId = req.params.id;
+        // const userId = JSON.parse(req.query.params);
         // const = JSON.parse(req.query.params)
-        const order = await orderService.query(userId, type)
+        const order = await orderService.getById(orderId)
         res.json(order)
     } catch (err) {
         logger.error('Failed to get order', err)
@@ -44,9 +51,16 @@ async function removeOrder(req, res) {
 
 async function addOrder(req, res) {
     try {
+        console.log('req.body', req.body);
+        console.log('req.session.user._id', req.session.user._id);
         var order = req.body;
+        // order.buyer._id = req.session.user._id;
+        // order['buyer.fullname'] = req.session.user.fullname;
+        // console.log('ObjectId(req.session.user._id)', ObjectId(req.session.user._id));
         order.buyer.id = req.session.user._id;
+        order.buyer.fullname = req.session.user.fullname;
         const addedOrder = await orderService.add(order)
+        console.log('addedOrder backend controller', addedOrder);
         res.json(addedOrder)
     } catch (err) {
         logger.error('Failed to add order', err)

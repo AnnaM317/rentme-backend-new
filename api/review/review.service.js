@@ -79,7 +79,7 @@ async function remove(reviewId) {
 
 async function add(review) {
   try {
-    console.log('review backend service', review);
+    // console.log('review backend service', review);
     // peek only updatable fields!
     const reviewToAdd = {
       userId: ObjectId(review.userId),
@@ -106,7 +106,7 @@ function _buildCriteria(filterBy) {
     criteria = {};
   }
   // const criteria = {}
-  console.log(criteria);
+  // console.log(criteria);
   return criteria;
 }
 

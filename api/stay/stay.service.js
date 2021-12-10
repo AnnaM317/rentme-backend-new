@@ -7,15 +7,40 @@ const asyncLocalStorage = require('../../services/als.service');
 // const gToys = require('../data/toys.json')
 
 module.exports = {
+<<<<<<< HEAD
   query,
   getById,
   remove,
   add,
   update,
 };
+=======
+    query,
+    getById,
+    remove,
+    add,
+    update,
+    getHostStays
+
+}
+>>>>>>> e89c840ba98d9935326c45d703d6762e55b0ab44
 // { filterBy = { priceRange: '[0, 850]', propertyType: '[]', amenities: '[]', city: '', totalGuests: 1 } }
 //filterBy = {priceRange: '[0, 850]', propertyType: '[]', amenities: '[]', city: '', guests: 1}
+async function getHostStays(hostId) {
+    try {
+        console.log('hostid backend', hostId);
+        const collection = await dbService.getCollection('stay');
+        const id = new ObjectId(hostId)
+        var stays = await collection.find({ 'host._id': id }).toArray();
+        console.log('hoststays in back service', stays);
+        return stays;
+    } catch (err) {
+        logger.error('Cannot find stays owned by this host', err);
+        throw err;
+    }
+}
 async function query(filterBy) {
+<<<<<<< HEAD
   console.log('service back query filterBy', filterBy);
   try {
     const criteria = _buildCriteria(filterBy);
@@ -117,6 +142,122 @@ function _buildCriteria(filterBy) {
 
   console.log('criteria', criteria);
   return criteria;
+=======
+    // console.log('service back query filterBy', filterBy)
+    try {
+
+        const criteria = _buildCriteria(filterBy)
+        // const criteria = {}
+
+        const collection = await dbService.getCollection('stay')
+        // console.log('collection', collection);
+        const stays = await collection.find(criteria).toArray()
+        // console.log('stays', stays)
+
+        // var reviews = await collection.aggregate([
+        //     {
+        //         $match: criteria
+        //     },
+        //     {
+        //         $lookup:
+        //         {
+        //             localField: 'byUserId',
+        //             from: 'user',
+        //             foreignField: '_id',
+        //             as: 'byUser'
+        //         }
+        //     },
+        //     {
+        //         $unwind: '$byUser'
+        //     },
+        //     {
+        //         $lookup:
+        //         {
+        //             localField: 'aboutUserId',
+        //             from: 'user',
+        //             foreignField: '_id',
+        //             as: 'aboutUser'
+        //         }
+        //     },
+        //     {
+        //         $unwind: '$aboutUser'
+        //     }
+        // ]).toArray()
+        // reviews = reviews.map(review => {
+        //     review.byUser = { _id: review.byUser._id, fullname: review.byUser.fullname }
+        //     review.aboutUser = { _id: review.aboutUser._id, fullname: review.aboutUser.fullname }
+        //     delete review.byUserId
+        //     delete review.aboutUserId
+        //     return review
+        // })
+
+        return stays;
+    } catch (err) {
+        logger.error('cannot find stays', err)
+        throw err
+    }
+}
+
+function _buildCriteria(filterBy) {
+    // console.log('filterBy', filterBy);
+    const criteria = {}
+    const criterias = [];
+    // if (filterBy.propertyType && filterBy.propertyType.length) {
+    //     criteria.type = { $in: filterBy.propertyType }
+    // }
+
+    if (filterBy.propertyType) {
+        criteria.type = { $in: [filterBy.propertyType] };
+    }
+
+    // filterBy.priceRange[0]
+    if (filterBy.priceRange && filterBy.priceRange.length) {
+        criteria.price = { $gte: +(filterBy.priceRange[0]), $lte: +(filterBy.priceRange[1]) }
+    }
+    if (filterBy.amenities && filterBy.amenities.length) {
+        // criteria['amenities'] = { $all: filterBy.amenities }
+        criteria.amenities = { $all: filterBy.amenities }
+    }
+    // if (filterBy.labels !== 'all') {
+    //     const label = { label: { $regex: filterBy.labels, $options: 'i' } };
+    //     criterias.push(label);
+    //  }
+    // criteria = criterias.length === 0 ? {} : { $and: criterias };
+    if (filterBy.city) {
+        // const cityCriteria = { $regex: filterBy.city, $options: 'i' }
+        // criteria = { 'loc.address': cityCriteria }
+        const cityCriteria = { $regex: filterBy.city, $options: 'i' };
+        criteria['loc.address'] = cityCriteria;
+
+    }
+    // const txtCriteria = { $regex: filterBy.city, $options: 'i' };
+    // if (filterBy.city && filterBy.city !== '') {
+    // if (filterBy.city === 'flexible') {
+    //     stay.loc.city === 'Bora Bora' ||
+    //         stay.loc.city === 'Hawaii' ||
+    //         stay.loc.city === 'France'
+    // }
+    // else {
+    // criteria = { 'loc.address': txtCriteria };
+    // }
+    // }
+    if (filterBy.totalGuests) {
+        criteria.capacity = { $gte: +(filterBy.totalGuests) };
+    }
+
+    if (filterBy.hostId) {
+        criteria['host._id'] = ObjectId(filterBy.hostId)
+    }
+
+    // if (filterBy.hostId) {
+    //     criteria = { '_id': ObjectId('61ae43ad659811151ae092cc') };
+    //     // const stay = collection.findOne({ '_id': ObjectId(stayId) })
+    //     // db.getCollection('stay').find({"host._id" : ObjectId("61ae43ad659811151ae092cc")})
+    // }
+
+    // console.log('criteria', criteria);
+    return criteria
+>>>>>>> e89c840ba98d9935326c45d703d6762e55b0ab44
 }
 // return criteria
 // if (filterBy.name) {
@@ -160,6 +301,7 @@ function _buildCriteria(filterBy) {
 // }
 
 async function getById(stayId) {
+<<<<<<< HEAD
   try {
     const collection = await dbService.getCollection('stay');
     const stay = collection.findOne({ _id: ObjectId(stayId) });
@@ -168,6 +310,17 @@ async function getById(stayId) {
     logger.error(`while finding stay ${stayId}`, err);
     throw err;
   }
+=======
+    try {
+        // console.log('stayId', stayId);
+        const collection = await dbService.getCollection('stay')
+        const stay = collection.findOne({ '_id': ObjectId(stayId) })
+        return stay
+    } catch (err) {
+        logger.error(`while finding stay ${stayId}`, err)
+        throw err
+    }
+>>>>>>> e89c840ba98d9935326c45d703d6762e55b0ab44
 }
 
 async function remove(stayId) {

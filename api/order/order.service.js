@@ -2,12 +2,21 @@ const dbService = require('../../services/db.service')
 const ObjectId = require('mongodb').ObjectId
 const asyncLocalStorage = require('../../services/als.service')
 
+module.exports = {
+    remove,
+    query,
+    add,
+    update,
+    getById
+}
 
-async function query(user) {
+async function query(userId, userType) {
     try {
-        const criteria = _buildCriteria(user)
+        console.log('backend service: userId-userType', userId, userType);
+        const criteria = _buildCriteria(userId, userType)
         const collection = await dbService.getCollection('order')
         var orders = await collection.find(criteria).toArray()
+        console.log('orders backend', orders);
         return orders;
     } catch (err) {
         console.log(err);
@@ -17,14 +26,27 @@ async function query(user) {
 }
 
 
-function _buildCriteria(user) {
+function _buildCriteria(userId, userType) {
     let criteria = {}
+    console.log('typeof usertype', typeof (userType))
     //user = {type: userId}
-    if (key === 'host') criteria = { 'host._id': user._id }
-    else criteria = { 'buyer._id': user._id };
+    if (userType === 'host') criteria['host._id'] = ObjectId(userId);
+    else criteria['buyer._id'] = ObjectId(userId);
+    // criteria = (userType === 'host') ? { 'host._id': userId } : { 'buyer._id': ObjectId(userId) };
+    console.log('criteria', criteria);
     return criteria
 }
 
+async function getById(orderId) {
+    try {
+        const collection = await dbService.getCollection('order')
+        const order = collection.findOne({ '_id': ObjectId(orderId) })
+        return order
+    } catch (err) {
+        logger.error(`while finding order ${orderId}`, err)
+        throw err
+    }
+}
 
 async function remove(orderId) {
     try {
@@ -39,13 +61,28 @@ async function remove(orderId) {
 
 async function add(order) {
     try {
-        const store = asyncLocalStorage.getStore();
-        const { userId, isHost } = store;
-        console.log('asynclocal store', store);
+        // const store = asyncLocalStorage.getStore();
+        // const { userId, isHost } = store;
+        // console.log('asynclocal store', store);
         // const collection = await dbService.getCollection('order');
         // // remove only if user is owner/admin
         // const query = { _id: ObjectId(order._id) };
         // if (!isHost) query.userId = ObjectId(userId);
+        // const orderToAdd = {
+        //     buyerId: ObjectId(order.buyer.id),
+        // }
+        const buyer = {
+            _id: ObjectId(order.buyer.id),
+            fullname: order.buyer.fullname
+        }
+        order.buyer = buyer;
+        order.hostId = ObjectId(order.hostId);
+        const stay = {
+            _id: ObjectId(order.stay._id),
+            name: order.stay.name,
+            price: order.stay.price
+        }
+        order.stay = stay;
         const collection = await dbService.getCollection('order');
         const addedOrder = await collection.insertOne(order);
         return addedOrder;
@@ -67,9 +104,3 @@ async function update(order) {
     }
 }
 
-module.exports = {
-    remove,
-    query,
-    add,
-    update,
-}

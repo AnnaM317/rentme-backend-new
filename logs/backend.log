@@ -376,6 +376,7 @@
 12/9/2021, 7:05:17 PM - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039750057284861958"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039750057284861958"},"signature":{"hash":"Q/SwBwNZQXuEIbaQdFKhVKyu5LM=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
 12/9/2021, 7:36:33 PM - INFO - Server is running on port: 3030
 12/9/2021, 7:37:04 PM - DEBUG - auth.service - login with username: eric
+<<<<<<< HEAD
 >>>>>>> 426812ff0baa2edc5e2249df86f57e457eef61c0
 12/9/2021, 7:47:13 PM - INFO - Server is running on port: 3030
 12/10/2021, 3:10:59 PM - ERROR - cannot find stays | {}
@@ -402,3 +403,234 @@
 12/10/2021, 4:53:51 PM - ERROR - Cannot get stays | {}
 12/10/2021, 4:53:52 PM - ERROR - cannot find stays | {}
 12/10/2021, 4:53:52 PM - ERROR - Cannot get stays | {}
+=======
+12/9/2021, 8:02:36 PM - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039764827677392900"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039764827677392900"},"signature":{"hash":"j1d8Oii2oyiVZMa+zbBxURg3bbc=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+12/9/2021, 8:02:36 PM - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039764827677392900"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039764827677392900"},"signature":{"hash":"j1d8Oii2oyiVZMa+zbBxURg3bbc=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+12/9/2021, 8:34:51 PM - INFO - Server is running on port: 3030
+12/9/2021, 9:56:33 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:06:24 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:07:02 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:22:58 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:25:07 PM - DEBUG - auth.service - login with username: will
+12/9/2021, 10:26:46 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:28:07 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:28:23 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:28:23 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:28:41 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:28:41 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:30:03 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:30:12 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:30:12 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:30:13 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:30:13 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:30:24 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:30:24 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:31:15 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:31:22 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:31:22 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:31:30 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:31:30 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:32:27 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:32:36 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:32:36 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:33:38 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:35:12 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:40:11 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:42:47 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:43:25 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:43:44 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:43:44 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:43:47 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:43:47 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:45:03 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:45:08 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:45:08 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:45:15 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:45:15 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:46:52 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:47:05 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:47:05 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:47:16 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:47:16 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:50:08 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:50:11 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:50:11 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:50:30 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:50:30 PM - ERROR - Cannot get stays | {}
+12/9/2021, 10:51:36 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:51:44 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:55:19 PM - INFO - Server is running on port: 3030
+12/9/2021, 10:58:18 PM - ERROR - cannot find stays | {}
+12/9/2021, 10:58:18 PM - ERROR - Cannot get stays | {}
+12/9/2021, 11:00:26 PM - INFO - Server is running on port: 3030
+12/9/2021, 11:02:02 PM - INFO - Server is running on port: 3030
+12/9/2021, 11:02:09 PM - ERROR - cannot find stays | {}
+12/9/2021, 11:02:09 PM - ERROR - Cannot get stays | {}
+12/9/2021, 11:02:10 PM - ERROR - cannot find stays | {}
+12/9/2021, 11:02:10 PM - ERROR - Cannot get stays | {}
+12/9/2021, 11:02:12 PM - ERROR - cannot find stays | {}
+12/9/2021, 11:02:12 PM - ERROR - Cannot get stays | {}
+12/9/2021, 11:02:13 PM - ERROR - cannot find stays | {}
+12/9/2021, 11:02:13 PM - ERROR - Cannot get stays | {}
+12/9/2021, 11:02:40 PM - INFO - Server is running on port: 3030
+12/9/2021, 11:02:51 PM - ERROR - cannot find stays | {}
+12/9/2021, 11:02:51 PM - ERROR - Cannot get stays | {}
+12/9/2021, 11:02:53 PM - ERROR - cannot find stays | {}
+12/9/2021, 11:02:53 PM - ERROR - Cannot get stays | {}
+12/9/2021, 11:02:54 PM - ERROR - cannot find stays | {}
+12/9/2021, 11:02:54 PM - ERROR - Cannot get stays | {}
+12/9/2021, 11:02:58 PM - ERROR - cannot find stays | {}
+12/9/2021, 11:02:58 PM - ERROR - Cannot get stays | {}
+12/9/2021, 11:03:00 PM - ERROR - cannot find stays | {}
+12/9/2021, 11:03:00 PM - ERROR - Cannot get stays | {}
+12/9/2021, 11:03:23 PM - INFO - Server is running on port: 3030
+12/9/2021, 11:17:24 PM - INFO - Server is running on port: 3030
+12/9/2021, 11:17:48 PM - ERROR - cannot find stays | {}
+12/9/2021, 11:17:48 PM - ERROR - Cannot get stays | {}
+12/9/2021, 11:17:55 PM - ERROR - cannot find stays | {}
+12/9/2021, 11:17:55 PM - ERROR - Cannot get stays | {}
+12/9/2021, 11:18:39 PM - INFO - Server is running on port: 3030
+12/9/2021, 11:50:32 PM - INFO - Server is running on port: 3030
+12/9/2021, 11:51:50 PM - INFO - Server is running on port: 3030
+12/9/2021, 11:56:59 PM - INFO - Server is running on port: 3030
+12/10/2021, 12:00:03 AM - INFO - Server is running on port: 3030
+12/10/2021, 12:35:54 AM - INFO - Server is running on port: 3030
+12/10/2021, 12:36:24 AM - INFO - Server is running on port: 3030
+12/10/2021, 1:15:12 AM - DEBUG - auth.service - login with username: will
+12/10/2021, 1:27:49 AM - DEBUG - auth.service - login with username: will
+12/10/2021, 1:43:12 AM - INFO - Server is running on port: 3030
+12/10/2021, 1:47:01 AM - INFO - Server is running on port: 3030
+12/10/2021, 1:50:29 AM - INFO - Server is running on port: 3030
+12/10/2021, 2:09:23 AM - DEBUG - auth.service - login with username: will
+12/10/2021, 2:17:50 AM - INFO - Server is running on port: 3030
+12/10/2021, 2:17:57 AM - INFO - Server is running on port: 3030
+12/10/2021, 2:19:31 AM - INFO - Server is running on port: 3030
+12/10/2021, 2:31:00 AM - INFO - Server is running on port: 3030
+12/10/2021, 2:34:01 AM - INFO - Server is running on port: 3030
+12/10/2021, 2:34:25 AM - INFO - Server is running on port: 3030
+12/10/2021, 2:35:29 AM - INFO - Server is running on port: 3030
+12/10/2021, 2:36:46 AM - INFO - Server is running on port: 3030
+12/10/2021, 2:37:01 AM - INFO - Server is running on port: 3030
+12/10/2021, 2:37:25 AM - INFO - Server is running on port: 3030
+12/10/2021, 2:39:19 AM - INFO - Server is running on port: 3030
+12/10/2021, 2:42:08 AM - INFO - Server is running on port: 3030
+12/10/2021, 2:42:53 AM - INFO - Server is running on port: 3030
+12/10/2021, 2:43:31 AM - INFO - Server is running on port: 3030
+12/10/2021, 2:43:34 AM - INFO - Server is running on port: 3030
+12/10/2021, 2:43:41 AM - INFO - Server is running on port: 3030
+12/10/2021, 2:43:55 AM - INFO - Server is running on port: 3030
+12/10/2021, 2:44:12 AM - INFO - Server is running on port: 3030
+12/10/2021, 2:44:16 AM - INFO - Server is running on port: 3030
+12/10/2021, 2:44:26 AM - INFO - Server is running on port: 3030
+12/10/2021, 2:52:21 AM - INFO - Server is running on port: 3030
+12/10/2021, 10:18:36 AM - INFO - Server is running on port: 3030
+12/10/2021, 10:21:44 AM - DEBUG - auth.service - login with username: will
+12/10/2021, 11:48:12 AM - INFO - Server is running on port: 3030
+12/10/2021, 11:49:14 AM - INFO - Server is running on port: 3030
+12/10/2021, 11:50:10 AM - INFO - Server is running on port: 3030
+12/10/2021, 11:53:23 AM - INFO - Server is running on port: 3030
+12/10/2021, 11:55:39 AM - INFO - Server is running on port: 3030
+12/10/2021, 11:58:18 AM - INFO - Server is running on port: 3030
+12/10/2021, 11:58:53 AM - INFO - Server is running on port: 3030
+12/10/2021, 12:07:19 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 12:11:49 PM - INFO - Server is running on port: 3030
+12/10/2021, 12:14:44 PM - INFO - Server is running on port: 3030
+12/10/2021, 12:16:36 PM - INFO - Server is running on port: 3030
+12/10/2021, 12:17:09 PM - INFO - Server is running on port: 3030
+12/10/2021, 12:17:49 PM - INFO - Server is running on port: 3030
+12/10/2021, 12:17:56 PM - INFO - Server is running on port: 3030
+12/10/2021, 12:19:02 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 12:19:07 PM - ERROR - Failed to add order | {}
+12/10/2021, 12:22:09 PM - INFO - Server is running on port: 3030
+12/10/2021, 12:23:17 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 12:23:23 PM - ERROR - Failed to add order | {}
+12/10/2021, 12:29:22 PM - INFO - Server is running on port: 3030
+12/10/2021, 12:29:50 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 12:29:56 PM - ERROR - Failed to add order | {}
+12/10/2021, 12:34:46 PM - INFO - Server is running on port: 3030
+12/10/2021, 12:35:55 PM - INFO - Server is running on port: 3030
+12/10/2021, 12:36:20 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 12:36:39 PM - ERROR - Failed to add order | {}
+12/10/2021, 12:37:53 PM - INFO - Server is running on port: 3030
+12/10/2021, 12:40:48 PM - INFO - Server is running on port: 3030
+12/10/2021, 12:41:22 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 12:41:44 PM - ERROR - Failed to add order | {}
+12/10/2021, 12:43:13 PM - INFO - Server is running on port: 3030
+12/10/2021, 12:44:04 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 12:44:48 PM - ERROR - Failed to add order | {}
+12/10/2021, 12:48:35 PM - INFO - Server is running on port: 3030
+12/10/2021, 12:49:03 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 12:49:18 PM - ERROR - Failed to add order | {}
+12/10/2021, 12:50:03 PM - INFO - Server is running on port: 3030
+12/10/2021, 12:50:29 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 12:51:37 PM - INFO - Server is running on port: 3030
+12/10/2021, 12:56:19 PM - INFO - Server is running on port: 3030
+12/10/2021, 12:56:45 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 1:00:18 PM - INFO - Server is running on port: 3030
+12/10/2021, 1:00:37 PM - INFO - Server is running on port: 3030
+12/10/2021, 1:01:17 PM - INFO - Server is running on port: 3030
+12/10/2021, 1:02:00 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 1:05:34 PM - INFO - Server is running on port: 3030
+12/10/2021, 1:05:42 PM - INFO - Server is running on port: 3030
+12/10/2021, 1:06:17 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 1:11:57 PM - INFO - Server is running on port: 3030
+12/10/2021, 1:12:33 PM - INFO - Server is running on port: 3030
+12/10/2021, 1:12:56 PM - INFO - Server is running on port: 3030
+12/10/2021, 1:13:03 PM - INFO - Server is running on port: 3030
+12/10/2021, 1:13:23 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 1:21:01 PM - INFO - Server is running on port: 3030
+12/10/2021, 1:22:13 PM - INFO - Server is running on port: 3030
+12/10/2021, 1:22:26 PM - INFO - Server is running on port: 3030
+12/10/2021, 1:25:26 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 1:28:11 PM - INFO - Server is running on port: 3030
+12/10/2021, 1:38:54 PM - INFO - Server is running on port: 3030
+12/10/2021, 1:39:25 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 1:43:19 PM - INFO - Server is running on port: 3030
+12/10/2021, 1:44:55 PM - INFO - Server is running on port: 3030
+12/10/2021, 1:45:19 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 1:51:21 PM - INFO - Server is running on port: 3030
+12/10/2021, 1:52:36 PM - INFO - Server is running on port: 3030
+12/10/2021, 1:53:46 PM - INFO - Server is running on port: 3030
+12/10/2021, 1:54:06 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 3:06:04 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 3:06:41 PM - INFO - Req!!!
+12/10/2021, 3:06:41 PM - INFO - Req from: Will Smith
+12/10/2021, 3:06:41 PM - ERROR - Cannot get orders | {}
+12/10/2021, 3:07:13 PM - INFO - Req!!!
+12/10/2021, 3:07:13 PM - INFO - Req from: Will Smith
+12/10/2021, 3:07:13 PM - ERROR - Cannot get orders | {}
+12/10/2021, 3:07:32 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 3:10:32 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 3:13:37 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 3:17:34 PM - INFO - Server is running on port: 3030
+12/10/2021, 3:18:05 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 3:18:31 PM - DEBUG - auth.service - login with username: will
+12/10/2021, 3:18:44 PM - INFO - Req!!!
+12/10/2021, 3:18:44 PM - INFO - Req from: Will Smith
+12/10/2021, 3:18:44 PM - ERROR - Cannot get orders | {}
+12/10/2021, 3:21:06 PM - INFO - Req!!!
+12/10/2021, 3:21:06 PM - INFO - Req from: Will Smith
+12/10/2021, 3:21:06 PM - ERROR - Cannot get orders | {}
+12/10/2021, 3:22:22 PM - INFO - Server is running on port: 3030
+12/10/2021, 3:22:55 PM - INFO - Server is running on port: 3030
+12/10/2021, 3:28:01 PM - INFO - Req!!!
+12/10/2021, 3:29:50 PM - INFO - Req!!!
+12/10/2021, 3:32:02 PM - INFO - Req!!!
+12/10/2021, 3:34:46 PM - INFO - Server is running on port: 3030
+12/10/2021, 3:35:00 PM - INFO - Req!!!
+12/10/2021, 3:36:40 PM - INFO - Server is running on port: 3030
+12/10/2021, 3:36:49 PM - INFO - Req!!!
+12/10/2021, 3:37:22 PM - INFO - Server is running on port: 3030
+12/10/2021, 3:38:29 PM - INFO - Server is running on port: 3030
+12/10/2021, 3:39:55 PM - INFO - Server is running on port: 3030
+12/10/2021, 3:41:02 PM - INFO - Req!!!
+12/10/2021, 3:41:02 PM - ERROR - Cannot get orders | {}
+12/10/2021, 3:41:25 PM - INFO - Server is running on port: 3030
+12/10/2021, 3:41:53 PM - INFO - Req!!!
+12/10/2021, 3:43:40 PM - INFO - Server is running on port: 3030
+12/10/2021, 3:43:50 PM - INFO - Req!!!
+12/10/2021, 3:46:00 PM - INFO - Req!!!
+12/10/2021, 4:18:17 PM - ERROR - while finding user undefined | {}
+12/10/2021, 4:18:17 PM - ERROR - Failed to get user | {}
+12/10/2021, 4:37:12 PM - INFO - Req!!!
+>>>>>>> e89c840ba98d9935326c45d703d6762e55b0ab44

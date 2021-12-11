@@ -1456,3 +1456,142 @@
 12/11/2021, 2:30:54 PM - INFO - Req!!!
 12/11/2021, 2:30:54 PM - INFO - Req from: Will Smith
 >>>>>>> 292a9f633691ba86764d4abc87ab1e8aa4eaed22
+11/12/2021, 15:27:39 - INFO - Server is running on port: 3030
+11/12/2021, 16:00:50 - DEBUG - auth.service - login with username: will
+11/12/2021, 16:00:56 - INFO - Req!!!
+11/12/2021, 16:00:56 - INFO - Req from: Will Smith
+11/12/2021, 16:03:16 - INFO - Req!!!
+11/12/2021, 16:03:16 - INFO - Req from: Will Smith
+11/12/2021, 16:06:44 - INFO - Req!!!
+11/12/2021, 16:06:44 - INFO - Req from: Will Smith
+11/12/2021, 16:08:45 - INFO - Req!!!
+11/12/2021, 16:08:45 - INFO - Req from: Will Smith
+11/12/2021, 16:10:16 - INFO - Req!!!
+11/12/2021, 16:10:16 - INFO - Req from: Will Smith
+11/12/2021, 16:16:48 - INFO - Req!!!
+11/12/2021, 16:16:48 - INFO - Req from: Will Smith
+11/12/2021, 16:17:05 - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+11/12/2021, 16:18:41 - INFO - Req!!!
+11/12/2021, 16:18:41 - INFO - Req from: Will Smith
+11/12/2021, 16:19:00 - INFO - Req!!!
+11/12/2021, 16:19:00 - INFO - Req from: Will Smith
+11/12/2021, 16:20:02 - INFO - Req!!!
+11/12/2021, 16:20:02 - INFO - Req from: Will Smith
+11/12/2021, 16:27:12 - INFO - Req!!!
+11/12/2021, 16:27:12 - INFO - Req from: Will Smith
+11/12/2021, 16:27:53 - INFO - Req!!!
+11/12/2021, 16:27:53 - INFO - Req from: Will Smith
+11/12/2021, 16:31:46 - INFO - Server is running on port: 3030
+11/12/2021, 16:31:52 - INFO - Req!!!
+11/12/2021, 16:35:05 - DEBUG - auth.service - login with username: will
+11/12/2021, 16:35:12 - INFO - Req!!!
+11/12/2021, 16:35:12 - INFO - Req from: Will Smith
+11/12/2021, 16:35:44 - INFO - Req!!!
+11/12/2021, 16:35:44 - INFO - Req from: Will Smith
+11/12/2021, 16:36:09 - INFO - Req!!!
+11/12/2021, 16:36:09 - INFO - Req from: Will Smith
+11/12/2021, 16:36:58 - INFO - Req!!!
+11/12/2021, 16:36:58 - INFO - Req from: Will Smith
+11/12/2021, 16:37:56 - INFO - Req!!!
+11/12/2021, 16:37:56 - INFO - Req from: Will Smith
+11/12/2021, 16:39:55 - INFO - Req!!!
+11/12/2021, 16:39:55 - INFO - Req from: Will Smith
+11/12/2021, 16:44:55 - INFO - Req!!!
+11/12/2021, 16:44:55 - INFO - Req from: Will Smith
+11/12/2021, 16:50:16 - INFO - Req!!!
+11/12/2021, 16:50:16 - INFO - Req from: Will Smith
+11/12/2021, 16:51:54 - INFO - Req!!!
+11/12/2021, 16:51:54 - INFO - Req from: Will Smith
+11/12/2021, 16:52:35 - DEBUG - auth.service - login with username: eric
+11/12/2021, 16:52:53 - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+11/12/2021, 16:53:09 - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+11/12/2021, 16:53:27 - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+11/12/2021, 16:53:40 - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+11/12/2021, 16:55:36 - INFO - Server is running on port: 3030
+11/12/2021, 16:55:46 - DEBUG - auth.service - login with username: will
+11/12/2021, 16:55:52 - INFO - Req!!!
+11/12/2021, 16:55:52 - INFO - Req from: Will Smith
+11/12/2021, 16:56:00 - ERROR - Failed to update order | {}
+11/12/2021, 16:56:14 - INFO - Req!!!
+11/12/2021, 16:56:14 - INFO - Req from: Will Smith
+11/12/2021, 16:56:20 - ERROR - Failed to update order | {}
+11/12/2021, 16:56:53 - DEBUG - auth.service - login with username: will
+11/12/2021, 16:57:04 - INFO - Req!!!
+11/12/2021, 16:57:04 - INFO - Req from: Will Smith
+11/12/2021, 16:57:07 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:09 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:09 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:09 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:10 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:10 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:10 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:10 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:10 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:11 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:11 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:11 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:11 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:11 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:25 - INFO - Server is running on port: 3030
+11/12/2021, 16:57:31 - INFO - Req!!!
+11/12/2021, 16:58:21 - DEBUG - auth.service - login with username: will
+11/12/2021, 16:58:35 - INFO - Req!!!
+11/12/2021, 16:58:35 - INFO - Req from: Will Smith
+11/12/2021, 16:58:57 - INFO - Req!!!
+11/12/2021, 16:58:57 - INFO - Req from: Will Smith
+11/12/2021, 17:00:40 - INFO - Server is running on port: 3030
+11/12/2021, 17:04:54 - INFO - Server is running on port: 3030
+11/12/2021, 17:05:01 - INFO - Server is running on port: 3030
+11/12/2021, 17:05:17 - DEBUG - auth.service - login with username: will
+11/12/2021, 17:05:25 - INFO - Req!!!
+11/12/2021, 17:05:25 - INFO - Req from: Will Smith
+11/12/2021, 17:05:29 - ERROR - Failed to update order | {}
+11/12/2021, 17:05:31 - ERROR - Failed to update order | {}
+11/12/2021, 17:05:31 - ERROR - Failed to update order | {}
+11/12/2021, 17:05:32 - ERROR - Failed to update order | {}
+11/12/2021, 17:05:32 - ERROR - Failed to update order | {}
+11/12/2021, 17:05:33 - ERROR - Failed to update order | {}
+11/12/2021, 17:05:33 - ERROR - Failed to update order | {}
+11/12/2021, 17:05:33 - ERROR - Failed to update order | {}
+11/12/2021, 17:05:33 - ERROR - Failed to update order | {}
+11/12/2021, 17:05:34 - ERROR - Failed to update order | {}
+11/12/2021, 17:05:34 - ERROR - Failed to update order | {}
+11/12/2021, 17:05:43 - ERROR - Failed to update order | {}
+11/12/2021, 17:05:46 - INFO - Req!!!
+11/12/2021, 17:05:46 - INFO - Req from: Will Smith
+11/12/2021, 17:16:52 - INFO - Server is running on port: 3030
+11/12/2021, 17:17:00 - INFO - Server is running on port: 3030
+11/12/2021, 17:17:54 - INFO - Server is running on port: 3030
+11/12/2021, 17:18:21 - INFO - Server is running on port: 3030
+11/12/2021, 17:18:31 - DEBUG - auth.service - login with username: will
+11/12/2021, 17:18:38 - INFO - Req!!!
+11/12/2021, 17:18:38 - INFO - Req from: Will Smith
+11/12/2021, 17:21:33 - INFO - Server is running on port: 3030
+11/12/2021, 17:21:58 - DEBUG - auth.service - login with username: will
+11/12/2021, 17:22:06 - INFO - Req!!!
+11/12/2021, 17:22:06 - INFO - Req from: Will Smith
+11/12/2021, 17:22:45 - INFO - Req!!!
+11/12/2021, 17:22:45 - INFO - Req from: Will Smith
+11/12/2021, 17:23:13 - INFO - Req!!!
+11/12/2021, 17:23:13 - INFO - Req from: Will Smith
+11/12/2021, 17:23:30 - INFO - Req!!!
+11/12/2021, 17:23:30 - INFO - Req from: Will Smith
+11/12/2021, 17:24:07 - INFO - Server is running on port: 3030
+11/12/2021, 17:24:41 - INFO - Req!!!
+11/12/2021, 19:46:17 - INFO - Req!!!
+11/12/2021, 19:46:31 - INFO - Req!!!
+11/12/2021, 19:47:08 - DEBUG - auth.service - login with username: eric
+11/12/2021, 19:47:17 - INFO - Req!!!
+11/12/2021, 19:47:17 - INFO - Req from: Eric Miller
+11/12/2021, 19:49:56 - INFO - Req!!!
+11/12/2021, 19:49:56 - INFO - Req from: Eric Miller
+11/12/2021, 19:51:31 - INFO - Req!!!
+11/12/2021, 19:51:31 - INFO - Req from: Eric Miller
+11/12/2021, 19:52:35 - INFO - Req!!!
+11/12/2021, 19:52:35 - INFO - Req from: Eric Miller
+11/12/2021, 19:55:55 - DEBUG - auth.service - login with username: will
+11/12/2021, 19:56:02 - INFO - Req!!!
+11/12/2021, 19:56:02 - INFO - Req from: Will Smith
+11/12/2021, 20:08:34 - INFO - Server is running on port: 3030
+11/12/2021, 20:08:47 - INFO - Server is running on port: 3030
+11/12/2021, 20:09:16 - INFO - Server is running on port: 3030

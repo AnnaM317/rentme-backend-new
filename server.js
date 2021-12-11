@@ -1,7 +1,7 @@
-const express = require('express')
-const cors = require('cors')
-const path = require('path')
-const expressSession = require('express-session')
+const express = require('express');
+const cors = require('cors');
+const path = require('path');
+const expressSession = require('express-session');
 
 
 const app = express()
@@ -16,16 +16,16 @@ const session = expressSession({
     secret: 'coding is amazing',
     resave: false,
     saveUninitialized: true,
-    cookie: { secure: false }
-})
+    cookie: { secure: false },
+});
 // Express App Config
-app.use(express.json())
-app.use(session)
-app.use(express.static('public'))
+app.use(express.json());
+app.use(session);
+app.use(express.static('public'));
 
 if (process.env.NODE_ENV === 'production') {
     // Express serve static files on production environment
-    app.use(express.static(path.resolve(__dirname, 'public')))
+    app.use(express.static(path.resolve(__dirname, 'public')));
 } else {
     // Configuring CORS
     const corsOptions = {
@@ -59,8 +59,8 @@ connectSockets(http, session)
 // so when requesting http://localhost:3030/index.html/car/123 it will still respond with
 // our SPA (single page app) (the index.html file) and allow vue-router to take it from there
 app.get('/**', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'))
-})
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
 
 // io.on('connection', (socket) => {
 //     console.log('a user connected');
@@ -69,111 +69,7 @@ app.get('/**', (req, res) => {
 
 const logger = require('./services/logger.service')
 const port = process.env.PORT || 3030
+
 http.listen(port, () => {
-    logger.info('Server is running on port: ' + port)
-})
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const express = require('express')
-// const cookieParser = require('cookie-parser')
-// const session = require('express-session')
-// const cors = require('cors')
-
-// const toyService = require('./api/toy-service')
-
-// const app = express()
-// const port = 3000
-
-// // Express App Configuration:
-// // app.use(express.static('public'))
-// app.use(cors());
-// app.use(cookieParser())
-// app.use(express.json())
-// app.use(session({
-//     secret: 'some secret token',
-//     resave: false,
-//     saveUninitialized: true,
-//     cookie: { secure: false }
-// }))
-
-
-// // Toy API (CRUDL)
-
-// // LIST
-// app.get('/api/toy', (req, res) => {
-//     const filterBy = req.query;
-//     toyService.query(filterBy).then(toys => {
-//         res.send(toys)
-//     })
-// })
-
-// // READ
-// app.get('/api/toy/:toyId', (req, res) => {
-//     const { toyId } = req.params
-//     toyService.getById(toyId).then(toy => {
-//         res.send(toy)
-//     })
-// })
-
-// // DELETE
-// app.delete('/api/toy/:toyId', (req, res) => {
-
-//     const { toyId } = req.params
-//     toyService.remove(toyId)
-//         .then(() => {
-//             res.send('Deleted!')
-//         })
-//         .catch((err) => {
-//             res.status(401).send('Not your toy');
-//         });
-
-// })
-
-// // CREATE
-// app.post('/api/toy', (req, res) => {
-
-//     const toy = req.body
-//     toyService.save(toy).then((savedToy) => {
-//         console.log('Added New Toy: ', savedToy);
-//         res.send(savedToy)
-//     })
-// })
-
-// // UPDATE
-// app.put('/api/toy/:toyId', (req, res) => {
-
-//     const toy = req.body
-//     toyService.save(toy)
-//         .then((savedToy) => {
-//             console.log('Toy Updated: ', savedToy);
-//             res.send(savedToy)
-//         })
-//         .catch((err) => {
-//             console.log('Cannot update toy', err);
-//             res.status(401).send(err);
-//         });
-// })
-
-// app.listen(port, () => {
-//     console.log(`Server ready at http://localhost:${port}`)
-// })
+    logger.info('Server is running on port: ' + port);
+});

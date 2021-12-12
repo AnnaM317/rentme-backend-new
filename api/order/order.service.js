@@ -97,7 +97,7 @@ async function add(order) {
 async function update(order) {
     try {
         var id = ObjectId(order._id);
-        delete order._id;
+        // delete order._id;
         const collection = await dbService.getCollection('order');
         await collection.updateOne({ _id: id }, { $set: { ...order } });
         return order;

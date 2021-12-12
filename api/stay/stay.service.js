@@ -243,16 +243,41 @@ async function add(stay) {
 }
 async function update(stay) {
     try {
-        var id = ObjectId(stay._id);
-        //?
-        delete stay._id;
-        const collection = await dbService.getCollection('stay');
-        await collection.updateOne({ _id: id }, { $set: { ...stay } });
-        return stay;
+        // pick only updatable fields!
+        const stayToUpdate = {
+            _id: ObjectId(stay._id),
+            name: stay.name,
+            type: stay.type,
+            imgUrls: stay.imgUrls,
+            price: stay.price,
+            avgRate: stay.avgRate,
+            summary: stay.summary,
+            capacity: stay.capacity,
+            amenities: stay.amenities || [],
+            host: stay.host,
+            loc: stay.loc,
+            reviews: stay.reviews,
+            likedByUsers: stay.likedByUsers,
+        }
+        const collection = await dbService.getCollection('stay')
+        await collection.updateOne({ _id: stayToUpdate._id }, { $set: stayToUpdate })
+        console.log('stayToUpdate', stayToUpdate);
+        return stayToUpdate
     } catch (err) {
-        logger.error(`Cannot update stay ${stay._id}`, err);
-        throw err;
+        logger.error(`cannot update stay ${stay._id}`, err)
+        throw err
     }
+    // try {
+    //     var id = ObjectId(stay._id);
+    //     //?
+    //     delete stay._id;
+    //     const collection = await dbService.getCollection('stay');
+    //     await collection.updateOne({ _id: id }, { $set: { ...stay } });
+    //     return stay;
+    // } catch (err) {
+    //     logger.error(`Cannot update stay ${stay._id}`, err);
+    //     throw err;
+    // }
 }
 ////1) need to add stays that user liked
 ////2)stays that a host have

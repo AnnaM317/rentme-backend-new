@@ -113,10 +113,15 @@ function _buildCriteria(filterBy) {
     //  }
     // criteria = criterias.length === 0 ? {} : { $and: criterias };
     if (filterBy.city) {
+        if (filterBy.city === 'flexible') {
+            criteria['loc.city'] = { $in: ['Bora Bora', 'Hawaii', 'France'] };
+        } else {
+            const cityCriteria = { $regex: filterBy.city, $options: 'i' };
+            criteria['loc.address'] = cityCriteria;
+        }
+        // ( { qty: { $in: [ 5, 15 ] } } )
         // const cityCriteria = { $regex: filterBy.city, $options: 'i' }
         // criteria = { 'loc.address': cityCriteria }
-        const cityCriteria = { $regex: filterBy.city, $options: 'i' };
-        criteria['loc.address'] = cityCriteria;
     }
     // const txtCriteria = { $regex: filterBy.city, $options: 'i' };
     // if (filterBy.city && filterBy.city !== '') {

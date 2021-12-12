@@ -1,7 +1,7 @@
 const dbService = require('../../services/db.service');
 const ObjectId = require('mongodb').ObjectId;
 const asyncLocalStorage = require('../../services/als.service');
-const socketService = require('../../services/socket.service')
+const socketService = require('../../services/socket.service');
 
 module.exports = {
     remove,
@@ -87,7 +87,11 @@ async function add(order) {
         order.stay = stay;
         const collection = await dbService.getCollection('order');
         const addedOrder = await collection.insertOne(order);
-        socketService.emitToUser({ type: 'order-added', data: order, userId: order.hostId })
+        socketService.emitToUser({
+            type: 'order-added',
+            data: order,
+            userId: order.hostId,
+        });
         return addedOrder;
     } catch (err) {
         logger.error('cannot insert order', err);
@@ -96,10 +100,17 @@ async function add(order) {
 }
 async function update(order) {
     try {
-        var id = ObjectId(order._id);
+        // var id = ObjectId(order._id);
         // delete order._id;
+        const orderToSave = {
+            _id: ObjectId(order._id), // needed for the returnd obj
+            status: order.status,
+        };
+        // const collection = await dbService.getCollection('order');
+        // await collection.updateOne({ _id: id }, { $set: { ...order } });
+        // return order;
         const collection = await dbService.getCollection('order');
-        await collection.updateOne({ _id: id }, { $set: { ...order } });
+        await collection.updateOne({ _id: orderToSave._id }, { $set: orderToSave });
         return order;
     } catch (err) {
         logger.error(`cannot update order ${order._id}`, err);

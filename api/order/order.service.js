@@ -49,6 +49,7 @@ async function getById(orderId) {
 }
 
 async function remove(orderId) {
+  console.log('remove order back&&&&&&&&&');
   try {
     const collection = await dbService.getCollection('order');
     await collection.deleteOne({ _id: ObjectId(orderId) });

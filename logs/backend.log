@@ -1033,6 +1033,92 @@
 =======
 >>>>>>> e89c840ba98d9935326c45d703d6762e55b0ab44
 <<<<<<< HEAD
+12/10/2021, 4:56:33 PM - INFO - Server is running on port: 3030
+12/11/2021, 11:07:44 AM - DEBUG - auth.service - login with username: will
+12/11/2021, 11:09:13 AM - DEBUG - auth.service - login with username: eric
+12/11/2021, 11:09:25 AM - INFO - Req!!!
+12/11/2021, 11:09:25 AM - INFO - Req from: Eric Miller
+12/11/2021, 11:57:51 AM - INFO - Req!!!
+12/11/2021, 11:57:51 AM - INFO - Req from: Eric Miller
+12/11/2021, 7:54:27 PM - INFO - Req!!!
+12/11/2021, 8:22:05 PM - INFO - Req!!!
+12/11/2021, 8:43:18 PM - INFO - Req!!!
+12/11/2021, 8:44:06 PM - INFO - Req!!!
+12/11/2021, 8:45:44 PM - INFO - Req!!!
+12/11/2021, 8:54:29 PM - INFO - Req!!!
+12/11/2021, 9:00:23 PM - INFO - Req!!!
+12/11/2021, 9:01:16 PM - INFO - Req!!!
+12/11/2021, 9:01:44 PM - INFO - Req!!!
+12/11/2021, 9:02:53 PM - DEBUG - auth.service - login with username: eric
+12/11/2021, 9:02:59 PM - INFO - Req!!!
+12/11/2021, 9:02:59 PM - INFO - Req from: Eric Miller
+12/11/2021, 9:05:25 PM - INFO - Req!!!
+12/11/2021, 9:05:25 PM - INFO - Req from: Eric Miller
+12/11/2021, 9:06:34 PM - INFO - Req!!!
+12/11/2021, 9:06:34 PM - INFO - Req from: Eric Miller
+12/11/2021, 9:06:42 PM - INFO - Req!!!
+12/11/2021, 9:06:42 PM - INFO - Req from: Eric Miller
+12/11/2021, 9:07:30 PM - INFO - Req!!!
+12/11/2021, 9:07:30 PM - INFO - Req from: Eric Miller
+12/11/2021, 9:08:29 PM - INFO - Req!!!
+12/11/2021, 9:08:29 PM - INFO - Req from: Eric Miller
+12/11/2021, 9:16:40 PM - INFO - Req!!!
+12/11/2021, 9:16:40 PM - INFO - Req from: Eric Miller
+12/11/2021, 9:17:16 PM - INFO - Req!!!
+12/11/2021, 9:17:16 PM - INFO - Req from: Eric Miller
+12/11/2021, 9:24:34 PM - INFO - Req!!!
+12/11/2021, 9:24:34 PM - INFO - Req from: Eric Miller
+12/11/2021, 9:39:07 PM - INFO - Req!!!
+12/11/2021, 9:39:07 PM - INFO - Req from: Eric Miller
+12/11/2021, 9:45:02 PM - INFO - Req!!!
+12/11/2021, 9:45:02 PM - INFO - Req from: Eric Miller
+12/11/2021, 9:47:37 PM - INFO - Req!!!
+12/11/2021, 9:47:37 PM - INFO - Req from: Eric Miller
+12/11/2021, 9:55:37 PM - INFO - Req!!!
+12/11/2021, 9:55:37 PM - INFO - Req from: Eric Miller
+12/11/2021, 9:59:42 PM - INFO - Req!!!
+12/11/2021, 9:59:42 PM - INFO - Req from: Eric Miller
+12/11/2021, 10:02:43 PM - ERROR - Failed to delete order | {}
+12/11/2021, 10:03:32 PM - INFO - Req!!!
+12/11/2021, 10:03:32 PM - INFO - Req from: Eric Miller
+12/11/2021, 10:07:31 PM - INFO - Req!!!
+12/11/2021, 10:07:31 PM - INFO - Req from: Eric Miller
+12/11/2021, 10:08:27 PM - INFO - Req!!!
+12/11/2021, 10:08:27 PM - INFO - Req from: Eric Miller
+12/11/2021, 11:26:54 PM - INFO - Req!!!
+12/11/2021, 11:26:54 PM - INFO - Req from: Eric Miller
+12/11/2021, 11:27:13 PM - DEBUG - auth.service - login with username: will
+12/11/2021, 11:27:28 PM - INFO - Req!!!
+12/11/2021, 11:27:28 PM - INFO - Req from: Will Smith
+12/11/2021, 11:27:35 PM - INFO - Req!!!
+12/11/2021, 11:27:35 PM - INFO - Req from: Will Smith
+12/11/2021, 11:27:42 PM - INFO - Req!!!
+12/11/2021, 11:27:42 PM - INFO - Req from: Will Smith
+12/12/2021, 9:40:58 AM - INFO - Req!!!
+12/12/2021, 9:40:58 AM - INFO - Req from: Will Smith
+12/12/2021, 9:50:20 AM - INFO - Req!!!
+12/12/2021, 9:50:20 AM - INFO - Req from: Will Smith
+12/12/2021, 11:09:00 AM - INFO - Req!!!
+12/12/2021, 11:09:00 AM - INFO - Req from: Will Smith
+12/12/2021, 11:10:55 AM - INFO - Req!!!
+12/12/2021, 11:10:55 AM - INFO - Req from: Will Smith
+12/12/2021, 11:12:47 AM - INFO - Req!!!
+12/12/2021, 11:12:47 AM - INFO - Req from: Will Smith
+12/12/2021, 11:45:15 AM - INFO - Req!!!
+12/12/2021, 11:45:15 AM - INFO - Req from: Will Smith
+12/12/2021, 11:45:20 AM - INFO - Req!!!
+12/12/2021, 11:45:20 AM - INFO - Req from: Will Smith
+12/12/2021, 11:46:40 AM - INFO - Req!!!
+12/12/2021, 11:46:40 AM - INFO - Req from: Will Smith
+12/12/2021, 11:47:05 AM - INFO - Req!!!
+12/12/2021, 11:47:05 AM - INFO - Req from: Will Smith
+12/12/2021, 11:47:27 AM - INFO - Req!!!
+12/12/2021, 11:47:27 AM - INFO - Req from: Will Smith
+12/12/2021, 11:50:04 AM - INFO - Server is running on port: 3030
+12/12/2021, 11:50:11 AM - INFO - Req!!!
+12/12/2021, 11:50:28 AM - INFO - Req!!!
+=======
+<<<<<<< HEAD
 10/12/2021, 16:56:12 - INFO - Server is running on port: 3030
 10/12/2021, 16:57:09 - DEBUG - auth.service - login with username: will
 10/12/2021, 16:58:37 - INFO - Server is running on port: 3030
@@ -1666,6 +1752,7 @@
 12/12/2021, 12:00:31 PM - DEBUG - auth.service - login with username: eric
 12/12/2021, 12:00:31 PM - DEBUG - Setting (IaQeMmDc68XLVaGLAAAF) socket.userId = 61ae18879c562696b6dd6e21
 12/12/2021, 12:00:57 PM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+<<<<<<< HEAD
 12/12/2021, 12:29:48 PM - INFO - Req!!!
 12/12/2021, 12:29:48 PM - INFO - Req from: Will Smith
 12/12/2021, 12:31:32 PM - INFO - Server is running on port: 3030
@@ -1790,3 +1877,6 @@
 12/12/2021, 8:21:22 PM - INFO - Server is running on port: 3030
 12/12/2021, 8:22:59 PM - INFO - Server is running on port: 3030
 12/12/2021, 11:07:49 PM - INFO - Server is running on port: 3030
+=======
+>>>>>>> 39e1d5139a849a05f74ac9206d848cbdd7f7e7f5
+>>>>>>> 04cf7361b06c5ef0e7b8eb36fbfcb872d4ce5488

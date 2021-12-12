@@ -377,6 +377,287 @@
 12/9/2021, 7:36:33 PM - INFO - Server is running on port: 3030
 12/9/2021, 7:37:04 PM - DEBUG - auth.service - login with username: eric
 <<<<<<< HEAD
+<<<<<<< HEAD
+09/12/2021, 19:47:00 - INFO - Server is running on port: 3030
+09/12/2021, 19:48:09 - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039761013746434054"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039761013746434054"},"signature":{"hash":"TEbP8pKKrjcTWiIohb7m3tMvbmU=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 19:48:09 - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039761013746434054"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039761013746434054"},"signature":{"hash":"TEbP8pKKrjcTWiIohb7m3tMvbmU=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 19:48:09 - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039761018041401360"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039761018041401360"},"signature":{"hash":"XtGV/BK0Vpp5hB4M0HWSfAxZf4U=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 19:48:09 - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039761018041401360"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039761018041401360"},"signature":{"hash":"XtGV/BK0Vpp5hB4M0HWSfAxZf4U=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 19:48:12 - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039761026631335942"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039761026631335942"},"signature":{"hash":"FcAxo3dyXAHtedQcCDjdVrSm2S0=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 19:48:12 - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039761026631335942"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039761026631335942"},"signature":{"hash":"FcAxo3dyXAHtedQcCDjdVrSm2S0=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 19:48:12 - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039761030926303237"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039761030926303237"},"signature":{"hash":"RkpzrSc58OdeseHkpNtke4rI5K4=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 19:48:12 - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039761030926303237"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039761030926303237"},"signature":{"hash":"RkpzrSc58OdeseHkpNtke4rI5K4=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 19:48:21 - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039761065286041605"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039761065286041605"},"signature":{"hash":"ZFE6eqIfq8dZAzm6U6moNrVWff4=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 19:48:21 - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039761065286041605"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039761065286041605"},"signature":{"hash":"ZFE6eqIfq8dZAzm6U6moNrVWff4=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 19:48:21 - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039761069581008900"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039761069581008900"},"signature":{"hash":"nhz+g5NDQX/ayiB616fXAmYtgrI=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 19:48:21 - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039761069581008900"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039761069581008900"},"signature":{"hash":"nhz+g5NDQX/ayiB616fXAmYtgrI=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 19:48:21 - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039761069581008900"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039761069581008900"},"signature":{"hash":"nhz+g5NDQX/ayiB616fXAmYtgrI=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 19:48:21 - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039761069581008900"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039761069581008900"},"signature":{"hash":"nhz+g5NDQX/ayiB616fXAmYtgrI=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 19:48:21 - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039761069581008901"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039761069581008901"},"signature":{"hash":"nhz+g5NDQX/ayiB616fXAmYtgrI=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 19:48:21 - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039761069581008901"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039761069581008901"},"signature":{"hash":"nhz+g5NDQX/ayiB616fXAmYtgrI=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 19:50:29 - INFO - Server is running on port: 3030
+09/12/2021, 19:51:12 - INFO - Server is running on port: 3030
+09/12/2021, 19:51:40 - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039761919984533511"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039761919984533511"},"signature":{"hash":"VmJU93HB52BIPs1MKc0wq9/HoEs=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 19:51:40 - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039761919984533511"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039761919984533511"},"signature":{"hash":"VmJU93HB52BIPs1MKc0wq9/HoEs=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 19:51:50 - ERROR - cannot find stays | {}
+09/12/2021, 19:51:50 - ERROR - Cannot get stays | {}
+09/12/2021, 19:51:50 - ERROR - cannot find stays | {}
+09/12/2021, 19:51:50 - ERROR - Cannot get stays | {}
+09/12/2021, 19:52:02 - ERROR - cannot find stays | {}
+09/12/2021, 19:52:02 - ERROR - Cannot get stays | {}
+09/12/2021, 19:52:02 - ERROR - cannot find stays | {}
+09/12/2021, 19:52:02 - ERROR - Cannot get stays | {}
+09/12/2021, 19:52:18 - INFO - Server is running on port: 3030
+09/12/2021, 19:52:34 - ERROR - cannot find stays | {}
+09/12/2021, 19:52:34 - ERROR - Cannot get stays | {}
+09/12/2021, 19:52:34 - ERROR - cannot find stays | {}
+09/12/2021, 19:52:34 - ERROR - Cannot get stays | {}
+09/12/2021, 19:52:54 - ERROR - cannot find stays | {}
+09/12/2021, 19:52:54 - ERROR - Cannot get stays | {}
+09/12/2021, 19:53:47 - INFO - Server is running on port: 3030
+09/12/2021, 19:54:15 - INFO - Server is running on port: 3030
+09/12/2021, 19:54:32 - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039762663013875717"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039762663013875717"},"signature":{"hash":"dpd7lgprsZ2arzA04Aqryp0vgrA=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 19:54:32 - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039762663013875717"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039762663013875717"},"signature":{"hash":"dpd7lgprsZ2arzA04Aqryp0vgrA=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 19:55:47 - INFO - Server is running on port: 3030
+09/12/2021, 19:55:59 - INFO - Server is running on port: 3030
+09/12/2021, 19:56:23 - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039763135460278279"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039763135460278279"},"signature":{"hash":"irh8Mu1mi3UICMASsxtFZiWYDe4=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 19:56:23 - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039763135460278279"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039763135460278279"},"signature":{"hash":"irh8Mu1mi3UICMASsxtFZiWYDe4=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 19:57:05 - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039763315848904711"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039763315848904711"},"signature":{"hash":"90ovwZYLKJDWkyxi5WHiTPvPaSA=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 19:57:05 - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039763315848904711"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039763315848904711"},"signature":{"hash":"90ovwZYLKJDWkyxi5WHiTPvPaSA=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 19:58:38 - INFO - Server is running on port: 3030
+09/12/2021, 19:59:19 - INFO - Server is running on port: 3030
+09/12/2021, 20:01:51 - INFO - Server is running on port: 3030
+09/12/2021, 20:05:20 - INFO - Server is running on port: 3030
+09/12/2021, 20:05:34 - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039765506282225667"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039765506282225667"},"signature":{"hash":"B1XCD9vcNGjJ+iqS9I5zc2S5gNc=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 20:05:34 - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039765506282225667"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039765506282225667"},"signature":{"hash":"B1XCD9vcNGjJ+iqS9I5zc2S5gNc=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 20:06:54 - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039765849879609346"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039765849879609346"},"signature":{"hash":"YOKQZ8BBWEa+whrZN55v9YVqrsQ=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 20:06:54 - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039765849879609346"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039765849879609346"},"signature":{"hash":"YOKQZ8BBWEa+whrZN55v9YVqrsQ=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 20:07:31 - INFO - Server is running on port: 3030
+09/12/2021, 20:07:37 - INFO - Server is running on port: 3030
+09/12/2021, 20:07:50 - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039766086102810630"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039766086102810630"},"signature":{"hash":"2qi8kxab2gCpwZp7uBoC2NocL+w=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 20:07:50 - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039766086102810630"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039766086102810630"},"signature":{"hash":"2qi8kxab2gCpwZp7uBoC2NocL+w=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 20:07:53 - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039766098987712517"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039766098987712517"},"signature":{"hash":"buqk6emQFNh14VMbk3J6TUmaBLg=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 20:07:53 - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039766098987712517"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039766098987712517"},"signature":{"hash":"buqk6emQFNh14VMbk3J6TUmaBLg=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 20:15:52 - INFO - Server is running on port: 3030
+09/12/2021, 20:16:00 - INFO - Server is running on port: 3030
+09/12/2021, 20:20:57 - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039769470537039875"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039769470537039875"},"signature":{"hash":"6uWwaCvCfSUYdCkEO3c447V22V8=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 20:20:57 - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039769470537039875"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039769470537039875"},"signature":{"hash":"6uWwaCvCfSUYdCkEO3c447V22V8=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 20:26:08 - INFO - Server is running on port: 3030
+09/12/2021, 20:26:13 - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039770827746705411"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039770827746705411"},"signature":{"hash":"OTgea+vcyFAuicoIsGElHrUTbH8=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 20:26:13 - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039770827746705411"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039770827746705411"},"signature":{"hash":"OTgea+vcyFAuicoIsGElHrUTbH8=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 20:26:23 - INFO - Server is running on port: 3030
+09/12/2021, 20:26:35 - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039770917941018630"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039770917941018630"},"signature":{"hash":"HepgwCAnRww+Tae0UOoWK5LYs1I=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 20:26:35 - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039770917941018630"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039770917941018630"},"signature":{"hash":"HepgwCAnRww+Tae0UOoWK5LYs1I=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 20:27:29 - INFO - Server is running on port: 3030
+09/12/2021, 20:27:33 - INFO - Server is running on port: 3030
+09/12/2021, 20:27:41 - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039771205703827457"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039771205703827457"},"signature":{"hash":"q0IFpv9R3vnz00TqfFOUwoOQPWU=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 20:27:41 - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039771205703827457"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039771205703827457"},"signature":{"hash":"q0IFpv9R3vnz00TqfFOUwoOQPWU=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 20:28:47 - INFO - Server is running on port: 3030
+09/12/2021, 20:28:52 - INFO - Server is running on port: 3030
+09/12/2021, 20:28:55 - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039771523531407366"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039771523531407366"},"signature":{"hash":"7Xo7Xukqh7Kal9xAwb4gU8Am8Zk=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 20:28:55 - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039771523531407366"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039771523531407366"},"signature":{"hash":"7Xo7Xukqh7Kal9xAwb4gU8Am8Zk=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 20:29:13 - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039771596545851396"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039771596545851396"},"signature":{"hash":"0lQJAMNV8gY250CfZGT8cYA/1aY=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 20:29:13 - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039771596545851396"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039771596545851396"},"signature":{"hash":"0lQJAMNV8gY250CfZGT8cYA/1aY=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
+09/12/2021, 20:32:28 - INFO - Server is running on port: 3030
+09/12/2021, 20:32:34 - INFO - Server is running on port: 3030
+09/12/2021, 20:36:44 - INFO - Server is running on port: 3030
+09/12/2021, 20:59:45 - DEBUG - auth.service - login with username: eric
+09/12/2021, 21:25:48 - INFO - Server is running on port: 3030
+09/12/2021, 21:25:56 - INFO - Server is running on port: 3030
+09/12/2021, 21:25:59 - ERROR - cannot find stays | {}
+09/12/2021, 21:25:59 - ERROR - Cannot get stays | {}
+09/12/2021, 21:31:05 - INFO - Server is running on port: 3030
+09/12/2021, 21:31:10 - INFO - Server is running on port: 3030
+09/12/2021, 21:31:21 - ERROR - cannot find stays | {}
+09/12/2021, 21:31:21 - ERROR - Cannot get stays | {}
+09/12/2021, 21:32:48 - INFO - Server is running on port: 3030
+09/12/2021, 21:32:52 - INFO - Server is running on port: 3030
+09/12/2021, 21:33:05 - ERROR - cannot find stays | {}
+09/12/2021, 21:33:05 - ERROR - Cannot get stays | {}
+09/12/2021, 21:35:25 - INFO - Server is running on port: 3030
+09/12/2021, 21:35:30 - INFO - Server is running on port: 3030
+09/12/2021, 21:35:33 - ERROR - cannot find stays | {}
+09/12/2021, 21:35:33 - ERROR - Cannot get stays | {}
+09/12/2021, 21:41:53 - INFO - Server is running on port: 3030
+09/12/2021, 21:41:59 - INFO - Server is running on port: 3030
+09/12/2021, 21:42:04 - ERROR - cannot find stays | {}
+09/12/2021, 21:42:04 - ERROR - Cannot get stays | {}
+09/12/2021, 21:43:29 - INFO - Server is running on port: 3030
+09/12/2021, 21:43:34 - INFO - Server is running on port: 3030
+09/12/2021, 21:43:38 - ERROR - cannot find stays | {}
+09/12/2021, 21:43:38 - ERROR - Cannot get stays | {}
+09/12/2021, 21:44:52 - INFO - Server is running on port: 3030
+09/12/2021, 21:45:03 - ERROR - cannot find stays | {}
+09/12/2021, 21:45:03 - ERROR - Cannot get stays | {}
+09/12/2021, 21:45:11 - INFO - Server is running on port: 3030
+09/12/2021, 21:45:18 - ERROR - cannot find stays | {}
+09/12/2021, 21:45:18 - ERROR - Cannot get stays | {}
+09/12/2021, 21:48:27 - INFO - Server is running on port: 3030
+09/12/2021, 21:48:30 - INFO - Server is running on port: 3030
+09/12/2021, 21:49:11 - INFO - Server is running on port: 3030
+09/12/2021, 21:49:16 - INFO - Server is running on port: 3030
+09/12/2021, 21:49:19 - ERROR - cannot find stays | {}
+09/12/2021, 21:49:19 - ERROR - Cannot get stays | {}
+09/12/2021, 21:49:46 - INFO - Server is running on port: 3030
+09/12/2021, 21:49:49 - INFO - Server is running on port: 3030
+09/12/2021, 21:50:43 - INFO - Server is running on port: 3030
+09/12/2021, 21:50:47 - INFO - Server is running on port: 3030
+09/12/2021, 21:55:30 - DEBUG - auth.service - login with username: will
+09/12/2021, 22:05:39 - INFO - Server is running on port: 3030
+09/12/2021, 22:05:44 - INFO - Server is running on port: 3030
+09/12/2021, 22:08:01 - INFO - Server is running on port: 3030
+09/12/2021, 22:08:07 - INFO - Server is running on port: 3030
+09/12/2021, 22:13:05 - DEBUG - auth.service - login with username: will
+09/12/2021, 22:14:32 - INFO - Server is running on port: 3030
+09/12/2021, 22:14:37 - INFO - Server is running on port: 3030
+09/12/2021, 22:16:54 - INFO - Server is running on port: 3030
+09/12/2021, 22:16:58 - INFO - Server is running on port: 3030
+09/12/2021, 22:25:43 - INFO - Server is running on port: 3030
+09/12/2021, 22:25:47 - INFO - Server is running on port: 3030
+09/12/2021, 22:26:06 - ERROR - cannot find stays | {}
+09/12/2021, 22:26:06 - ERROR - Cannot get stays | {}
+09/12/2021, 22:27:40 - DEBUG - auth.service - login with username: will
+09/12/2021, 22:29:57 - ERROR - cannot find stays | {}
+09/12/2021, 22:29:57 - ERROR - Cannot get stays | {}
+09/12/2021, 22:30:58 - INFO - Server is running on port: 3030
+09/12/2021, 22:31:02 - INFO - Server is running on port: 3030
+09/12/2021, 22:31:05 - ERROR - cannot find stays | {}
+09/12/2021, 22:31:05 - ERROR - Cannot get stays | {}
+09/12/2021, 22:31:30 - INFO - Server is running on port: 3030
+09/12/2021, 22:31:36 - INFO - Server is running on port: 3030
+09/12/2021, 22:31:43 - INFO - Server is running on port: 3030
+09/12/2021, 22:32:16 - ERROR - cannot find stays | {}
+09/12/2021, 22:32:16 - ERROR - Cannot get stays | {}
+09/12/2021, 22:32:43 - INFO - Server is running on port: 3030
+09/12/2021, 22:32:47 - INFO - Server is running on port: 3030
+09/12/2021, 22:33:01 - INFO - Server is running on port: 3030
+09/12/2021, 22:33:06 - INFO - Server is running on port: 3030
+09/12/2021, 22:34:45 - INFO - Server is running on port: 3030
+09/12/2021, 22:34:49 - INFO - Server is running on port: 3030
+09/12/2021, 22:34:56 - ERROR - cannot find stays | {}
+09/12/2021, 22:34:56 - ERROR - Cannot get stays | {}
+09/12/2021, 22:35:57 - ERROR - cannot find stays | {}
+09/12/2021, 22:35:57 - ERROR - Cannot get stays | {}
+09/12/2021, 22:37:05 - INFO - Server is running on port: 3030
+09/12/2021, 22:37:36 - INFO - Server is running on port: 3030
+09/12/2021, 22:38:09 - INFO - Server is running on port: 3030
+09/12/2021, 22:38:15 - INFO - Server is running on port: 3030
+09/12/2021, 22:39:51 - INFO - Server is running on port: 3030
+09/12/2021, 22:39:57 - INFO - Server is running on port: 3030
+09/12/2021, 22:40:01 - ERROR - cannot find stays | {}
+09/12/2021, 22:40:01 - ERROR - Cannot get stays | {}
+09/12/2021, 22:42:27 - ERROR - cannot find stays | {}
+09/12/2021, 22:42:27 - ERROR - Cannot get stays | {}
+09/12/2021, 22:43:35 - INFO - Server is running on port: 3030
+09/12/2021, 22:43:56 - ERROR - cannot find stays | {}
+09/12/2021, 22:43:56 - ERROR - Cannot get stays | {}
+09/12/2021, 22:44:03 - INFO - Server is running on port: 3030
+09/12/2021, 22:44:06 - ERROR - cannot find stays | {}
+09/12/2021, 22:44:06 - ERROR - Cannot get stays | {}
+09/12/2021, 22:44:09 - ERROR - cannot find stays | {}
+09/12/2021, 22:44:09 - ERROR - Cannot get stays | {}
+09/12/2021, 22:44:29 - INFO - Server is running on port: 3030
+09/12/2021, 22:44:33 - INFO - Server is running on port: 3030
+09/12/2021, 22:44:35 - ERROR - cannot find stays | {}
+09/12/2021, 22:44:35 - ERROR - Cannot get stays | {}
+09/12/2021, 22:44:41 - ERROR - cannot find stays | {}
+09/12/2021, 22:44:41 - ERROR - Cannot get stays | {}
+09/12/2021, 22:45:01 - INFO - Server is running on port: 3030
+09/12/2021, 22:45:05 - INFO - Server is running on port: 3030
+09/12/2021, 22:45:36 - INFO - Server is running on port: 3030
+09/12/2021, 22:45:40 - INFO - Server is running on port: 3030
+09/12/2021, 22:46:25 - INFO - Server is running on port: 3030
+09/12/2021, 22:46:30 - INFO - Server is running on port: 3030
+09/12/2021, 22:48:43 - INFO - Server is running on port: 3030
+09/12/2021, 22:48:47 - INFO - Server is running on port: 3030
+09/12/2021, 22:49:11 - INFO - Server is running on port: 3030
+09/12/2021, 22:49:15 - INFO - Server is running on port: 3030
+09/12/2021, 22:49:18 - ERROR - cannot find stays | {}
+09/12/2021, 22:49:18 - ERROR - Cannot get stays | {}
+09/12/2021, 22:49:19 - ERROR - cannot find stays | {}
+09/12/2021, 22:49:19 - ERROR - Cannot get stays | {}
+09/12/2021, 22:50:54 - INFO - Server is running on port: 3030
+09/12/2021, 22:51:01 - INFO - Server is running on port: 3030
+09/12/2021, 22:51:08 - ERROR - cannot find stays | {}
+09/12/2021, 22:51:08 - ERROR - Cannot get stays | {}
+09/12/2021, 22:55:18 - INFO - Server is running on port: 3030
+09/12/2021, 22:55:23 - INFO - Server is running on port: 3030
+09/12/2021, 23:09:38 - INFO - Server is running on port: 3030
+09/12/2021, 23:12:06 - INFO - Server is running on port: 3030
+09/12/2021, 23:12:16 - INFO - Server is running on port: 3030
+09/12/2021, 23:14:45 - INFO - Server is running on port: 3030
+09/12/2021, 23:14:47 - INFO - Server is running on port: 3030
+09/12/2021, 23:17:18 - INFO - Server is running on port: 3030
+09/12/2021, 23:17:20 - INFO - Server is running on port: 3030
+09/12/2021, 23:21:20 - INFO - Server is running on port: 3030
+09/12/2021, 23:21:22 - INFO - Server is running on port: 3030
+09/12/2021, 23:24:35 - INFO - Server is running on port: 3030
+09/12/2021, 23:24:38 - INFO - Server is running on port: 3030
+09/12/2021, 23:27:02 - INFO - Server is running on port: 3030
+09/12/2021, 23:27:08 - INFO - Server is running on port: 3030
+09/12/2021, 23:27:46 - INFO - Server is running on port: 3030
+09/12/2021, 23:27:48 - INFO - Server is running on port: 3030
+09/12/2021, 23:30:35 - INFO - Server is running on port: 3030
+09/12/2021, 23:30:37 - INFO - Server is running on port: 3030
+09/12/2021, 23:32:08 - INFO - Server is running on port: 3030
+09/12/2021, 23:32:10 - INFO - Server is running on port: 3030
+09/12/2021, 23:33:34 - INFO - Server is running on port: 3030
+09/12/2021, 23:33:36 - INFO - Server is running on port: 3030
+09/12/2021, 23:34:26 - INFO - Server is running on port: 3030
+09/12/2021, 23:34:28 - INFO - Server is running on port: 3030
+09/12/2021, 23:34:42 - INFO - Server is running on port: 3030
+09/12/2021, 23:34:44 - INFO - Server is running on port: 3030
+09/12/2021, 23:35:06 - INFO - Server is running on port: 3030
+09/12/2021, 23:35:10 - INFO - Server is running on port: 3030
+09/12/2021, 23:35:21 - INFO - Server is running on port: 3030
+09/12/2021, 23:37:35 - INFO - Server is running on port: 3030
+09/12/2021, 23:37:39 - INFO - Server is running on port: 3030
+09/12/2021, 23:37:42 - INFO - Server is running on port: 3030
+09/12/2021, 23:38:28 - INFO - Server is running on port: 3030
+09/12/2021, 23:38:31 - INFO - Server is running on port: 3030
+09/12/2021, 23:43:20 - INFO - Server is running on port: 3030
+09/12/2021, 23:43:26 - INFO - Server is running on port: 3030
+09/12/2021, 23:43:33 - ERROR - cannot find stays | {}
+09/12/2021, 23:43:33 - ERROR - Cannot get stays | {}
+09/12/2021, 23:45:01 - INFO - Server is running on port: 3030
+09/12/2021, 23:45:05 - INFO - Server is running on port: 3030
+09/12/2021, 23:45:47 - INFO - Server is running on port: 3030
+09/12/2021, 23:45:52 - INFO - Server is running on port: 3030
+09/12/2021, 23:46:14 - INFO - Server is running on port: 3030
+09/12/2021, 23:46:17 - INFO - Server is running on port: 3030
+09/12/2021, 23:46:18 - ERROR - cannot find stays | {}
+09/12/2021, 23:46:18 - ERROR - Cannot get stays | {}
+09/12/2021, 23:46:33 - INFO - Server is running on port: 3030
+09/12/2021, 23:47:29 - INFO - Server is running on port: 3030
+09/12/2021, 23:52:29 - INFO - Server is running on port: 3030
+09/12/2021, 23:52:33 - INFO - Server is running on port: 3030
+09/12/2021, 23:52:37 - ERROR - cannot find stays | {}
+09/12/2021, 23:52:37 - ERROR - Cannot get stays | {}
+09/12/2021, 23:53:01 - INFO - Server is running on port: 3030
+09/12/2021, 23:53:05 - INFO - Server is running on port: 3030
+09/12/2021, 23:53:07 - ERROR - cannot find stays | {}
+09/12/2021, 23:53:07 - ERROR - Cannot get stays | {}
+09/12/2021, 23:54:51 - INFO - Server is running on port: 3030
+09/12/2021, 23:54:56 - INFO - Server is running on port: 3030
+09/12/2021, 23:55:03 - ERROR - cannot find stays | {}
+09/12/2021, 23:55:03 - ERROR - Cannot get stays | {}
+09/12/2021, 23:55:05 - ERROR - cannot find stays | {}
+09/12/2021, 23:55:05 - ERROR - Cannot get stays | {}
+09/12/2021, 23:55:22 - ERROR - cannot find stays | {}
+09/12/2021, 23:55:22 - ERROR - Cannot get stays | {}
+09/12/2021, 23:55:23 - ERROR - cannot find stays | {}
+09/12/2021, 23:55:23 - ERROR - Cannot get stays | {}
+09/12/2021, 23:56:27 - INFO - Server is running on port: 3030
+09/12/2021, 23:56:31 - INFO - Server is running on port: 3030
+09/12/2021, 23:56:36 - ERROR - cannot find stays | {}
+09/12/2021, 23:56:36 - ERROR - Cannot get stays | {}
+09/12/2021, 23:57:07 - INFO - Server is running on port: 3030
+09/12/2021, 23:57:11 - INFO - Server is running on port: 3030
+09/12/2021, 23:58:01 - INFO - Server is running on port: 3030
+09/12/2021, 23:58:05 - INFO - Server is running on port: 3030
+10/12/2021, 0:03:10 - INFO - Server is running on port: 3030
+10/12/2021, 0:03:46 - INFO - Server is running on port: 3030
+=======
 >>>>>>> 426812ff0baa2edc5e2249df86f57e457eef61c0
 12/9/2021, 7:47:13 PM - INFO - Server is running on port: 3030
 12/10/2021, 3:10:59 PM - ERROR - cannot find stays | {}
@@ -403,6 +684,7 @@
 12/10/2021, 4:53:51 PM - ERROR - Cannot get stays | {}
 12/10/2021, 4:53:52 PM - ERROR - cannot find stays | {}
 12/10/2021, 4:53:52 PM - ERROR - Cannot get stays | {}
+>>>>>>> 849f636f22ce49f08c4699e312e04cf5f2834584
 =======
 12/9/2021, 8:02:36 PM - ERROR - cannot find stays | {"operationTime":{"$timestamp":"7039764827677392900"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039764827677392900"},"signature":{"hash":"j1d8Oii2oyiVZMa+zbBxURg3bbc=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
 12/9/2021, 8:02:36 PM - ERROR - Cannot get stays | {"operationTime":{"$timestamp":"7039764827677392900"},"ok":0,"code":2,"codeName":"BadValue","$clusterTime":{"clusterTime":{"$timestamp":"7039764827677392900"},"signature":{"hash":"j1d8Oii2oyiVZMa+zbBxURg3bbc=","keyId":{"low":2,"high":1631193877,"unsigned":false}}}}
@@ -494,6 +776,54 @@
 12/9/2021, 11:51:50 PM - INFO - Server is running on port: 3030
 12/9/2021, 11:56:59 PM - INFO - Server is running on port: 3030
 12/10/2021, 12:00:03 AM - INFO - Server is running on port: 3030
+<<<<<<< HEAD
+>>>>>>> 4beb0162de6df4c85c3e3947b23c79104b87a447
+10/12/2021, 0:05:15 - INFO - Server is running on port: 3030
+10/12/2021, 0:05:36 - INFO - Server is running on port: 3030
+10/12/2021, 0:06:53 - INFO - Server is running on port: 3030
+10/12/2021, 0:07:24 - INFO - Server is running on port: 3030
+10/12/2021, 0:28:34 - ERROR - cannot find stays | {}
+10/12/2021, 0:28:34 - ERROR - Cannot get stays | {}
+10/12/2021, 0:28:34 - ERROR - cannot find stays | {}
+10/12/2021, 0:28:34 - ERROR - Cannot get stays | {}
+10/12/2021, 0:28:34 - ERROR - cannot find stays | {}
+10/12/2021, 0:28:34 - ERROR - Cannot get stays | {}
+10/12/2021, 0:28:54 - ERROR - cannot find stays | {}
+10/12/2021, 0:28:54 - ERROR - Cannot get stays | {}
+10/12/2021, 0:28:54 - ERROR - cannot find stays | {}
+10/12/2021, 0:28:54 - ERROR - Cannot get stays | {}
+10/12/2021, 0:28:54 - ERROR - cannot find stays | {}
+10/12/2021, 0:28:54 - ERROR - Cannot get stays | {}
+10/12/2021, 0:29:23 - ERROR - cannot find stays | {}
+10/12/2021, 0:29:23 - ERROR - Cannot get stays | {}
+10/12/2021, 0:29:23 - ERROR - cannot find stays | {}
+10/12/2021, 0:29:23 - ERROR - Cannot get stays | {}
+10/12/2021, 0:29:23 - ERROR - cannot find stays | {}
+10/12/2021, 0:29:23 - ERROR - Cannot get stays | {}
+10/12/2021, 0:29:40 - ERROR - cannot find stays | {}
+10/12/2021, 0:29:40 - ERROR - Cannot get stays | {}
+10/12/2021, 0:29:40 - ERROR - cannot find stays | {}
+10/12/2021, 0:29:40 - ERROR - Cannot get stays | {}
+10/12/2021, 0:30:50 - ERROR - cannot find stays | {}
+10/12/2021, 0:30:50 - ERROR - Cannot get stays | {}
+10/12/2021, 0:30:50 - ERROR - cannot find stays | {}
+10/12/2021, 0:30:50 - ERROR - Cannot get stays | {}
+10/12/2021, 0:30:50 - ERROR - cannot find stays | {}
+10/12/2021, 0:30:50 - ERROR - Cannot get stays | {}
+10/12/2021, 0:31:28 - INFO - Server is running on port: 3030
+10/12/2021, 0:31:52 - ERROR - cannot find stays | {}
+10/12/2021, 0:31:52 - ERROR - Cannot get stays | {}
+10/12/2021, 0:31:52 - ERROR - cannot find stays | {}
+10/12/2021, 0:31:52 - ERROR - Cannot get stays | {}
+10/12/2021, 0:31:52 - ERROR - cannot find stays | {}
+10/12/2021, 0:31:52 - ERROR - Cannot get stays | {}
+10/12/2021, 0:34:26 - INFO - Server is running on port: 3030
+10/12/2021, 0:34:43 - INFO - Server is running on port: 3030
+10/12/2021, 0:35:12 - INFO - Server is running on port: 3030
+10/12/2021, 10:06:11 - INFO - Server is running on port: 3030
+10/12/2021, 10:16:53 - INFO - Server is running on port: 3030
+10/12/2021, 10:24:52 - INFO - Server is running on port: 3030
+=======
 12/10/2021, 12:35:54 AM - INFO - Server is running on port: 3030
 12/10/2021, 12:36:24 AM - INFO - Server is running on port: 3030
 12/10/2021, 1:15:12 AM - DEBUG - auth.service - login with username: will
@@ -525,6 +855,17 @@
 12/10/2021, 2:52:21 AM - INFO - Server is running on port: 3030
 12/10/2021, 10:18:36 AM - INFO - Server is running on port: 3030
 12/10/2021, 10:21:44 AM - DEBUG - auth.service - login with username: will
+<<<<<<< HEAD
+>>>>>>> f09d483c76981502b49d1c64a1d2819ce6f231c9
+10/12/2021, 10:29:45 - INFO - Server is running on port: 3030
+10/12/2021, 11:05:25 - DEBUG - auth.service - login with username: will
+10/12/2021, 11:45:38 - DEBUG - auth.service - login with username: will
+10/12/2021, 12:30:57 - DEBUG - auth.service - login with username: will
+10/12/2021, 12:32:04 - DEBUG - auth.service - login with username: will
+10/12/2021, 12:32:21 - DEBUG - auth.service - login with username: will
+10/12/2021, 12:32:39 - DEBUG - auth.service - login with username: will
+10/12/2021, 14:09:25 - INFO - Server is running on port: 3030
+=======
 12/10/2021, 11:48:12 AM - INFO - Server is running on port: 3030
 12/10/2021, 11:49:14 AM - INFO - Server is running on port: 3030
 12/10/2021, 11:50:10 AM - INFO - Server is running on port: 3030
@@ -592,6 +933,15 @@
 12/10/2021, 1:52:36 PM - INFO - Server is running on port: 3030
 12/10/2021, 1:53:46 PM - INFO - Server is running on port: 3030
 12/10/2021, 1:54:06 PM - DEBUG - auth.service - login with username: will
+<<<<<<< HEAD
+>>>>>>> fd56f511e2165b3f3c5947ea53fa6a4e2f573557
+10/12/2021, 14:13:33 - INFO - Server is running on port: 3030
+10/12/2021, 16:22:57 - DEBUG - auth.service - login with username: will
+10/12/2021, 16:28:30 - DEBUG - auth.service - login with username: will
+10/12/2021, 16:28:41 - DEBUG - auth.service - login with username: will
+10/12/2021, 16:29:54 - DEBUG - auth.service - login with username: will
+10/12/2021, 16:31:05 - DEBUG - auth.service - login with username: will
+=======
 12/10/2021, 3:06:04 PM - DEBUG - auth.service - login with username: will
 12/10/2021, 3:06:41 PM - INFO - Req!!!
 12/10/2021, 3:06:41 PM - INFO - Req from: Will Smith
@@ -633,7 +983,56 @@
 12/10/2021, 4:18:17 PM - ERROR - while finding user undefined | {}
 12/10/2021, 4:18:17 PM - ERROR - Failed to get user | {}
 12/10/2021, 4:37:12 PM - INFO - Req!!!
+<<<<<<< HEAD
+12/10/2021, 4:53:25 PM - INFO - Req!!!
+12/10/2021, 9:26:06 PM - INFO - Server is running on port: 3030
+12/10/2021, 9:32:58 PM - INFO - Server is running on port: 3030
+12/10/2021, 9:37:26 PM - INFO - Server is running on port: 3030
+12/10/2021, 9:42:57 PM - INFO - Server is running on port: 3030
+12/10/2021, 9:43:09 PM - INFO - Server is running on port: 3030
+12/10/2021, 9:47:03 PM - INFO - Server is running on port: 3030
+12/10/2021, 9:48:42 PM - INFO - Server is running on port: 3030
+12/10/2021, 9:49:25 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:20:57 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:21:24 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:21:52 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:22:24 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:22:53 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:23:10 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:23:32 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:23:49 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:24:51 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:34:10 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:34:23 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:35:11 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:35:25 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:35:40 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:38:09 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:41:06 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:42:26 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:42:36 PM - INFO - Server is running on port: 3030
+12/10/2021, 11:46:57 PM - INFO - Server is running on port: 3030
+12/11/2021, 12:20:50 AM - INFO - Server is running on port: 3030
+12/11/2021, 1:13:43 AM - INFO - Server is running on port: 3030
+12/11/2021, 1:14:33 AM - INFO - Server is running on port: 3030
+12/11/2021, 1:19:00 AM - INFO - Server is running on port: 3030
+12/11/2021, 1:20:56 AM - INFO - Server is running on port: 3030
+12/11/2021, 1:22:42 AM - DEBUG - auth.service - login with username: eric
+12/11/2021, 1:22:42 AM - DEBUG - Setting (E7S1kLe4xB7osm3uAAAD) socket.userId = 61ae18879c562696b6dd6e21
+12/11/2021, 1:23:34 AM - DEBUG - auth.service - login with username: will
+12/11/2021, 1:23:35 AM - DEBUG - Setting (OkjG3ERbfEjftdO8AAAF) socket.userId = 61ae43ad659811151ae092cc
+12/11/2021, 1:23:44 AM - INFO - Req!!!
+12/11/2021, 1:23:44 AM - INFO - Req from: Will Smith
+12/11/2021, 1:23:49 AM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/11/2021, 1:23:53 AM - INFO - Req!!!
+12/11/2021, 1:23:53 AM - INFO - Req from: Will Smith
+12/11/2021, 1:23:53 AM - INFO - Req!!!
+12/11/2021, 1:23:53 AM - INFO - Req from: Will Smith
+12/11/2021, 1:23:58 AM - INFO - Req!!!
+12/11/2021, 1:23:58 AM - INFO - Req from: Will Smith
+=======
 >>>>>>> e89c840ba98d9935326c45d703d6762e55b0ab44
+<<<<<<< HEAD
 12/10/2021, 4:56:33 PM - INFO - Server is running on port: 3030
 12/11/2021, 11:07:44 AM - DEBUG - auth.service - login with username: will
 12/11/2021, 11:09:13 AM - DEBUG - auth.service - login with username: eric
@@ -718,3 +1117,639 @@
 12/12/2021, 11:50:04 AM - INFO - Server is running on port: 3030
 12/12/2021, 11:50:11 AM - INFO - Req!!!
 12/12/2021, 11:50:28 AM - INFO - Req!!!
+=======
+<<<<<<< HEAD
+10/12/2021, 16:56:12 - INFO - Server is running on port: 3030
+10/12/2021, 16:57:09 - DEBUG - auth.service - login with username: will
+10/12/2021, 16:58:37 - INFO - Server is running on port: 3030
+10/12/2021, 17:00:45 - INFO - Server is running on port: 3030
+10/12/2021, 17:01:58 - DEBUG - auth.service - login with username: will
+=======
+>>>>>>> 849f636f22ce49f08c4699e312e04cf5f2834584
+10/12/2021, 17:05:42 - INFO - Server is running on port: 3030
+10/12/2021, 17:06:41 - INFO - Server is running on port: 3030
+10/12/2021, 17:07:55 - DEBUG - auth.service - login with username: will
+10/12/2021, 17:22:30 - INFO - Req!!!
+10/12/2021, 17:22:30 - INFO - Req from: Will Smith
+10/12/2021, 20:31:19 - INFO - Req!!!
+10/12/2021, 20:31:19 - INFO - Req from: Will Smith
+10/12/2021, 20:45:37 - INFO - Req!!!
+10/12/2021, 20:45:37 - INFO - Req from: Will Smith
+10/12/2021, 20:49:13 - INFO - Server is running on port: 3030
+10/12/2021, 20:49:46 - INFO - Server is running on port: 3030
+10/12/2021, 20:50:45 - DEBUG - auth.service - login with username: bonnie
+10/12/2021, 20:50:45 - ERROR - Failed to Login Invalid username or password
+10/12/2021, 20:51:11 - DEBUG - auth.service - login with username: Bonnie Bonno
+10/12/2021, 20:51:11 - ERROR - Failed to Login Invalid username or password
+10/12/2021, 20:54:35 - DEBUG - auth.service - login with username: bonnie
+10/12/2021, 20:55:45 - INFO - Server is running on port: 3030
+10/12/2021, 20:57:33 - DEBUG - auth.service - login with username: will
+10/12/2021, 20:57:42 - INFO - Req!!!
+10/12/2021, 20:57:42 - INFO - Req from: Will Smith
+10/12/2021, 21:00:10 - INFO - Req!!!
+10/12/2021, 21:00:10 - INFO - Req from: Will Smith
+10/12/2021, 21:00:27 - DEBUG - auth.service - login with username: bonnie
+10/12/2021, 21:02:21 - INFO - Server is running on port: 3030
+10/12/2021, 21:03:34 - DEBUG - auth.service - login with username: eric
+10/12/2021, 21:04:27 - DEBUG - auth.service - login with username: will
+10/12/2021, 21:04:33 - INFO - Req!!!
+10/12/2021, 21:04:33 - INFO - Req from: Will Smith
+10/12/2021, 21:06:17 - INFO - Req!!!
+10/12/2021, 21:06:17 - INFO - Req from: Will Smith
+10/12/2021, 21:08:36 - INFO - Req!!!
+10/12/2021, 21:08:36 - INFO - Req from: Will Smith
+10/12/2021, 21:08:36 - INFO - Req!!!
+10/12/2021, 21:08:36 - INFO - Req from: Will Smith
+10/12/2021, 21:08:47 - INFO - Req!!!
+10/12/2021, 21:08:47 - INFO - Req from: Will Smith
+10/12/2021, 21:10:22 - INFO - Req!!!
+10/12/2021, 21:10:22 - INFO - Req from: Will Smith
+10/12/2021, 21:12:42 - INFO - Req!!!
+10/12/2021, 21:12:42 - INFO - Req from: Will Smith
+10/12/2021, 21:12:43 - INFO - Req!!!
+10/12/2021, 21:12:43 - INFO - Req from: Will Smith
+10/12/2021, 21:13:04 - INFO - Req!!!
+10/12/2021, 21:13:04 - INFO - Req from: Will Smith
+10/12/2021, 21:14:56 - INFO - Server is running on port: 3030
+10/12/2021, 21:15:00 - INFO - Req!!!
+10/12/2021, 21:15:20 - INFO - Req!!!
+10/12/2021, 21:16:36 - INFO - Server is running on port: 3030
+<<<<<<< HEAD
+10/12/2021, 21:22:05 - INFO - Req!!!
+10/12/2021, 21:22:08 - INFO - Req!!!
+10/12/2021, 21:23:16 - INFO - Req!!!
+10/12/2021, 21:23:44 - INFO - Req!!!
+10/12/2021, 21:26:24 - INFO - Req!!!
+10/12/2021, 21:30:55 - INFO - Req!!!
+10/12/2021, 21:31:52 - INFO - Req!!!
+10/12/2021, 21:34:18 - INFO - Req!!!
+10/12/2021, 21:34:35 - INFO - Req!!!
+10/12/2021, 21:36:42 - INFO - Req!!!
+10/12/2021, 21:38:26 - INFO - Req!!!
+10/12/2021, 21:39:55 - INFO - Req!!!
+10/12/2021, 21:40:41 - INFO - Req!!!
+10/12/2021, 21:42:40 - INFO - Req!!!
+10/12/2021, 21:43:18 - INFO - Req!!!
+10/12/2021, 22:04:44 - INFO - Req!!!
+10/12/2021, 22:23:41 - INFO - Req!!!
+10/12/2021, 22:44:07 - DEBUG - auth.service - login with username: will
+10/12/2021, 22:44:12 - INFO - Req!!!
+10/12/2021, 22:44:12 - INFO - Req from: Will Smith
+10/12/2021, 22:44:24 - INFO - Req!!!
+10/12/2021, 22:44:24 - INFO - Req from: Will Smith
+10/12/2021, 22:44:43 - INFO - Req!!!
+10/12/2021, 22:44:43 - INFO - Req from: Will Smith
+10/12/2021, 23:17:39 - DEBUG - auth.service - login with username: will
+10/12/2021, 23:17:51 - DEBUG - auth.service - login with username: eric
+10/12/2021, 23:47:54 - INFO - Req!!!
+10/12/2021, 23:47:54 - INFO - Req from: Eric Miller
+11/12/2021, 0:00:44 - INFO - Req!!!
+11/12/2021, 0:00:44 - INFO - Req from: Eric Miller
+11/12/2021, 0:01:58 - INFO - Req!!!
+11/12/2021, 0:01:58 - INFO - Req from: Eric Miller
+11/12/2021, 0:02:38 - INFO - Req!!!
+11/12/2021, 0:02:38 - INFO - Req from: Eric Miller
+11/12/2021, 0:04:45 - INFO - Req!!!
+11/12/2021, 0:04:45 - INFO - Req from: Eric Miller
+11/12/2021, 0:26:52 - INFO - Req!!!
+11/12/2021, 0:26:52 - INFO - Req from: Eric Miller
+11/12/2021, 0:27:35 - INFO - Req!!!
+11/12/2021, 0:27:35 - INFO - Req from: Eric Miller
+11/12/2021, 0:29:28 - INFO - Req!!!
+11/12/2021, 0:29:28 - INFO - Req from: Eric Miller
+11/12/2021, 0:29:51 - INFO - Req!!!
+11/12/2021, 0:29:51 - INFO - Req from: Eric Miller
+11/12/2021, 0:30:07 - INFO - Req!!!
+11/12/2021, 0:30:07 - INFO - Req from: Eric Miller
+11/12/2021, 0:30:14 - INFO - Req!!!
+11/12/2021, 0:30:14 - INFO - Req from: Eric Miller
+11/12/2021, 0:30:33 - INFO - Req!!!
+11/12/2021, 0:30:33 - INFO - Req from: Eric Miller
+11/12/2021, 0:30:38 - INFO - Req!!!
+11/12/2021, 0:30:38 - INFO - Req from: Eric Miller
+11/12/2021, 0:33:00 - INFO - Req!!!
+11/12/2021, 0:33:00 - INFO - Req from: Eric Miller
+11/12/2021, 0:33:21 - INFO - Req!!!
+11/12/2021, 0:33:21 - INFO - Req from: Eric Miller
+11/12/2021, 0:35:06 - INFO - Req!!!
+11/12/2021, 0:35:06 - INFO - Req from: Eric Miller
+11/12/2021, 0:38:38 - INFO - Req!!!
+11/12/2021, 0:38:38 - INFO - Req from: Eric Miller
+11/12/2021, 0:41:51 - INFO - Req!!!
+11/12/2021, 0:41:51 - INFO - Req from: Eric Miller
+11/12/2021, 1:02:48 - INFO - Req!!!
+11/12/2021, 1:02:48 - INFO - Req from: Eric Miller
+11/12/2021, 1:07:27 - INFO - Req!!!
+11/12/2021, 1:07:27 - INFO - Req from: Eric Miller
+11/12/2021, 1:08:55 - INFO - Req!!!
+11/12/2021, 1:08:55 - INFO - Req from: Eric Miller
+11/12/2021, 1:21:31 - INFO - Req!!!
+11/12/2021, 1:21:31 - INFO - Req from: Eric Miller
+11/12/2021, 1:21:37 - INFO - Req!!!
+11/12/2021, 1:21:37 - INFO - Req from: Eric Miller
+11/12/2021, 1:22:47 - INFO - Req!!!
+11/12/2021, 1:22:47 - INFO - Req from: Eric Miller
+11/12/2021, 10:53:08 - INFO - Req!!!
+11/12/2021, 10:53:08 - INFO - Req from: Eric Miller
+11/12/2021, 11:01:01 - INFO - Req!!!
+11/12/2021, 11:01:01 - INFO - Req from: Eric Miller
+11/12/2021, 11:01:12 - INFO - Req!!!
+11/12/2021, 11:01:12 - INFO - Req from: Eric Miller
+11/12/2021, 11:01:48 - INFO - Server is running on port: 3030
+11/12/2021, 11:02:04 - INFO - Req!!!
+11/12/2021, 11:25:27 - DEBUG - auth.service - login with username: will
+11/12/2021, 11:41:24 - INFO - Req!!!
+11/12/2021, 11:41:24 - INFO - Req from: Will Smith
+11/12/2021, 11:42:49 - INFO - Req!!!
+11/12/2021, 11:42:49 - INFO - Req from: Will Smith
+11/12/2021, 12:03:13 - INFO - Req!!!
+11/12/2021, 12:03:13 - INFO - Req from: Will Smith
+11/12/2021, 12:04:36 - INFO - Req!!!
+11/12/2021, 12:04:36 - INFO - Req from: Will Smith
+11/12/2021, 12:05:18 - INFO - Req!!!
+11/12/2021, 12:05:18 - INFO - Req from: Will Smith
+11/12/2021, 12:07:09 - INFO - Req!!!
+11/12/2021, 12:07:09 - INFO - Req from: Will Smith
+11/12/2021, 12:07:14 - INFO - Req!!!
+11/12/2021, 12:07:14 - INFO - Req from: Will Smith
+11/12/2021, 12:08:59 - INFO - Req!!!
+11/12/2021, 12:08:59 - INFO - Req from: Will Smith
+11/12/2021, 12:09:06 - INFO - Req!!!
+11/12/2021, 12:09:06 - INFO - Req from: Will Smith
+11/12/2021, 12:23:02 - INFO - Req!!!
+11/12/2021, 12:23:02 - INFO - Req from: Will Smith
+11/12/2021, 12:27:31 - INFO - Req!!!
+11/12/2021, 12:27:31 - INFO - Req from: Will Smith
+11/12/2021, 12:39:55 - INFO - Req!!!
+11/12/2021, 12:39:55 - INFO - Req from: Will Smith
+11/12/2021, 13:41:44 - INFO - Req!!!
+11/12/2021, 13:41:44 - INFO - Req from: Will Smith
+11/12/2021, 13:41:52 - INFO - Req!!!
+11/12/2021, 13:41:52 - INFO - Req from: Will Smith
+11/12/2021, 13:44:31 - INFO - Req!!!
+11/12/2021, 13:44:31 - INFO - Req from: Will Smith
+11/12/2021, 13:44:35 - INFO - Req!!!
+11/12/2021, 13:44:35 - INFO - Req from: Will Smith
+11/12/2021, 13:46:51 - INFO - Req!!!
+11/12/2021, 13:46:51 - INFO - Req from: Will Smith
+11/12/2021, 13:46:54 - INFO - Req!!!
+11/12/2021, 13:46:54 - INFO - Req from: Will Smith
+11/12/2021, 13:49:42 - INFO - Req!!!
+11/12/2021, 13:49:42 - INFO - Req from: Will Smith
+11/12/2021, 13:50:27 - INFO - Req!!!
+11/12/2021, 13:50:27 - INFO - Req from: Will Smith
+11/12/2021, 13:50:51 - INFO - Req!!!
+11/12/2021, 13:50:51 - INFO - Req from: Will Smith
+11/12/2021, 13:54:44 - INFO - Req!!!
+11/12/2021, 13:54:44 - INFO - Req from: Will Smith
+11/12/2021, 13:56:06 - INFO - Req!!!
+11/12/2021, 13:56:06 - INFO - Req from: Will Smith
+11/12/2021, 13:56:31 - INFO - Req!!!
+11/12/2021, 13:56:31 - INFO - Req from: Will Smith
+11/12/2021, 13:56:36 - INFO - Req!!!
+11/12/2021, 13:56:36 - INFO - Req from: Will Smith
+11/12/2021, 13:56:43 - INFO - Req!!!
+11/12/2021, 13:56:43 - INFO - Req from: Will Smith
+11/12/2021, 13:57:06 - INFO - Req!!!
+11/12/2021, 13:57:06 - INFO - Req from: Will Smith
+11/12/2021, 13:57:40 - INFO - Req!!!
+11/12/2021, 13:57:40 - INFO - Req from: Will Smith
+11/12/2021, 13:58:10 - INFO - Req!!!
+11/12/2021, 13:58:10 - INFO - Req from: Will Smith
+11/12/2021, 13:58:14 - INFO - Req!!!
+11/12/2021, 13:58:14 - INFO - Req from: Will Smith
+11/12/2021, 13:58:32 - INFO - Req!!!
+11/12/2021, 13:58:32 - INFO - Req from: Will Smith
+11/12/2021, 14:04:10 - DEBUG - auth.service - login with username: eric
+11/12/2021, 14:04:21 - INFO - Req!!!
+11/12/2021, 14:04:21 - INFO - Req from: Eric Miller
+11/12/2021, 14:05:31 - INFO - Req!!!
+11/12/2021, 14:05:31 - INFO - Req from: Eric Miller
+11/12/2021, 14:05:38 - INFO - Req!!!
+11/12/2021, 14:05:38 - INFO - Req from: Eric Miller
+11/12/2021, 14:06:32 - INFO - Req!!!
+11/12/2021, 14:06:32 - INFO - Req from: Eric Miller
+11/12/2021, 14:08:52 - INFO - Req!!!
+11/12/2021, 14:08:52 - INFO - Req from: Eric Miller
+11/12/2021, 14:11:21 - DEBUG - auth.service - login with username: will
+11/12/2021, 14:11:32 - INFO - Req!!!
+11/12/2021, 14:12:01 - DEBUG - auth.service - login with username: eric
+11/12/2021, 14:12:06 - INFO - Req!!!
+11/12/2021, 14:12:06 - INFO - Req from: Eric Miller
+11/12/2021, 14:12:57 - DEBUG - auth.service - login with username: will
+11/12/2021, 14:15:19 - DEBUG - auth.service - login with username: will
+11/12/2021, 14:16:57 - DEBUG - auth.service - login with username: will
+11/12/2021, 14:17:37 - DEBUG - auth.service - login with username: will
+11/12/2021, 14:18:12 - DEBUG - auth.service - login with username: will
+11/12/2021, 14:21:23 - DEBUG - auth.service - login with username: will
+11/12/2021, 14:21:27 - INFO - Req!!!
+11/12/2021, 14:21:27 - INFO - Req from: Will Smith
+11/12/2021, 14:21:34 - DEBUG - auth.service - login with username: will
+11/12/2021, 14:23:36 - DEBUG - auth.service - login with username: eric
+11/12/2021, 14:23:44 - INFO - Req!!!
+11/12/2021, 14:23:44 - INFO - Req from: Eric Miller
+11/12/2021, 14:29:05 - INFO - Req!!!
+11/12/2021, 14:29:05 - INFO - Req from: Eric Miller
+11/12/2021, 14:29:51 - INFO - Req!!!
+11/12/2021, 14:29:51 - INFO - Req from: Eric Miller
+11/12/2021, 15:06:32 - DEBUG - auth.service - login with username: will
+11/12/2021, 15:06:35 - INFO - Req!!!
+11/12/2021, 15:06:35 - INFO - Req from: Will Smith
+11/12/2021, 15:09:57 - INFO - Req!!!
+11/12/2021, 15:09:57 - INFO - Req from: Will Smith
+11/12/2021, 15:10:13 - DEBUG - auth.service - login with username: eric
+11/12/2021, 15:10:19 - INFO - Req!!!
+11/12/2021, 15:10:19 - INFO - Req from: Eric Miller
+=======
+>>>>>>> 806951b92732f7ee340f3a4bb8c65a90a2d40b6a
+12/11/2021, 1:41:51 AM - INFO - Server is running on port: 3030
+12/11/2021, 1:44:50 AM - INFO - Req!!!
+12/11/2021, 1:45:53 AM - DEBUG - auth.service - login with username: eric
+12/11/2021, 1:45:53 AM - DEBUG - Setting (pT244PqOC5won0FVAAAJ) socket.userId = 61ae18879c562696b6dd6e21
+12/11/2021, 1:46:27 AM - DEBUG - Emiting to user socket: 61ae19c29c562696b6dd6e28
+12/11/2021, 1:47:56 AM - INFO - Req!!!
+12/11/2021, 1:48:05 AM - INFO - Req!!!
+12/11/2021, 1:49:36 AM - INFO - Req!!!
+12/11/2021, 2:26:01 AM - INFO - Req!!!
+12/11/2021, 2:26:04 AM - INFO - Req!!!
+12/11/2021, 2:30:54 AM - INFO - Req!!!
+12/11/2021, 2:34:44 AM - INFO - Req!!!
+12/11/2021, 2:39:26 AM - INFO - Req!!!
+12/11/2021, 2:39:53 AM - INFO - Req!!!
+12/11/2021, 2:42:48 AM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/11/2021, 2:42:53 AM - INFO - Req!!!
+12/11/2021, 2:43:04 AM - INFO - Req!!!
+12/11/2021, 2:44:18 AM - INFO - Server is running on port: 3030
+12/11/2021, 2:44:23 AM - INFO - Server is running on port: 3030
+12/11/2021, 2:44:29 AM - INFO - Server is running on port: 3030
+12/11/2021, 2:44:40 AM - INFO - Server is running on port: 3030
+12/11/2021, 2:44:44 AM - INFO - Server is running on port: 3030
+12/11/2021, 2:44:49 AM - INFO - Server is running on port: 3030
+12/11/2021, 2:45:19 AM - INFO - Server is running on port: 3030
+12/11/2021, 2:45:27 AM - INFO - Server is running on port: 3030
+12/11/2021, 2:45:50 AM - INFO - Server is running on port: 3030
+12/11/2021, 2:47:43 AM - INFO - Req!!!
+12/11/2021, 2:47:57 AM - INFO - Req!!!
+12/11/2021, 2:48:35 AM - DEBUG - auth.service - login with username: eric
+12/11/2021, 2:48:35 AM - DEBUG - Setting (Fytv4773LQzZIwpTAAAL) socket.userId = 61ae18879c562696b6dd6e21
+12/11/2021, 2:49:02 AM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/11/2021, 2:50:18 AM - DEBUG - auth.service - login with username: will
+12/11/2021, 2:50:18 AM - DEBUG - Setting (FOV-e5ke3pItfG7vAAAP) socket.userId = 61ae43ad659811151ae092cc
+12/11/2021, 2:50:27 AM - INFO - Req!!!
+12/11/2021, 2:50:27 AM - INFO - Req from: Will Smith
+12/11/2021, 2:50:49 AM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/11/2021, 2:51:21 AM - INFO - Req!!!
+12/11/2021, 2:51:21 AM - INFO - Req from: Will Smith
+12/11/2021, 2:53:19 AM - INFO - Server is running on port: 3030
+12/11/2021, 2:53:53 AM - INFO - Server is running on port: 3030
+12/11/2021, 2:54:02 AM - INFO - Server is running on port: 3030
+12/11/2021, 2:54:46 AM - DEBUG - auth.service - login with username: eric
+12/11/2021, 2:54:46 AM - DEBUG - Setting (DzjT657BoXKXvtG4AAAH) socket.userId = 61ae18879c562696b6dd6e21
+12/11/2021, 2:54:58 AM - DEBUG - auth.service - login with username: will
+12/11/2021, 2:54:58 AM - DEBUG - Setting (iHARG8WRMB8XNAo5AAAB) socket.userId = 61ae43ad659811151ae092cc
+12/11/2021, 2:55:08 AM - INFO - Req!!!
+12/11/2021, 2:55:08 AM - INFO - Req from: Will Smith
+12/11/2021, 2:55:30 AM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/11/2021, 2:57:56 AM - INFO - Server is running on port: 3030
+12/11/2021, 3:00:04 AM - INFO - Req!!!
+12/11/2021, 3:06:10 AM - INFO - Server is running on port: 3030
+12/11/2021, 3:06:33 AM - DEBUG - auth.service - login with username: eric
+12/11/2021, 3:06:35 AM - DEBUG - Setting (EjLMECAQcRpUcMOaAAAD) socket.userId = 61ae18879c562696b6dd6e21
+12/11/2021, 3:06:49 AM - DEBUG - auth.service - login with username: will
+12/11/2021, 3:06:50 AM - DEBUG - Setting (fOLrrbWyl-WwQvplAAAB) socket.userId = 61ae43ad659811151ae092cc
+12/11/2021, 3:06:55 AM - INFO - Req!!!
+12/11/2021, 3:06:55 AM - INFO - Req from: Will Smith
+12/11/2021, 3:07:22 AM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/11/2021, 3:10:19 AM - INFO - Req!!!
+12/11/2021, 3:10:19 AM - INFO - Req from: Will Smith
+12/11/2021, 11:49:17 AM - INFO - Server is running on port: 3030
+12/11/2021, 11:50:18 AM - DEBUG - auth.service - login with username: eric
+12/11/2021, 11:50:18 AM - DEBUG - Setting (Nq1SH5jyqNVA5v8hAAAD) socket.userId = 61ae18879c562696b6dd6e21
+12/11/2021, 11:50:33 AM - DEBUG - auth.service - login with username: will
+12/11/2021, 11:50:33 AM - DEBUG - Setting (-syYnpT2bJwdEVAeAAAF) socket.userId = 61ae43ad659811151ae092cc
+12/11/2021, 11:50:37 AM - INFO - Req!!!
+12/11/2021, 11:50:37 AM - INFO - Req from: Will Smith
+12/11/2021, 11:50:59 AM - DEBUG - Emiting to user socket: 61ae18cf9c562696b6dd6e22
+12/11/2021, 11:52:36 AM - INFO - Req!!!
+12/11/2021, 11:52:36 AM - INFO - Req from: Will Smith
+12/11/2021, 11:56:43 AM - INFO - Req!!!
+12/11/2021, 11:56:43 AM - INFO - Req from: Will Smith
+12/11/2021, 11:59:02 AM - INFO - Req!!!
+12/11/2021, 11:59:02 AM - INFO - Req from: Will Smith
+12/11/2021, 11:59:02 AM - INFO - Req!!!
+12/11/2021, 11:59:03 AM - INFO - Req from: Will Smith
+12/11/2021, 11:59:46 AM - INFO - Req!!!
+12/11/2021, 11:59:46 AM - INFO - Req from: Will Smith
+12/11/2021, 12:00:10 PM - DEBUG - auth.service - login with username: eric
+12/11/2021, 12:00:10 PM - DEBUG - Setting (thgZ76SVEQcpONcUAAAJ) socket.userId = 61ae18879c562696b6dd6e21
+12/11/2021, 12:00:44 PM - DEBUG - auth.service - login with username: will
+12/11/2021, 12:00:44 PM - DEBUG - Setting (hliRGrJfzVEzeIb_AAAL) socket.userId = 61ae43ad659811151ae092cc
+12/11/2021, 12:00:57 PM - INFO - Req!!!
+12/11/2021, 12:00:57 PM - INFO - Req from: Will Smith
+12/11/2021, 12:01:29 PM - DEBUG - Emiting to user socket: 61ae18cf9c562696b6dd6e22
+12/11/2021, 12:06:12 PM - DEBUG - Emiting to user socket: 61ae3d8e659811151ae092be
+12/11/2021, 12:08:56 PM - INFO - Req!!!
+12/11/2021, 12:08:56 PM - INFO - Req from: Will Smith
+12/11/2021, 12:12:37 PM - INFO - Req!!!
+12/11/2021, 12:12:37 PM - INFO - Req from: Will Smith
+12/11/2021, 12:14:17 PM - DEBUG - auth.service - login with username: eric
+12/11/2021, 12:14:17 PM - DEBUG - Setting (y6oLf4wgH8dsWYNDAAAR) socket.userId = 61ae18879c562696b6dd6e21
+12/11/2021, 12:17:03 PM - DEBUG - auth.service - login with username: will
+12/11/2021, 12:17:04 PM - DEBUG - Setting (NxlzlpWUWKOGMR-kAAAP) socket.userId = 61ae43ad659811151ae092cc
+12/11/2021, 12:17:13 PM - INFO - Req!!!
+12/11/2021, 12:17:13 PM - INFO - Req from: Will Smith
+12/11/2021, 12:18:24 PM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/11/2021, 12:22:31 PM - INFO - Req!!!
+12/11/2021, 12:22:31 PM - INFO - Req from: Will Smith
+12/11/2021, 12:23:14 PM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/11/2021, 12:23:52 PM - DEBUG - auth.service - login with username: will
+12/11/2021, 12:23:52 PM - DEBUG - Setting (NxU608ZTFq7HI4-tAAAX) socket.userId = 61ae43ad659811151ae092cc
+12/11/2021, 12:23:58 PM - INFO - Req!!!
+12/11/2021, 12:23:58 PM - INFO - Req from: Will Smith
+12/11/2021, 12:24:18 PM - DEBUG - auth.service - login with username: eric
+12/11/2021, 12:24:18 PM - DEBUG - Setting (XvuqrQv9hJSFcqSwAAAV) socket.userId = 61ae18879c562696b6dd6e21
+12/11/2021, 12:25:06 PM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/11/2021, 12:25:56 PM - INFO - Req!!!
+12/11/2021, 12:25:56 PM - INFO - Req from: Will Smith
+12/11/2021, 12:29:59 PM - INFO - Req!!!
+12/11/2021, 12:29:59 PM - INFO - Req from: Will Smith
+12/11/2021, 12:40:37 PM - INFO - Req!!!
+12/11/2021, 12:40:37 PM - INFO - Req from: Will Smith
+12/11/2021, 12:40:53 PM - INFO - Req!!!
+12/11/2021, 12:40:53 PM - INFO - Req from: Will Smith
+12/11/2021, 12:45:13 PM - DEBUG - auth.service - login with username: eric
+12/11/2021, 12:45:13 PM - DEBUG - Setting (oC7443ZhIwDhtJc6AAAl) socket.userId = 61ae18879c562696b6dd6e21
+12/11/2021, 12:45:41 PM - DEBUG - auth.service - login with username: will
+12/11/2021, 12:45:41 PM - DEBUG - Setting (ad4Yq1cgAjinn70wAAAg) socket.userId = 61ae43ad659811151ae092cc
+12/11/2021, 12:48:57 PM - INFO - Req!!!
+12/11/2021, 12:48:57 PM - INFO - Req from: Will Smith
+12/11/2021, 12:49:41 PM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/11/2021, 12:50:33 PM - DEBUG - auth.service - login with username: will
+12/11/2021, 12:50:33 PM - DEBUG - Setting (e4hSLI9CCr7u2h8tAAAn) socket.userId = 61ae43ad659811151ae092cc
+12/11/2021, 12:50:49 PM - DEBUG - auth.service - login with username: eric
+12/11/2021, 12:50:50 PM - DEBUG - Setting (0PE6jprNBe5oPAMWAAAp) socket.userId = 61ae18879c562696b6dd6e21
+12/11/2021, 12:51:29 PM - INFO - Req!!!
+12/11/2021, 12:51:29 PM - INFO - Req from: Will Smith
+12/11/2021, 12:51:33 PM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/11/2021, 12:53:15 PM - INFO - Server is running on port: 3030
+12/11/2021, 12:53:32 PM - DEBUG - auth.service - login with username: eric
+12/11/2021, 12:53:34 PM - DEBUG - Setting (eYEEl9_jJpywNLDQAAAD) socket.userId = 61ae18879c562696b6dd6e21
+12/11/2021, 12:54:06 PM - DEBUG - auth.service - login with username: will
+12/11/2021, 12:54:06 PM - DEBUG - Setting (gF9HDtGWzTv355UYAAAB) socket.userId = 61ae43ad659811151ae092cc
+12/11/2021, 12:54:08 PM - INFO - Req!!!
+12/11/2021, 12:54:08 PM - INFO - Req from: Will Smith
+12/11/2021, 12:54:25 PM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/11/2021, 12:56:47 PM - DEBUG - auth.service - login with username: eric
+12/11/2021, 12:56:47 PM - DEBUG - Setting (F-IzTCEjNDuGuTdcAAAF) socket.userId = 61ae18879c562696b6dd6e21
+12/11/2021, 12:57:24 PM - DEBUG - auth.service - login with username: will
+12/11/2021, 12:57:25 PM - DEBUG - Setting (gF9HDtGWzTv355UYAAAB) socket.userId = 61ae43ad659811151ae092cc
+12/11/2021, 12:57:27 PM - INFO - Req!!!
+12/11/2021, 12:57:27 PM - INFO - Req from: Will Smith
+12/11/2021, 12:58:26 PM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/11/2021, 1:00:55 PM - INFO - Req!!!
+12/11/2021, 1:00:55 PM - INFO - Req from: Will Smith
+12/11/2021, 1:02:00 PM - INFO - Req!!!
+12/11/2021, 1:02:00 PM - INFO - Req from: Will Smith
+12/11/2021, 1:02:36 PM - DEBUG - auth.service - login with username: will
+12/11/2021, 1:02:36 PM - DEBUG - Setting (_48uRRxukz2ixrLOAAAI) socket.userId = 61ae43ad659811151ae092cc
+12/11/2021, 1:03:06 PM - DEBUG - auth.service - login with username: eric
+12/11/2021, 1:03:06 PM - DEBUG - Setting (3pKAZrsqdmqSRbhGAAAL) socket.userId = 61ae18879c562696b6dd6e21
+12/11/2021, 1:03:16 PM - INFO - Req!!!
+12/11/2021, 1:03:16 PM - INFO - Req from: Will Smith
+12/11/2021, 1:04:00 PM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/11/2021, 1:05:55 PM - INFO - Req!!!
+12/11/2021, 1:05:55 PM - INFO - Req from: Will Smith
+12/11/2021, 1:06:21 PM - DEBUG - auth.service - login with username: eric
+12/11/2021, 1:06:21 PM - DEBUG - Setting (3pKAZrsqdmqSRbhGAAAL) socket.userId = 61ae18879c562696b6dd6e21
+12/11/2021, 1:06:47 PM - DEBUG - auth.service - login with username: will
+12/11/2021, 1:06:47 PM - DEBUG - Setting (_48uRRxukz2ixrLOAAAI) socket.userId = 61ae43ad659811151ae092cc
+12/11/2021, 1:06:50 PM - INFO - Req!!!
+12/11/2021, 1:06:50 PM - INFO - Req from: Will Smith
+12/11/2021, 1:07:23 PM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/11/2021, 2:25:54 PM - INFO - Req!!!
+12/11/2021, 2:25:54 PM - INFO - Req from: Will Smith
+12/11/2021, 2:27:04 PM - DEBUG - auth.service - login with username: will
+12/11/2021, 2:27:04 PM - DEBUG - Setting (uxIaHGAOXwacN2C1AAAR) socket.userId = 61ae43ad659811151ae092cc
+12/11/2021, 2:27:10 PM - INFO - Req!!!
+12/11/2021, 2:27:10 PM - INFO - Req from: Will Smith
+12/11/2021, 2:27:36 PM - INFO - Req!!!
+12/11/2021, 2:27:36 PM - INFO - Req from: Will Smith
+12/11/2021, 2:27:48 PM - DEBUG - auth.service - login with username: eric
+12/11/2021, 2:27:48 PM - DEBUG - Setting (3iBxWTZigllJRqmTAAAT) socket.userId = 61ae18879c562696b6dd6e21
+12/11/2021, 2:28:31 PM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/11/2021, 2:30:39 PM - INFO - Req!!!
+12/11/2021, 2:30:39 PM - INFO - Req from: Will Smith
+12/11/2021, 2:30:54 PM - INFO - Req!!!
+12/11/2021, 2:30:54 PM - INFO - Req from: Will Smith
+<<<<<<< HEAD
+12/11/2021, 4:55:26 PM - INFO - Server is running on port: 3030
+12/11/2021, 6:01:11 PM - INFO - Server is running on port: 3030
+12/11/2021, 6:03:15 PM - INFO - Server is running on port: 3030
+12/11/2021, 6:03:38 PM - INFO - Server is running on port: 3030
+12/11/2021, 6:08:24 PM - DEBUG - auth.service - login with username: eric
+12/11/2021, 6:08:24 PM - DEBUG - Setting (hgRP9_7qGNyUoPCUAAAJ) socket.userId = 61ae18879c562696b6dd6e21
+12/11/2021, 6:10:24 PM - DEBUG - auth.service - login with username: eric
+12/11/2021, 6:10:24 PM - DEBUG - Setting (42OuP-yDWfRghRR9AAAT) socket.userId = 61ae18879c562696b6dd6e21
+12/11/2021, 6:13:43 PM - WARN - Eric Miller Attempt to perform admin action
+12/11/2021, 6:16:21 PM - INFO - Server is running on port: 3030
+12/11/2021, 6:18:19 PM - DEBUG - auth.service - login with username: eric
+12/11/2021, 6:18:19 PM - DEBUG - Setting (Fctq-joRIfFqfOTcAAAI) socket.userId = 61ae18879c562696b6dd6e21
+12/11/2021, 9:20:40 PM - DEBUG - auth.service - login with username: eric
+12/11/2021, 9:20:40 PM - DEBUG - Setting (x0AsoyL8iTgFBepPAABj) socket.userId = 61ae18879c562696b6dd6e21
+12/11/2021, 9:21:00 PM - DEBUG - auth.service - login with username: will
+12/11/2021, 9:21:00 PM - DEBUG - Setting (w7_hsZX0n9o2cvxLAABl) socket.userId = 61ae43ad659811151ae092cc
+12/11/2021, 9:21:03 PM - INFO - Req!!!
+12/11/2021, 9:21:03 PM - INFO - Req from: Will Smith
+12/11/2021, 9:22:31 PM - DEBUG - auth.service - login with username: eric
+12/11/2021, 9:22:31 PM - DEBUG - Setting (qBPWDbAOsNIo0R78AABf) socket.userId = 61ae18879c562696b6dd6e21
+12/11/2021, 9:23:00 PM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/11/2021, 9:46:39 PM - INFO - Req!!!
+12/11/2021, 9:46:39 PM - INFO - Req from: Eric Miller
+12/11/2021, 9:46:45 PM - INFO - Req!!!
+12/11/2021, 9:46:45 PM - INFO - Req from: Eric Miller
+12/11/2021, 9:47:47 PM - INFO - Req!!!
+12/11/2021, 9:47:47 PM - INFO - Req from: Eric Miller
+12/11/2021, 9:48:00 PM - INFO - Req!!!
+12/11/2021, 9:48:00 PM - INFO - Req from: Eric Miller
+12/11/2021, 9:48:30 PM - INFO - Req!!!
+12/11/2021, 9:48:30 PM - INFO - Req from: Eric Miller
+12/11/2021, 10:00:22 PM - INFO - Req!!!
+12/11/2021, 10:00:22 PM - INFO - Req from: Eric Miller
+12/11/2021, 10:12:39 PM - INFO - Req!!!
+12/11/2021, 10:12:39 PM - INFO - Req from: Will Smith
+12/11/2021, 10:12:42 PM - INFO - Req!!!
+12/11/2021, 10:12:42 PM - INFO - Req from: Eric Miller
+12/11/2021, 11:15:08 PM - INFO - Req!!!
+12/11/2021, 11:15:08 PM - INFO - Req from: Eric Miller
+12/11/2021, 11:27:55 PM - INFO - Req!!!
+12/11/2021, 11:27:55 PM - INFO - Req from: Will Smith
+12/11/2021, 11:28:21 PM - INFO - Req!!!
+12/11/2021, 11:28:21 PM - INFO - Req from: Will Smith
+12/11/2021, 11:29:00 PM - INFO - Req!!!
+12/11/2021, 11:29:00 PM - INFO - Req from: Will Smith
+12/11/2021, 11:42:24 PM - INFO - Req!!!
+12/11/2021, 11:42:24 PM - INFO - Req from: Will Smith
+12/12/2021, 12:01:04 AM - DEBUG - auth.service - login with username: eric
+12/12/2021, 12:01:04 AM - DEBUG - Setting (SPqHQSSsUo4wmIB-AACe) socket.userId = 61ae18879c562696b6dd6e21
+12/12/2021, 12:01:12 AM - INFO - Req!!!
+12/12/2021, 12:01:12 AM - INFO - Req from: Eric Miller
+12/12/2021, 12:29:56 AM - DEBUG - auth.service - login with username: will
+12/12/2021, 12:29:56 AM - DEBUG - Setting (hUSN7ZfeRw56IJciAACg) socket.userId = 61ae43ad659811151ae092cc
+12/12/2021, 12:30:02 AM - INFO - Req!!!
+12/12/2021, 12:30:02 AM - INFO - Req from: Will Smith
+12/12/2021, 12:30:33 AM - INFO - Req!!!
+12/12/2021, 12:30:33 AM - INFO - Req from: Will Smith
+12/12/2021, 12:30:44 AM - INFO - Req!!!
+12/12/2021, 12:30:44 AM - INFO - Req from: Will Smith
+=======
+>>>>>>> 292a9f633691ba86764d4abc87ab1e8aa4eaed22
+11/12/2021, 15:27:39 - INFO - Server is running on port: 3030
+11/12/2021, 16:00:50 - DEBUG - auth.service - login with username: will
+11/12/2021, 16:00:56 - INFO - Req!!!
+11/12/2021, 16:00:56 - INFO - Req from: Will Smith
+11/12/2021, 16:03:16 - INFO - Req!!!
+11/12/2021, 16:03:16 - INFO - Req from: Will Smith
+11/12/2021, 16:06:44 - INFO - Req!!!
+11/12/2021, 16:06:44 - INFO - Req from: Will Smith
+11/12/2021, 16:08:45 - INFO - Req!!!
+11/12/2021, 16:08:45 - INFO - Req from: Will Smith
+11/12/2021, 16:10:16 - INFO - Req!!!
+11/12/2021, 16:10:16 - INFO - Req from: Will Smith
+11/12/2021, 16:16:48 - INFO - Req!!!
+11/12/2021, 16:16:48 - INFO - Req from: Will Smith
+11/12/2021, 16:17:05 - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+11/12/2021, 16:18:41 - INFO - Req!!!
+11/12/2021, 16:18:41 - INFO - Req from: Will Smith
+11/12/2021, 16:19:00 - INFO - Req!!!
+11/12/2021, 16:19:00 - INFO - Req from: Will Smith
+11/12/2021, 16:20:02 - INFO - Req!!!
+11/12/2021, 16:20:02 - INFO - Req from: Will Smith
+11/12/2021, 16:27:12 - INFO - Req!!!
+11/12/2021, 16:27:12 - INFO - Req from: Will Smith
+11/12/2021, 16:27:53 - INFO - Req!!!
+11/12/2021, 16:27:53 - INFO - Req from: Will Smith
+11/12/2021, 16:31:46 - INFO - Server is running on port: 3030
+11/12/2021, 16:31:52 - INFO - Req!!!
+11/12/2021, 16:35:05 - DEBUG - auth.service - login with username: will
+11/12/2021, 16:35:12 - INFO - Req!!!
+11/12/2021, 16:35:12 - INFO - Req from: Will Smith
+11/12/2021, 16:35:44 - INFO - Req!!!
+11/12/2021, 16:35:44 - INFO - Req from: Will Smith
+11/12/2021, 16:36:09 - INFO - Req!!!
+11/12/2021, 16:36:09 - INFO - Req from: Will Smith
+11/12/2021, 16:36:58 - INFO - Req!!!
+11/12/2021, 16:36:58 - INFO - Req from: Will Smith
+11/12/2021, 16:37:56 - INFO - Req!!!
+11/12/2021, 16:37:56 - INFO - Req from: Will Smith
+11/12/2021, 16:39:55 - INFO - Req!!!
+11/12/2021, 16:39:55 - INFO - Req from: Will Smith
+11/12/2021, 16:44:55 - INFO - Req!!!
+11/12/2021, 16:44:55 - INFO - Req from: Will Smith
+11/12/2021, 16:50:16 - INFO - Req!!!
+11/12/2021, 16:50:16 - INFO - Req from: Will Smith
+11/12/2021, 16:51:54 - INFO - Req!!!
+11/12/2021, 16:51:54 - INFO - Req from: Will Smith
+11/12/2021, 16:52:35 - DEBUG - auth.service - login with username: eric
+11/12/2021, 16:52:53 - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+11/12/2021, 16:53:09 - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+11/12/2021, 16:53:27 - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+11/12/2021, 16:53:40 - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+11/12/2021, 16:55:36 - INFO - Server is running on port: 3030
+11/12/2021, 16:55:46 - DEBUG - auth.service - login with username: will
+11/12/2021, 16:55:52 - INFO - Req!!!
+11/12/2021, 16:55:52 - INFO - Req from: Will Smith
+11/12/2021, 16:56:00 - ERROR - Failed to update order | {}
+11/12/2021, 16:56:14 - INFO - Req!!!
+11/12/2021, 16:56:14 - INFO - Req from: Will Smith
+11/12/2021, 16:56:20 - ERROR - Failed to update order | {}
+11/12/2021, 16:56:53 - DEBUG - auth.service - login with username: will
+11/12/2021, 16:57:04 - INFO - Req!!!
+11/12/2021, 16:57:04 - INFO - Req from: Will Smith
+11/12/2021, 16:57:07 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:09 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:09 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:09 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:10 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:10 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:10 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:10 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:10 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:11 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:11 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:11 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:11 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:11 - ERROR - Failed to update order | {}
+11/12/2021, 16:57:25 - INFO - Server is running on port: 3030
+11/12/2021, 16:57:31 - INFO - Req!!!
+11/12/2021, 16:58:21 - DEBUG - auth.service - login with username: will
+11/12/2021, 16:58:35 - INFO - Req!!!
+11/12/2021, 16:58:35 - INFO - Req from: Will Smith
+11/12/2021, 16:58:57 - INFO - Req!!!
+11/12/2021, 16:58:57 - INFO - Req from: Will Smith
+11/12/2021, 17:00:40 - INFO - Server is running on port: 3030
+11/12/2021, 17:04:54 - INFO - Server is running on port: 3030
+11/12/2021, 17:05:01 - INFO - Server is running on port: 3030
+11/12/2021, 17:05:17 - DEBUG - auth.service - login with username: will
+11/12/2021, 17:05:25 - INFO - Req!!!
+11/12/2021, 17:05:25 - INFO - Req from: Will Smith
+11/12/2021, 17:05:29 - ERROR - Failed to update order | {}
+11/12/2021, 17:05:31 - ERROR - Failed to update order | {}
+11/12/2021, 17:05:31 - ERROR - Failed to update order | {}
+11/12/2021, 17:05:32 - ERROR - Failed to update order | {}
+11/12/2021, 17:05:32 - ERROR - Failed to update order | {}
+11/12/2021, 17:05:33 - ERROR - Failed to update order | {}
+11/12/2021, 17:05:33 - ERROR - Failed to update order | {}
+11/12/2021, 17:05:33 - ERROR - Failed to update order | {}
+11/12/2021, 17:05:33 - ERROR - Failed to update order | {}
+11/12/2021, 17:05:34 - ERROR - Failed to update order | {}
+11/12/2021, 17:05:34 - ERROR - Failed to update order | {}
+11/12/2021, 17:05:43 - ERROR - Failed to update order | {}
+11/12/2021, 17:05:46 - INFO - Req!!!
+11/12/2021, 17:05:46 - INFO - Req from: Will Smith
+11/12/2021, 17:16:52 - INFO - Server is running on port: 3030
+11/12/2021, 17:17:00 - INFO - Server is running on port: 3030
+11/12/2021, 17:17:54 - INFO - Server is running on port: 3030
+11/12/2021, 17:18:21 - INFO - Server is running on port: 3030
+11/12/2021, 17:18:31 - DEBUG - auth.service - login with username: will
+11/12/2021, 17:18:38 - INFO - Req!!!
+11/12/2021, 17:18:38 - INFO - Req from: Will Smith
+11/12/2021, 17:21:33 - INFO - Server is running on port: 3030
+11/12/2021, 17:21:58 - DEBUG - auth.service - login with username: will
+11/12/2021, 17:22:06 - INFO - Req!!!
+11/12/2021, 17:22:06 - INFO - Req from: Will Smith
+11/12/2021, 17:22:45 - INFO - Req!!!
+11/12/2021, 17:22:45 - INFO - Req from: Will Smith
+11/12/2021, 17:23:13 - INFO - Req!!!
+11/12/2021, 17:23:13 - INFO - Req from: Will Smith
+11/12/2021, 17:23:30 - INFO - Req!!!
+11/12/2021, 17:23:30 - INFO - Req from: Will Smith
+11/12/2021, 17:24:07 - INFO - Server is running on port: 3030
+11/12/2021, 17:24:41 - INFO - Req!!!
+11/12/2021, 19:46:17 - INFO - Req!!!
+11/12/2021, 19:46:31 - INFO - Req!!!
+11/12/2021, 19:47:08 - DEBUG - auth.service - login with username: eric
+11/12/2021, 19:47:17 - INFO - Req!!!
+11/12/2021, 19:47:17 - INFO - Req from: Eric Miller
+11/12/2021, 19:49:56 - INFO - Req!!!
+11/12/2021, 19:49:56 - INFO - Req from: Eric Miller
+11/12/2021, 19:51:31 - INFO - Req!!!
+11/12/2021, 19:51:31 - INFO - Req from: Eric Miller
+11/12/2021, 19:52:35 - INFO - Req!!!
+11/12/2021, 19:52:35 - INFO - Req from: Eric Miller
+11/12/2021, 19:55:55 - DEBUG - auth.service - login with username: will
+11/12/2021, 19:56:02 - INFO - Req!!!
+11/12/2021, 19:56:02 - INFO - Req from: Will Smith
+11/12/2021, 20:08:34 - INFO - Server is running on port: 3030
+11/12/2021, 20:08:47 - INFO - Server is running on port: 3030
+11/12/2021, 20:09:16 - INFO - Server is running on port: 3030
+>>>>>>> a47f135ac8c7d84cd8e9ff37f6c9668b695015d7
+12/12/2021, 11:55:06 AM - INFO - Server is running on port: 3030
+12/12/2021, 11:55:30 AM - INFO - Server is running on port: 3030
+12/12/2021, 12:00:08 PM - DEBUG - auth.service - login with username: will
+12/12/2021, 12:00:08 PM - DEBUG - Setting (AIAZ_xGqCKrieNF6AAAC) socket.userId = 61ae43ad659811151ae092cc
+12/12/2021, 12:00:11 PM - INFO - Req!!!
+12/12/2021, 12:00:11 PM - INFO - Req from: Will Smith
+12/12/2021, 12:00:31 PM - DEBUG - auth.service - login with username: eric
+12/12/2021, 12:00:31 PM - DEBUG - Setting (IaQeMmDc68XLVaGLAAAF) socket.userId = 61ae18879c562696b6dd6e21
+12/12/2021, 12:00:57 PM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+>>>>>>> 39e1d5139a849a05f74ac9206d848cbdd7f7e7f5

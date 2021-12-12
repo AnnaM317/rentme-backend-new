@@ -111,7 +111,7 @@ async function add(user) {
         await collection.insertOne(userToAdd)
         return userToAdd
     } catch (err) {
-        logger.error('cannot insert user', err)
+        logger.error('Cannot add user', err)
         throw err
     }
 }

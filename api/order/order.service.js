@@ -112,6 +112,7 @@ async function update(order) {
     // return order;
     const collection = await dbService.getCollection('order');
     await collection.updateOne({ _id: orderToSave._id }, { $set: orderToSave });
+
     return order;
   } catch (err) {
     logger.error(`cannot update order ${order._id}`, err);

@@ -49,6 +49,7 @@ async function getById(orderId) {
 }
 
 async function remove(orderId) {
+    console.log('remove order back&&&&&&&&&');
     try {
         const collection = await dbService.getCollection('order');
         await collection.deleteOne({ _id: ObjectId(orderId) });
@@ -83,7 +84,7 @@ async function add(order) {
             _id: ObjectId(order.stay._id),
             name: order.stay.name,
             price: order.stay.price,
-
+            imgUrls: order.stay.imgUrls,
         };
         order.stay = stay;
         const collection = await dbService.getCollection('order');
@@ -101,33 +102,22 @@ async function add(order) {
 }
 async function update(order) {
     try {
-        // const id = ObjectId(order._id);
+        // var id = ObjectId(order._id);
         // delete order._id;
-        // const orderToSave = {
-        // _id: ObjectId(order._id), // needed for the returnd obj
-        // status: order.status,
-        // };
-        // const orderToSave = {
-        //     _id: ObjectId(order._id), // needed for the returnd obj
-        //     status: order.status,
-        // };
+        const orderToSave = {
+            _id: ObjectId(order._id), // needed for the returnd obj
+            status: order.status,
+        };
         // const collection = await dbService.getCollection('order');
         // await collection.updateOne({ _id: id }, { $set: { ...order } });
         // return order;
-        // const collection = await dbService.getCollection('order');
-        // await collection.updateOne({ '_id': id }, { $set: { ...order } });
+        const collection = await dbService.getCollection('order');
+        await collection.updateOne({ _id: orderToSave._id }, { $set: orderToSave });
         // socketService.emitToUser({
         //     type: 'order-updated',
         //     data: order,
         //     userId: order.buyer._id,
         // });
-        // const id = addedToy.insertedId.toString();
-        // console.log('service added toy', addedToy);
-        // console.log('dervice id', id);
-        // order._id = id;
-        const { _id, ...status } = order;
-        const collection = await dbService.getCollection('order');
-        await collection.updateOne({ '_id': ObjectId(_id) }, { $set: { ...status } });
         return order;
     } catch (err) {
         logger.error(`cannot update order ${order._id}`, err);

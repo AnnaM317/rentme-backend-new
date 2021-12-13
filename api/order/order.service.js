@@ -84,6 +84,7 @@ async function add(order) {
       _id: ObjectId(order.stay._id),
       name: order.stay.name,
       price: order.stay.price,
+      imgUrls: order.stay.imgUrls,
     };
     order.stay = stay;
     const collection = await dbService.getCollection('order');

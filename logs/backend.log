@@ -3317,4 +3317,15 @@
 13/12/2021, 14:05:17 - INFO - Req from: Maya Dagan
 13/12/2021, 14:13:27 - INFO - Req!!!
 13/12/2021, 14:13:27 - INFO - Req from: Maya Dagan
-13/12/2021, 17:43:44 - INFO - Server is running on port: 3030
+13/12/2021, 17:48:38 - INFO - Server is running on port: 3030
+13/12/2021, 17:49:00 - INFO - Server is running on port: 3030
+13/12/2021, 17:49:22 - DEBUG - auth.service - login with username: maya
+13/12/2021, 17:49:23 - DEBUG - Setting (dEzV_nHp9Rl0_41TAAAD) socket.userId = 61ae43dc659811151ae092cd
+13/12/2021, 17:49:40 - DEBUG - auth.service - login with username: will
+13/12/2021, 17:49:40 - DEBUG - Setting (tYOa2dNt7mnqWUtdAAAB) socket.userId = 61ae43ad659811151ae092cc
+13/12/2021, 17:49:43 - INFO - Req!!!
+13/12/2021, 17:49:43 - INFO - Req from: Will Smith
+13/12/2021, 17:49:59 - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+13/12/2021, 17:50:02 - INFO - Req!!!
+13/12/2021, 17:50:02 - INFO - Req from: Maya Dagan
+13/12/2021, 17:50:08 - DEBUG - Emiting to user socket: 61ae43dc659811151ae092cd

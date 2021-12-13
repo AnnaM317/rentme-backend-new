@@ -112,13 +112,11 @@ async function update(order) {
     // return order;
     const collection = await dbService.getCollection('order');
     await collection.updateOne({ _id: orderToSave._id }, { $set: orderToSave });
-    console.log('order&&&&&&&&&&&&&', order);
-    console.log('orderToSave##############', orderToSave);
-    socketService.emitToUser({
-      type: 'order-updated',
-      data: order,
-      userId: order.buyer._id,
-    });
+    // socketService.emitToUser({
+    //     type: 'order-updated',
+    //     data: order,
+    //     userId: order.buyer._id,
+    // });
     return order;
   } catch (err) {
     logger.error(`cannot update order ${order._id}`, err);

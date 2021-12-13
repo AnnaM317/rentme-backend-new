@@ -3495,3 +3495,13 @@
 12/13/2021, 6:15:48 PM - INFO - Req from: Eric Miller
 12/13/2021, 6:21:56 PM - INFO - Server is running on port: 3030
 12/13/2021, 6:21:58 PM - INFO - Server is running on port: 3030
+12/13/2021, 6:24:39 PM - DEBUG - auth.service - login with username: will
+12/13/2021, 6:24:41 PM - DEBUG - Setting (UVzv9lQzdo3s57w9AAAD) socket.userId = 61ae43ad659811151ae092cc
+12/13/2021, 6:24:46 PM - INFO - Req!!!
+12/13/2021, 6:24:46 PM - INFO - Req from: Will Smith
+12/13/2021, 6:25:04 PM - DEBUG - auth.service - login with username: eric
+12/13/2021, 6:25:04 PM - DEBUG - Setting (fWlyKOQorz7LPj5vAAAB) socket.userId = 61ae18879c562696b6dd6e21
+12/13/2021, 6:25:29 PM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/13/2021, 6:25:32 PM - INFO - Req!!!
+12/13/2021, 6:25:33 PM - INFO - Req from: Eric Miller
+12/13/2021, 6:25:41 PM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21

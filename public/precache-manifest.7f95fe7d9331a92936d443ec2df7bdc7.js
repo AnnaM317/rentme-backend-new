@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "310d28de5fa3952d2c91",
-    "url": "/css/app.7d7a1bc4.css"
+    "revision": "c2cd869f4bc44191b19a",
+    "url": "/css/app.9ee8ec8f.css"
   },
   {
     "revision": "0d5c972486395c58314f",
@@ -24,28 +24,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fonts/AirbnbCereal-Medium.d9fb3054.ttf"
   },
   {
-    "revision": "cb17fa4a508de3daf0d9ea64a0ab724e",
-    "url": "/fonts/Manrope-Bold.cb17fa4a.ttf"
-  },
-  {
-    "revision": "a115fc6209a11c4e1d4344557ae25433",
-    "url": "/fonts/Manrope-Light.a115fc62.ttf"
-  },
-  {
-    "revision": "29b7f4fc75797a82d890da507b02ae92",
-    "url": "/fonts/Manrope-VariableFont_wght.29b7f4fc.ttf"
-  },
-  {
     "revision": "a748accdd957392acccae07b4dbb29a2",
     "url": "/img/grid.a748accd.svg"
   },
   {
-    "revision": "4f0548efc0c1141174b4f38d8edc6284",
+    "revision": "16d2a698ea5baf29a03522d16c749621",
     "url": "/index.html"
   },
   {
-    "revision": "310d28de5fa3952d2c91",
-    "url": "/js/app.cdde4562.js"
+    "revision": "c2cd869f4bc44191b19a",
+    "url": "/js/app.085bc16e.js"
   },
   {
     "revision": "0d5c972486395c58314f",

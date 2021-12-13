@@ -6,6 +6,7 @@ const expressSession = require('express-session');
 const app = express();
 const http = require('http').createServer(app);
 
+console.log('test');
 //ערמת צינורות
 // const { Server } = require('socket.io');
 // const io = new Server(http);

@@ -1880,3 +1880,211 @@
 =======
 >>>>>>> 39e1d5139a849a05f74ac9206d848cbdd7f7e7f5
 >>>>>>> 04cf7361b06c5ef0e7b8eb36fbfcb872d4ce5488
+12/12/2021, 11:57:23 PM - INFO - Server is running on port: 3030
+12/13/2021, 12:01:22 AM - DEBUG - auth.service - login with username: eric
+12/13/2021, 12:01:22 AM - DEBUG - Setting (kp_Kb3f3xX5KFPNgAAAI) socket.userId = 61ae18879c562696b6dd6e21
+12/13/2021, 12:01:35 AM - INFO - Req!!!
+12/13/2021, 12:01:35 AM - INFO - Req from: Eric Miller
+12/13/2021, 12:02:05 AM - DEBUG - Emiting to user socket: 61ae3d8e659811151ae092be
+12/13/2021, 12:02:09 AM - INFO - Req!!!
+12/13/2021, 12:02:09 AM - INFO - Req from: Eric Miller
+12/13/2021, 12:42:44 AM - DEBUG - auth.service - login with username: eric
+12/13/2021, 12:42:44 AM - DEBUG - Setting (QVpeJCSyda-3BCJxAAAP) socket.userId = 61ae18879c562696b6dd6e21
+12/13/2021, 12:43:13 AM - DEBUG - auth.service - login with username: will
+12/13/2021, 12:43:13 AM - DEBUG - Setting (y7frhrz7h1AhJSKrAAAT) socket.userId = 61ae43ad659811151ae092cc
+12/13/2021, 12:43:18 AM - INFO - Req!!!
+12/13/2021, 12:43:18 AM - INFO - Req from: Will Smith
+12/13/2021, 12:43:30 AM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/13/2021, 12:43:36 AM - INFO - Req!!!
+12/13/2021, 12:43:36 AM - INFO - Req from: Eric Miller
+12/13/2021, 12:44:08 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 12:46:06 AM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/13/2021, 12:46:10 AM - INFO - Req!!!
+12/13/2021, 12:46:10 AM - INFO - Req from: Eric Miller
+12/13/2021, 12:49:49 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 12:52:36 AM - INFO - Server is running on port: 3030
+12/13/2021, 12:52:39 AM - INFO - Server is running on port: 3030
+12/13/2021, 12:53:26 AM - INFO - Server is running on port: 3030
+12/13/2021, 12:53:39 AM - DEBUG - auth.service - login with username: will
+12/13/2021, 12:53:41 AM - DEBUG - Setting (YGL_PCSI0r0tfYDXAAAB) socket.userId = 61ae43ad659811151ae092cc
+12/13/2021, 12:53:59 AM - DEBUG - auth.service - login with username: eric
+12/13/2021, 12:53:59 AM - DEBUG - Setting (xIEVIZpVZsjSPq5zAAAE) socket.userId = 61ae18879c562696b6dd6e21
+12/13/2021, 12:54:53 AM - INFO - Req!!!
+12/13/2021, 12:54:53 AM - INFO - Req from: Will Smith
+12/13/2021, 12:55:05 AM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/13/2021, 12:55:09 AM - INFO - Req!!!
+12/13/2021, 12:55:09 AM - INFO - Req from: Eric Miller
+12/13/2021, 12:56:51 AM - ERROR - Failed to update order | {}
+12/13/2021, 12:59:09 AM - INFO - Server is running on port: 3030
+12/13/2021, 1:02:07 AM - DEBUG - auth.service - login with username: eric
+12/13/2021, 1:02:08 AM - DEBUG - Setting (ba3bZ8IK0wZX23lgAAAC) socket.userId = 61ae18879c562696b6dd6e21
+12/13/2021, 1:03:09 AM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/13/2021, 1:03:23 AM - DEBUG - auth.service - login with username: will
+12/13/2021, 1:03:23 AM - DEBUG - Setting (ThhdAnZ9QWZMG1qMAAAE) socket.userId = 61ae43ad659811151ae092cc
+12/13/2021, 1:03:28 AM - INFO - Req!!!
+12/13/2021, 1:03:28 AM - INFO - Req from: Will Smith
+12/13/2021, 1:03:54 AM - INFO - Req!!!
+12/13/2021, 1:03:54 AM - INFO - Req from: Eric Miller
+12/13/2021, 1:04:55 AM - INFO - Req!!!
+12/13/2021, 1:04:55 AM - INFO - Req from: Will Smith
+12/13/2021, 1:06:13 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 1:07:30 AM - DEBUG - auth.service - login with username: eric
+12/13/2021, 1:07:30 AM - DEBUG - Setting (ba3bZ8IK0wZX23lgAAAC) socket.userId = 61ae18879c562696b6dd6e21
+12/13/2021, 1:09:18 AM - DEBUG - auth.service - login with username: will
+12/13/2021, 1:09:18 AM - DEBUG - Setting (xmrtQiVGvrbHxobCAAAH) socket.userId = 61ae43ad659811151ae092cc
+12/13/2021, 1:09:22 AM - INFO - Req!!!
+12/13/2021, 1:09:22 AM - INFO - Req from: Will Smith
+12/13/2021, 1:09:28 AM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/13/2021, 1:09:32 AM - INFO - Req!!!
+12/13/2021, 1:09:32 AM - INFO - Req from: Eric Miller
+12/13/2021, 1:10:01 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 1:10:54 AM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/13/2021, 1:10:58 AM - INFO - Req!!!
+12/13/2021, 1:10:58 AM - INFO - Req from: Eric Miller
+12/13/2021, 1:12:07 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 1:13:54 AM - DEBUG - auth.service - login with username: eric
+12/13/2021, 1:13:54 AM - DEBUG - Setting (lnEneIGh67AsST_wAAAJ) socket.userId = 61ae18879c562696b6dd6e21
+12/13/2021, 1:14:20 AM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/13/2021, 1:14:32 AM - DEBUG - auth.service - login with username: will
+12/13/2021, 1:14:32 AM - DEBUG - Setting (xmrtQiVGvrbHxobCAAAH) socket.userId = 61ae43ad659811151ae092cc
+12/13/2021, 1:14:38 AM - INFO - Req!!!
+12/13/2021, 1:14:38 AM - INFO - Req from: Will Smith
+12/13/2021, 1:14:45 AM - INFO - Req!!!
+12/13/2021, 1:14:45 AM - INFO - Req from: Eric Miller
+12/13/2021, 1:15:08 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 1:15:59 AM - DEBUG - auth.service - login with username: chris
+12/13/2021, 1:15:59 AM - DEBUG - Setting (xmrtQiVGvrbHxobCAAAH) socket.userId = 61ae18299c562696b6dd6e1f
+12/13/2021, 1:16:04 AM - INFO - Req!!!
+12/13/2021, 1:16:04 AM - INFO - Req from: Chrissie Morales
+12/13/2021, 1:16:18 AM - DEBUG - Emiting to user socket: 61ae18299c562696b6dd6e1f
+12/13/2021, 1:16:23 AM - INFO - Req!!!
+12/13/2021, 1:16:23 AM - INFO - Req from: Eric Miller
+12/13/2021, 1:16:36 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 1:20:45 AM - DEBUG - auth.service - login with username: will
+12/13/2021, 1:20:45 AM - DEBUG - Setting (xmrtQiVGvrbHxobCAAAH) socket.userId = 61ae43ad659811151ae092cc
+12/13/2021, 1:20:49 AM - INFO - Req!!!
+12/13/2021, 1:20:49 AM - INFO - Req from: Will Smith
+12/13/2021, 1:21:07 AM - DEBUG - auth.service - login with username: eric
+12/13/2021, 1:21:07 AM - DEBUG - Setting (1shkJopdNnEHlBS1AAAP) socket.userId = 61ae18879c562696b6dd6e21
+12/13/2021, 1:21:34 AM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/13/2021, 1:21:40 AM - INFO - Req!!!
+12/13/2021, 1:21:40 AM - INFO - Req from: Eric Miller
+12/13/2021, 1:22:05 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 1:22:54 AM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/13/2021, 1:22:59 AM - INFO - Req!!!
+12/13/2021, 1:22:59 AM - INFO - Req from: Eric Miller
+12/13/2021, 1:23:37 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 1:38:37 AM - INFO - Server is running on port: 3030
+12/13/2021, 1:38:47 AM - INFO - Server is running on port: 3030
+12/13/2021, 1:58:02 AM - INFO - Server is running on port: 3030
+12/13/2021, 1:58:53 AM - DEBUG - auth.service - login with username: eric
+12/13/2021, 1:58:53 AM - DEBUG - Setting (PpITXOSNd_XKVkoUAAAC) socket.userId = 61ae18879c562696b6dd6e21
+12/13/2021, 1:59:31 AM - DEBUG - auth.service - login with username: will
+12/13/2021, 1:59:31 AM - DEBUG - Setting (bVkjgJhuYlPmbAKaAAAF) socket.userId = 61ae43ad659811151ae092cc
+12/13/2021, 1:59:36 AM - INFO - Req!!!
+12/13/2021, 1:59:36 AM - INFO - Req from: Will Smith
+12/13/2021, 1:59:43 AM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/13/2021, 1:59:58 AM - INFO - Req!!!
+12/13/2021, 1:59:58 AM - INFO - Req from: Eric Miller
+12/13/2021, 2:24:50 AM - INFO - Req!!!
+12/13/2021, 2:24:50 AM - INFO - Req from: Eric Miller
+12/13/2021, 2:30:50 AM - INFO - Req!!!
+12/13/2021, 2:30:50 AM - INFO - Req from: Will Smith
+12/13/2021, 2:30:54 AM - INFO - Req!!!
+12/13/2021, 2:30:54 AM - INFO - Req from: Eric Miller
+12/13/2021, 2:32:11 AM - INFO - Req!!!
+12/13/2021, 2:32:11 AM - INFO - Req from: Will Smith
+12/13/2021, 2:42:13 AM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/13/2021, 2:42:23 AM - INFO - Req!!!
+12/13/2021, 2:42:23 AM - INFO - Req from: Will Smith
+12/13/2021, 2:42:36 AM - INFO - Req!!!
+12/13/2021, 2:42:36 AM - INFO - Req from: Eric Miller
+12/13/2021, 2:55:02 AM - DEBUG - auth.service - login with username: will
+12/13/2021, 2:55:03 AM - DEBUG - Setting (LQSA-a90UaKCCnHrAAAV) socket.userId = 61ae43ad659811151ae092cc
+12/13/2021, 2:55:09 AM - INFO - Req!!!
+12/13/2021, 2:55:09 AM - INFO - Req from: Will Smith
+12/13/2021, 2:55:41 AM - DEBUG - auth.service - login with username: eric
+12/13/2021, 2:55:41 AM - DEBUG - Setting (n9sP121HrKlypZGxAAAR) socket.userId = 61ae18879c562696b6dd6e21
+12/13/2021, 2:56:28 AM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/13/2021, 2:56:36 AM - INFO - Req!!!
+12/13/2021, 2:56:36 AM - INFO - Req from: Eric Miller
+12/13/2021, 3:00:14 AM - INFO - Server is running on port: 3030
+12/13/2021, 3:00:31 AM - DEBUG - auth.service - login with username: eric
+12/13/2021, 3:00:33 AM - DEBUG - Setting (DsAIBhUJqVyewsb7AAAD) socket.userId = 61ae18879c562696b6dd6e21
+12/13/2021, 3:00:40 AM - INFO - Req!!!
+12/13/2021, 3:00:40 AM - INFO - Req from: Eric Miller
+12/13/2021, 3:01:29 AM - DEBUG - auth.service - login with username: will
+12/13/2021, 3:01:29 AM - DEBUG - Setting (XtNVfg3T80Om_nM3AAAB) socket.userId = 61ae43ad659811151ae092cc
+12/13/2021, 3:01:42 AM - INFO - Req!!!
+12/13/2021, 3:01:42 AM - INFO - Req from: Will Smith
+12/13/2021, 3:02:15 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:06:32 AM - INFO - Server is running on port: 3030
+12/13/2021, 3:18:59 AM - INFO - Req!!!
+12/13/2021, 3:19:24 AM - DEBUG - auth.service - login with username: eric
+12/13/2021, 3:19:24 AM - DEBUG - Setting (T-iym_juaL1zV59hAAAF) socket.userId = 61ae18879c562696b6dd6e21
+12/13/2021, 3:19:46 AM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/13/2021, 3:19:57 AM - INFO - Req!!!
+12/13/2021, 3:20:18 AM - INFO - Req!!!
+12/13/2021, 3:20:18 AM - INFO - Req from: Eric Miller
+12/13/2021, 3:21:11 AM - DEBUG - auth.service - login with username: will
+12/13/2021, 3:21:11 AM - DEBUG - Setting (-zF6MX3jX1O9wkdTAAAH) socket.userId = 61ae43ad659811151ae092cc
+12/13/2021, 3:21:45 AM - INFO - Req!!!
+12/13/2021, 3:21:45 AM - INFO - Req from: Will Smith
+12/13/2021, 3:21:58 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:10 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:12 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:13 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:13 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:13 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:14 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:15 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:15 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:15 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:16 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:16 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:17 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:17 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:17 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:17 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:18 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:18 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:18 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:19 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:19 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:19 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:19 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:20 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:20 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:20 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:21 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:21 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:22:21 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21
+12/13/2021, 3:25:05 AM - INFO - Req!!!
+12/13/2021, 3:25:05 AM - INFO - Req from: Will Smith
+12/13/2021, 3:25:06 AM - INFO - Req!!!
+12/13/2021, 3:25:06 AM - INFO - Req from: Will Smith
+12/13/2021, 3:25:08 AM - INFO - Req!!!
+12/13/2021, 3:25:08 AM - INFO - Req from: Will Smith
+12/13/2021, 3:25:32 AM - INFO - Req!!!
+12/13/2021, 3:25:32 AM - INFO - Req from: Will Smith
+12/13/2021, 3:25:34 AM - INFO - Req!!!
+12/13/2021, 3:25:34 AM - INFO - Req from: Will Smith
+12/13/2021, 3:25:39 AM - INFO - Req!!!
+12/13/2021, 3:25:39 AM - INFO - Req from: Will Smith
+12/13/2021, 3:25:41 AM - INFO - Req!!!
+12/13/2021, 3:25:41 AM - INFO - Req from: Eric Miller
+12/13/2021, 10:24:18 AM - INFO - Req!!!
+12/13/2021, 10:24:18 AM - INFO - Req from: Eric Miller
+12/13/2021, 10:34:42 AM - DEBUG - auth.service - login with username: eric
+12/13/2021, 10:34:42 AM - DEBUG - Setting (M4LxqKb7iWml9TGoAAAY) socket.userId = 61ae18879c562696b6dd6e21
+12/13/2021, 10:35:10 AM - DEBUG - Emiting to user socket: 61ae18cf9c562696b6dd6e22
+12/13/2021, 10:35:22 AM - INFO - Req!!!
+12/13/2021, 10:35:22 AM - INFO - Req from: Will Smith
+12/13/2021, 10:36:04 AM - DEBUG - auth.service - login with username: will
+12/13/2021, 10:36:04 AM - DEBUG - Setting (lQW30GV9U25T3MaiAAAa) socket.userId = 61ae43ad659811151ae092cc
+12/13/2021, 10:36:09 AM - INFO - Req!!!
+12/13/2021, 10:36:09 AM - INFO - Req from: Will Smith
+12/13/2021, 10:37:12 AM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
+12/13/2021, 10:37:31 AM - INFO - Req!!!
+12/13/2021, 10:37:31 AM - INFO - Req from: Eric Miller
+12/13/2021, 10:38:23 AM - DEBUG - Emiting to user socket: 61ae18879c562696b6dd6e21

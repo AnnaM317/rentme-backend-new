@@ -49,6 +49,7 @@ async function getById(orderId) {
 }
 
 async function remove(orderId) {
+    console.log('remove order back&&&&&&&&&');
     try {
         const collection = await dbService.getCollection('order');
         await collection.deleteOne({ _id: ObjectId(orderId) });
@@ -83,6 +84,7 @@ async function add(order) {
             _id: ObjectId(order.stay._id),
             name: order.stay.name,
             price: order.stay.price,
+            imgUrls: order.stay.imgUrls,
         };
         order.stay = stay;
         const collection = await dbService.getCollection('order');

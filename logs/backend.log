@@ -1753,3 +1753,195 @@
 12/12/2021, 12:00:31 PM - DEBUG - Setting (IaQeMmDc68XLVaGLAAAF) socket.userId = 61ae18879c562696b6dd6e21
 12/12/2021, 12:00:57 PM - DEBUG - Emiting to user socket: 61ae43ad659811151ae092cc
 >>>>>>> 39e1d5139a849a05f74ac9206d848cbdd7f7e7f5
+12/12/2021, 12:10:17 PM - INFO - Server is running on port: 3030
+12/12/2021, 12:47:21 PM - DEBUG - auth.service - login with username: will
+12/12/2021, 12:47:29 PM - INFO - Req!!!
+12/12/2021, 12:47:29 PM - INFO - Req from: Will Smith
+12/12/2021, 12:56:18 PM - INFO - Req!!!
+12/12/2021, 12:56:18 PM - INFO - Req from: Will Smith
+12/12/2021, 12:57:47 PM - INFO - Req!!!
+12/12/2021, 12:57:47 PM - INFO - Req from: Will Smith
+12/12/2021, 12:58:02 PM - DEBUG - auth.service - login with username: eric
+12/12/2021, 12:58:18 PM - DEBUG - Emiting to user socket: 61ae4237659811151ae092c8
+12/12/2021, 12:58:24 PM - INFO - Req!!!
+12/12/2021, 12:58:24 PM - INFO - Req from: Eric Miller
+12/12/2021, 1:07:01 PM - INFO - Req!!!
+12/12/2021, 1:07:01 PM - INFO - Req from: Eric Miller
+12/12/2021, 1:18:17 PM - INFO - Req!!!
+12/12/2021, 1:18:17 PM - INFO - Req from: Eric Miller
+12/12/2021, 1:30:50 PM - INFO - Req!!!
+12/12/2021, 1:30:50 PM - INFO - Req from: Eric Miller
+12/12/2021, 1:31:41 PM - INFO - Req!!!
+12/12/2021, 1:31:41 PM - INFO - Req from: Eric Miller
+12/12/2021, 1:34:41 PM - INFO - Req!!!
+12/12/2021, 1:34:41 PM - INFO - Req from: Eric Miller
+12/12/2021, 1:40:23 PM - INFO - Req!!!
+12/12/2021, 1:40:23 PM - INFO - Req from: Eric Miller
+12/12/2021, 1:40:35 PM - INFO - Req!!!
+12/12/2021, 1:40:35 PM - INFO - Req from: Eric Miller
+12/12/2021, 1:50:01 PM - INFO - Req!!!
+12/12/2021, 1:50:01 PM - INFO - Req from: Eric Miller
+12/12/2021, 1:52:06 PM - INFO - Req!!!
+12/12/2021, 1:52:06 PM - INFO - Req from: Eric Miller
+12/12/2021, 1:52:13 PM - INFO - Req!!!
+12/12/2021, 1:52:13 PM - INFO - Req from: Eric Miller
+12/12/2021, 1:52:28 PM - INFO - Req!!!
+12/12/2021, 1:52:28 PM - INFO - Req from: Eric Miller
+12/12/2021, 1:52:32 PM - INFO - Req!!!
+12/12/2021, 1:52:32 PM - INFO - Req from: Eric Miller
+12/12/2021, 1:53:54 PM - INFO - Req!!!
+12/12/2021, 1:53:54 PM - INFO - Req from: Eric Miller
+12/12/2021, 1:54:35 PM - INFO - Req!!!
+12/12/2021, 1:54:35 PM - INFO - Req from: Eric Miller
+12/12/2021, 1:57:42 PM - INFO - Req!!!
+12/12/2021, 1:57:42 PM - INFO - Req from: Eric Miller
+12/12/2021, 1:58:17 PM - INFO - Req!!!
+12/12/2021, 1:58:17 PM - INFO - Req from: Eric Miller
+12/12/2021, 1:58:45 PM - INFO - Req!!!
+12/12/2021, 1:58:45 PM - INFO - Req from: Eric Miller
+12/12/2021, 2:00:17 PM - INFO - Req!!!
+12/12/2021, 2:00:17 PM - INFO - Req from: Eric Miller
+12/12/2021, 2:02:45 PM - INFO - Req!!!
+12/12/2021, 2:02:45 PM - INFO - Req from: Eric Miller
+12/12/2021, 2:04:20 PM - INFO - Req!!!
+12/12/2021, 2:04:20 PM - INFO - Req from: Eric Miller
+12/12/2021, 2:05:48 PM - INFO - Req!!!
+12/12/2021, 2:05:48 PM - INFO - Req from: Eric Miller
+12/12/2021, 2:12:03 PM - INFO - Req!!!
+12/12/2021, 2:12:03 PM - INFO - Req from: Eric Miller
+12/12/2021, 2:13:11 PM - INFO - Req!!!
+12/12/2021, 2:13:11 PM - INFO - Req from: Eric Miller
+12/12/2021, 2:14:42 PM - INFO - Req!!!
+12/12/2021, 2:14:42 PM - INFO - Req from: Eric Miller
+12/12/2021, 2:15:11 PM - INFO - Req!!!
+12/12/2021, 2:15:11 PM - INFO - Req from: Eric Miller
+12/12/2021, 2:16:25 PM - INFO - Req!!!
+12/12/2021, 2:16:25 PM - INFO - Req from: Eric Miller
+12/12/2021, 2:17:40 PM - INFO - Req!!!
+12/12/2021, 2:17:40 PM - INFO - Req from: Eric Miller
+12/12/2021, 2:17:55 PM - INFO - Req!!!
+12/12/2021, 2:17:55 PM - INFO - Req from: Eric Miller
+12/12/2021, 2:19:34 PM - INFO - Req!!!
+12/12/2021, 2:19:34 PM - INFO - Req from: Eric Miller
+12/12/2021, 2:19:51 PM - INFO - Req!!!
+12/12/2021, 2:19:51 PM - INFO - Req from: Eric Miller
+12/12/2021, 2:20:03 PM - INFO - Req!!!
+12/12/2021, 2:20:03 PM - INFO - Req from: Eric Miller
+12/12/2021, 2:21:00 PM - INFO - Req!!!
+12/12/2021, 2:21:00 PM - INFO - Req from: Eric Miller
+12/12/2021, 2:21:12 PM - INFO - Req!!!
+12/12/2021, 2:21:12 PM - INFO - Req from: Eric Miller
+12/12/2021, 2:21:17 PM - INFO - Req!!!
+12/12/2021, 2:21:17 PM - INFO - Req from: Eric Miller
+12/12/2021, 2:33:08 PM - INFO - Req!!!
+12/12/2021, 2:33:08 PM - INFO - Req from: Eric Miller
+12/12/2021, 2:33:29 PM - DEBUG - auth.service - login with username: will
+12/12/2021, 2:33:29 PM - DEBUG - Setting (KA6C79Tw6PadLjcGAAAh) socket.userId = 61ae43ad659811151ae092cc
+12/12/2021, 2:33:51 PM - INFO - Req!!!
+12/12/2021, 2:33:51 PM - INFO - Req from: Will Smith
+12/12/2021, 2:34:02 PM - INFO - Req!!!
+12/12/2021, 2:34:02 PM - INFO - Req from: Will Smith
+12/12/2021, 2:34:11 PM - INFO - Req!!!
+12/12/2021, 2:34:11 PM - INFO - Req from: Will Smith
+12/12/2021, 2:34:17 PM - INFO - Req!!!
+12/12/2021, 2:34:17 PM - INFO - Req from: Will Smith
+12/12/2021, 2:46:20 PM - INFO - Req!!!
+12/12/2021, 2:47:53 PM - INFO - Req!!!
+12/12/2021, 3:17:07 PM - DEBUG - auth.service - login with username: chris
+12/12/2021, 3:17:07 PM - DEBUG - Setting (WP9B2oQrTXNpqypPAAAx) socket.userId = 61ae18299c562696b6dd6e1f
+12/12/2021, 3:17:17 PM - INFO - Req!!!
+12/12/2021, 3:17:17 PM - INFO - Req from: Chrissie Morales
+12/12/2021, 3:17:20 PM - INFO - Req!!!
+12/12/2021, 3:17:20 PM - INFO - Req from: Chrissie Morales
+12/12/2021, 3:17:26 PM - INFO - Req!!!
+12/12/2021, 3:17:26 PM - INFO - Req from: Chrissie Morales
+12/12/2021, 3:17:29 PM - INFO - Req!!!
+12/12/2021, 3:17:29 PM - INFO - Req from: Chrissie Morales
+12/12/2021, 3:17:32 PM - INFO - Req!!!
+12/12/2021, 3:17:32 PM - INFO - Req from: Chrissie Morales
+12/12/2021, 3:17:38 PM - INFO - Req!!!
+12/12/2021, 3:17:38 PM - INFO - Req from: Chrissie Morales
+12/12/2021, 3:17:48 PM - INFO - Req!!!
+12/12/2021, 3:17:48 PM - INFO - Req from: Chrissie Morales
+12/12/2021, 3:17:55 PM - INFO - Req!!!
+12/12/2021, 3:17:55 PM - INFO - Req from: Chrissie Morales
+12/12/2021, 3:18:35 PM - INFO - Req!!!
+12/12/2021, 3:18:35 PM - INFO - Req from: Chrissie Morales
+12/12/2021, 3:42:13 PM - INFO - Req!!!
+12/12/2021, 3:42:13 PM - INFO - Req from: Chrissie Morales
+12/12/2021, 11:34:11 PM - DEBUG - auth.service - login with username: eric
+12/12/2021, 11:34:11 PM - DEBUG - Setting (L7CjK-YyFFbvhz8qAADM) socket.userId = 61ae18879c562696b6dd6e21
+12/12/2021, 11:34:17 PM - INFO - Req!!!
+12/12/2021, 11:34:17 PM - INFO - Req from: Eric Miller
+12/12/2021, 11:34:53 PM - DEBUG - auth.service - login with username: will
+12/12/2021, 11:34:53 PM - DEBUG - Setting (L7CjK-YyFFbvhz8qAADM) socket.userId = 61ae43ad659811151ae092cc
+12/12/2021, 11:35:03 PM - INFO - Req!!!
+12/12/2021, 11:35:03 PM - INFO - Req from: Will Smith
+12/12/2021, 11:35:35 PM - INFO - Req!!!
+12/12/2021, 11:35:35 PM - INFO - Req from: Will Smith
+12/12/2021, 11:36:31 PM - INFO - Req!!!
+12/12/2021, 11:36:31 PM - INFO - Req from: Will Smith
+12/12/2021, 11:36:47 PM - INFO - Req!!!
+12/12/2021, 11:36:47 PM - INFO - Req from: Will Smith
+12/12/2021, 11:37:08 PM - INFO - Req!!!
+12/12/2021, 11:37:08 PM - INFO - Req from: Will Smith
+12/12/2021, 11:39:07 PM - INFO - Req!!!
+12/12/2021, 11:39:07 PM - INFO - Req from: Will Smith
+12/12/2021, 11:41:20 PM - INFO - Req!!!
+12/12/2021, 11:41:20 PM - INFO - Req from: Will Smith
+12/12/2021, 11:43:17 PM - INFO - Req!!!
+12/12/2021, 11:43:17 PM - INFO - Req from: Will Smith
+12/12/2021, 11:47:49 PM - INFO - Req!!!
+12/12/2021, 11:47:49 PM - INFO - Req from: Will Smith
+12/12/2021, 11:47:59 PM - INFO - Req!!!
+12/12/2021, 11:47:59 PM - INFO - Req from: Will Smith
+12/12/2021, 11:48:07 PM - INFO - Req!!!
+12/12/2021, 11:48:07 PM - INFO - Req from: Will Smith
+12/12/2021, 11:48:20 PM - INFO - Req!!!
+12/12/2021, 11:48:20 PM - INFO - Req from: Will Smith
+12/12/2021, 11:48:48 PM - INFO - Req!!!
+12/12/2021, 11:48:48 PM - INFO - Req from: Will Smith
+12/12/2021, 11:49:07 PM - INFO - Req!!!
+12/12/2021, 11:49:07 PM - INFO - Req from: Will Smith
+12/12/2021, 11:49:13 PM - INFO - Req!!!
+12/12/2021, 11:49:13 PM - INFO - Req from: Will Smith
+12/12/2021, 11:49:23 PM - INFO - Req!!!
+12/12/2021, 11:49:23 PM - INFO - Req from: Will Smith
+12/12/2021, 11:50:29 PM - INFO - Req!!!
+12/12/2021, 11:50:29 PM - INFO - Req from: Will Smith
+12/12/2021, 11:50:33 PM - INFO - Req!!!
+12/12/2021, 11:50:33 PM - INFO - Req from: Will Smith
+12/12/2021, 11:50:53 PM - INFO - Req!!!
+12/12/2021, 11:50:53 PM - INFO - Req from: Will Smith
+12/12/2021, 11:52:14 PM - INFO - Req!!!
+12/12/2021, 11:52:14 PM - INFO - Req from: Will Smith
+12/12/2021, 11:52:21 PM - INFO - Req!!!
+12/12/2021, 11:52:21 PM - INFO - Req from: Will Smith
+12/12/2021, 11:53:10 PM - INFO - Req!!!
+12/12/2021, 11:53:10 PM - INFO - Req from: Will Smith
+12/12/2021, 11:54:04 PM - INFO - Req!!!
+12/12/2021, 11:54:04 PM - INFO - Req from: Will Smith
+12/12/2021, 11:54:11 PM - INFO - Req!!!
+12/12/2021, 11:54:11 PM - INFO - Req from: Will Smith
+12/13/2021, 12:13:07 AM - INFO - Req!!!
+12/13/2021, 12:13:07 AM - INFO - Req from: Will Smith
+12/13/2021, 12:25:28 AM - INFO - Req!!!
+12/13/2021, 12:25:28 AM - INFO - Req from: Will Smith
+12/13/2021, 12:25:40 AM - INFO - Req!!!
+12/13/2021, 12:25:40 AM - INFO - Req from: Will Smith
+12/13/2021, 12:25:47 AM - INFO - Req!!!
+12/13/2021, 12:25:47 AM - INFO - Req from: Will Smith
+12/13/2021, 12:27:25 AM - INFO - Req!!!
+12/13/2021, 12:27:25 AM - INFO - Req from: Will Smith
+12/13/2021, 12:27:43 AM - INFO - Req!!!
+12/13/2021, 12:27:43 AM - INFO - Req from: Will Smith
+12/13/2021, 12:36:53 AM - INFO - Req!!!
+12/13/2021, 12:36:53 AM - INFO - Req from: Will Smith
+12/13/2021, 8:46:12 AM - INFO - Req!!!
+12/13/2021, 8:46:12 AM - INFO - Req from: Will Smith
+12/13/2021, 9:04:39 AM - INFO - Req!!!
+12/13/2021, 9:04:39 AM - INFO - Req from: Will Smith
+12/13/2021, 10:05:45 AM - INFO - Req!!!
+12/13/2021, 10:05:45 AM - INFO - Req from: Will Smith
+12/13/2021, 10:12:16 AM - ERROR - while finding stay right | {}
+12/13/2021, 10:13:27 AM - INFO - Server is running on port: 3030

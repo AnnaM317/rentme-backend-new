@@ -74,6 +74,7 @@ async function updateOrder(req, res) {
         const order = req.body;
         const updatedOrder = await orderService.update(order);
         console.log('updatedOrder backend', updatedOrder);
+        console.log('order', order);
         socketService.emitToUser({
             type: 'order-updated',
             data: order,

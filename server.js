@@ -6,11 +6,6 @@ const expressSession = require('express-session');
 const app = express();
 const http = require('http').createServer(app);
 
-console.log('test');
-//ערמת צינורות
-// const { Server } = require('socket.io');
-// const io = new Server(http);
-
 // session setup
 const session = expressSession({
   secret: 'coding is amazing',
@@ -51,10 +46,6 @@ const orderRoutes = require('./api/order/order.routes');
 const { connectSockets } = require('./services/socket.service');
 
 // routes
-// const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware')
-// app.all('*', setupAsyncLocalStorage)
-
-// routes
 app.use('/api/auth', authRoutes);
 app.use('/api/user', userRoutes);
 app.use('/api/stay', stayRoutes);
@@ -67,10 +58,6 @@ connectSockets(http, session);
 app.get('/**', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
-
-// io.on('connection', (socket) => {
-//     console.log('a user connected');
-//
 
 const logger = require('./services/logger.service');
 const port = process.env.PORT || 3030;
